@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Web Layout</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link href="CSSBasic/assets/fav.png" rel="icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            /*position: absolute;*/
+            margin: 0;
+            /*width: 100%;*/
+            /*height: 73px;*/
+            /*background-color: white;*/
+
+        }
+
+        header {
+            background: white;
+            box-shadow: 0px -1px 8px 2px #1c1717e8;
+            /*position: relative;*/
+            height: 73px;
+
+
+
+            width: 100%;
+            position: fixed;
+            /*bottom: 0;*/
+        }
+
+        header>img {
+            width: 190px;
+            position: fixed;
+            top: 20px;
+            left: 10px;
+        }
+
+        header > nav {
+            position: fixed;
+            right: 40px;
+            top: 0;
+        }
+
+        header> nav > ul > li {
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px;
+            font-family: 'Poppins', sans-serif;
+            color: rgba(46, 41, 41, 0.96);
+        }
+
+        /*Left Side Fixed Bar*/
+        body>div#leftBar{
+
+            width: 23%;
+            height: 100%;
+            top: 9.5%;
+            background-color: #40036e;
+            position: fixed;
+            margin: auto;
+        }
+
+        .navbar{
+            width: 23%;
+            height: 100%;
+            /*top: 21%;*/
+            color: white;
+            position: fixed;
+            margin: auto;
+        }
+
+
+        /*Image Bar*/
+        body>div:nth-child(2){
+            width: 75%;
+            top: 9.5%;
+            background-color: purple;
+            position: fixed;
+            right: 1%;
+            margin: auto;
+        }
+
+
+        /*1st Image*/
+        body>div>div:nth-child(1){
+
+            border: 2px solid black;
+            width: 25%;
+            height: 30%;
+            top: 9.5%;
+            background-color: transparent;
+            position: fixed;
+            left: 24%;
+
+            margin: auto;
+        }
+
+        /*2nd Image*/
+        body>div>div:nth-child(2){
+
+            border: 2px solid black;
+            width: 25%;
+            height: 30%;
+            top: 9.5%;
+            background-color: transparent;
+            position: fixed;
+            left: 49%;
+
+            margin: auto;
+        }
+
+        /*3rd Image*/
+        body>div>div:nth-child(3){
+            border: 2px solid black;
+            width: 25%;
+            height: 30%;
+            top: 9.5%;
+            background-color: transparent;
+            position: fixed;
+            left: 74%;
+            margin: auto;
+        }
+
+
+        /*Footer Bar*/
+        body>div#footer{
+            width: 100%;
+            height: 6%;
+            background-color: grey;
+            position: fixed;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+        /*Footer Text*/
+        body>div>h3{
+            color: white;
+            position: absolute;
+            right: 45%;
+            bottom: 0;
+
+        }
+
+        /*containt*/
+        body>div#containt{
+
+            width: 75%;
+            height: 100%;
+            position: absolute;
+            background-color: transparent;
+            left: 24%;
+            top: 41%;
+            margin: auto;
+        }
+
+        /*Shaka Bum*/
+        body>div>h3#Skabum{
+            width: 75%;
+            height: 100%;
+            position: absolute;
+            left: 24%;
+            top: 0;
+            color: black;
+            margin: auto;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<!--Containt-->
+<div id="containt">
+    <h3 id="Skabum">
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+        <pre>Shaka Bum----------------------Sala Lala Laaaaa............................................</pre>
+    </h3>
+</div>
+
+<header>
+        <img alt="Logo" src="assets/favicon.png">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+</header>
+
+
+
+
+
+<!--Image Bar-->
+<div >
+    <div>
+
+        <img src="assets/gif.gif" alt="" width="100%" height="100%">
+
+    </div>
+    <div>
+
+        <img src="assets/gif.gif" alt="" width="100%" height="100%">
+
+    </div>
+    <div>
+
+        <img src="assets/gif.gif" alt="" width="100%" height="100%">
+
+    </div>
+</div>
+
+<!--Left Side Fixed Bar-->
+<div id="leftBar">
+    <nav class="navbar">
+        <ul>
+            <li>Home</li><br>
+            <li>Services</li><br>
+            <li>Contact Us</li><br>
+            <li>About US</li><br>
+        </ul>
+
+    </nav>
+</div>
+
+
+
+
+<!--Footer Bar-->
+<div id="footer">
+    <h3> Developed By IJSE</h3>
+</div>
+
+</body>
+</html>

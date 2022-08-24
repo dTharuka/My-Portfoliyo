@@ -187,6 +187,7 @@ body>main>section:nth-child(2)>h1{
     margin-left: 0;
     margin-top: 0;
     font-size: 300%;
+    color: #E60965;
 }
 
 /*------------------------------------About me txt 2------------------------------------------------------*/
@@ -263,7 +264,7 @@ body>main:nth-child(3)>h6{
     top: 5%;
     right: 47%;
     font-size: 120%;
-    color: #E60965;
+    color: #5C5055;
 
 }
 
@@ -279,7 +280,7 @@ body>main:nth-child(3)>h1{
     top: 15%;
     right: 40%;
     font-size: 350%;
-    color: #5C5055;
+    color: #E60965;
 
 }
 
@@ -544,7 +545,7 @@ body>main:nth-child(4)>h6:nth-child(1){
         top: 5%;
         right: 44%;
         font-size: 120%;
-        color: #E60965;
+        color: #5C5055;
 }
 
 /*--------------------------------------------------3rd  main big headline-------------------------------------------*/
@@ -558,7 +559,7 @@ body>main:nth-child(4)>h1:nth-child(2){
         top: 10%;
         right: 40%;
         font-size: 350%;
-        color: #5C5055;
+        color: #E60965;
 
 }
 
@@ -801,6 +802,815 @@ body>main:nth-child(4)>section>h3>button:nth-child(4){
 body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
     color: #E60965;
 }
+
+/*========================================================================================================================*/
+
+/*================================================== 4th main =========================================================*/
+
+/*----------------------------------------main page 4th------------------------------------------------*/
+body>main:nth-child(5){
+    height: 100%;
+    width: 82%;
+    top: 300%;
+    /*left: 20%;*/
+    right: 0;
+    border-left: 2px solid #E60965;
+    background-color: cornflowerblue;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/*-----------------------------------------4th main small headline--------------------------------------------------*/
+body>main:nth-child(5)>h6:nth-child(1){
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 5%;
+    right: 44%;
+    font-size: 120%;
+    color: #5C5055;
+}
+
+/*--------------------------------------------------4th  main big headline-------------------------------------------*/
+body>main:nth-child(5)>h1:nth-child(2){
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 10%;
+    right: 30%;
+    font-size: 350%;
+    color: #E60965;
+
+}
+
+/*----------------------------------------button box----------------------------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    height: 60%;
+    width: 20%;
+    top: 30%;
+    left: 5%;
+    background-color: transparent;
+}
+/*----------------------------------------1st button------------------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1){
+    top: 0;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    font-size: 300%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+}
+
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1):hover{
+    color: #E60965;
+}
+
+/*----------------------------------------2nd button------------------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2){
+    top: 25%;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    font-size: 300%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+}
+
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2):hover{
+    color: #E60965;
+}
+
+/*----------------------------------------3rd button------------------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3){
+    top: 50%;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    font-size: 300%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+}
+
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3):hover{
+    color: #E60965;
+}
+
+/*----------------------------------------4th button------------------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    font-size: 300%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+}
+
+body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4):hover{
+    color: #E60965;
+}
+
+/*------------------------------------java 1st client box--------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1){
+    top: 30%;
+    left: 40%;
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 5%;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+/*------------------------------------java client 1 --------------------------------------------*/
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>img{
+    height: 40%;
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+/*------------------------------------java 2nd client box--------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2){
+    top: 30%;
+    left: 70%;
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 5%;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+/*------------------------------------java client 2 --------------------------------------------*/
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>img{
+    height: 40%;
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*================================================== 5th main =========================================================*/
+
+/*----------------------------------------main page 5th------------------------------------------------*/
+body>main:nth-child(6){
+    height: 100%;
+    width: 82%;
+    top: 400%;
+    /*left: 20%;*/
+    right: 0;
+    border-left: 2px solid #E60965;
+    background-color: darksalmon;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/*---------------------------------------------------5th main small headline-----------------------------------------*/
+
+body>main:nth-child(6)>h6{
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 20%;
+    right: 78%;
+    font-size: 120%;
+    color: #5C5055;
+
+}
+
+
+/*---------------------------------------------------5th main big headline-----------------------------------------*/
+body>main:nth-child(6)>h1{
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 25%;
+    right: 67%;
+    font-size: 350%;
+    color: #E60965;
+
+}
+
+
+/*-------------------------------------------------button box--------------------------------------------------*/
+body>main:nth-child(6)>section:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    height: 15%;
+    width: 50%;
+    top: 20%;
+    left: 48%;
+    background-color: transparent;
+}
+
+/*-----------------------------------------------button 1--------------------------------------------------------*/
+body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1){
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: calc(100%/3);
+    background-color: white;
+    border-radius: 5%;
+    font-size: 200%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1):hover{
+    color: #E60965;
+}
+
+/*-----------------------------------------------button 2--------------------------------------------------------*/
+body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2){
+    top: 0;
+    left: calc(100%/3);
+    height: 100%;
+    width: calc(100%/3);
+    background-color: white;
+    border-radius: 5%;
+    font-size: 200%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2):hover{
+    color: #E60965;
+}
+
+/*-----------------------------------------------button 3--------------------------------------------------------*/
+body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3){
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 32%;
+    background-color: white;
+    border-radius: 5%;
+    font-size: 200%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    padding: 0;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3):hover{
+    color: #E60965;
+}
+
+/*---------------------------------------------------text box----------------------------------------------------*/
+body>main:nth-child(6)>section:nth-child(4){
+    position: absolute;
+    display: inline-block;
+    height: 60%;
+    width: 50%;
+    top: 35.5%;
+    left: 48%;
+    background-color: white;
+    font-size: 150%;
+    border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
+/*----------------------------------------------text box button-----------------------------------------------------*/
+body>main:nth-child(6)>section:nth-child(4)>button{
+    height: 15%;
+    width: 90%;
+    left: 5%;
+    bottom: 2%;
+    position: absolute;
+    border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    background-color: white;
+    font-size: 150%;
+
+}
+
+body>main:nth-child(6)>section:nth-child(4)>button:hover{
+    color: #E60965;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*================================================== 6th main =========================================================*/
+
+/*----------------------------------------main page 6th------------------------------------------------*/
+body>main:nth-child(7){
+    height: 100%;
+    width: 82%;
+    top: 500%;
+    /*left: 20%;*/
+    right: 0;
+    border-left: 2px solid #E60965;
+    background-color: fuchsia;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/*---------------------------------------------------2nd main small hedline-----------------------------------------*/
+
+body>main:nth-child(7)>h6{
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 5%;
+    right: 33%;
+    font-size: 120%;
+    color: #5C5055;
+
+}
+
+
+/*---------------------------------------------------2nd main big hedline-----------------------------------------*/
+body>main:nth-child(7)>h1{
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 10%;
+    right: 40%;
+    font-size: 350%;
+    color: #E60965;
+
+}
+
+/*-----------------------------------------------------content box--------------------------------------------------*/
+body>main:nth-child(7)>section{
+    position: absolute;
+    height: 70%;
+    width: 90%;
+    left: 5%;
+    top: 25%;
+    background-color: transparent;
+}
+
+/*----------------------------------------------1st content bar---------------------------------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(1){
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border-radius: 5%;
+}
+
+/*-----------------------------------------------------------1st content bar image---------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(1)>img{
+    display: inline-block;
+    position: absolute;
+    height: 45%;
+    width: 95%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border-radius: 10%;
+    left: 2.5%;
+    top: 2.5%;
+
+}
+
+/*-----------------------------------------------1st content middle text------------------------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(1)>h3{
+    display: inline-block;
+    position: absolute;
+    height: 45%;
+    width: 95%;
+    left: 2.5%;
+    top: 50%;
+
+}
+
+body>main:nth-child(7)>section>aside:nth-child(1)>h3>pre{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -130%;
+    top: 0;
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+/*----------------------------------------------2nd content bar---------------------------------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: 35%;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border-radius: 5%;
+}
+
+
+/*-----------------------------------------------------------2nd content bar image---------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(2)>img{
+    display: inline-block;
+    position: absolute;
+    height: 45%;
+    width: 95%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border-radius: 10%;
+    left: 2.5%;
+    top: 2.5%;
+
+}
+
+/*-----------------------------------------------2nd content middle text------------------------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(2)>h3{
+    display: inline-block;
+    position: absolute;
+    height: 45%;
+    width: 95%;
+    left: 2.5%;
+    top: 50%;
+
+}
+
+body>main:nth-child(7)>section>aside:nth-child(2)>h3>pre{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -150%;
+    top: 0;
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+/*----------------------------------------------3rd content bar---------------------------------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(3){
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: 70%;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border-radius: 5%;
+}
+
+
+/*-----------------------------------------------------------3rd content bar image---------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(3)>img{
+    display: inline-block;
+    position: absolute;
+    height: 45%;
+    width: 95%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border-radius: 10%;
+    left: 2.5%;
+    top: 2.5%;
+
+}
+
+/*-----------------------------------------------3rd content middle text------------------------------------------------*/
+body>main:nth-child(7)>section>aside:nth-child(3)>h3{
+    display: inline-block;
+    position: absolute;
+    height: 45%;
+    width: 95%;
+    left: 2.5%;
+    top: 50%;
+
+}
+
+body>main:nth-child(7)>section>aside:nth-child(3)>h3>pre{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -150%;
+    top: 0;
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*================================================== 7th main =========================================================*/
+
+/*----------------------------------------main page 7th------------------------------------------------*/
+body>main:nth-child(8){
+    height: 100%;
+    width: 82%;
+    top: 600%;
+    /*left: 20%;*/
+    right: 0;
+    border-left: 2px solid #E60965;
+    background-color: orangered;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+/*------------------------------------------image box---------------------------------------------*/
+body>main:nth-child(8)>section{
+    display: inline-block;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+/*-----------------------------------------------------------boss baby image-------------------------------------*/
+body>main:nth-child(8)>section>img{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*================================================== 8th main =========================================================*/
+
+/*----------------------------------------main page 8th------------------------------------------------*/
+body>main:nth-child(9){
+    height: 100%;
+    width: 82%;
+    top: 700%;
+    /*left: 20%;*/
+    right: 0;
+    border-left: 2px solid #E60965;
+    background-color: darkseagreen;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/*---------------------------------------------------8th main small hedline-----------------------------------------*/
+
+body>main:nth-child(9)>h6{
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 5%;
+    left: 20%;
+    font-size: 120%;
+    color: #5C5055;
+
+}
+
+
+/*---------------------------------------------------8th main big hedline-----------------------------------------*/
+body>main:nth-child(9)>h1{
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 10%;
+    left: 1%;
+    font-size: 350%;
+    color: #E60965;
+
+}
+
+/*--------------------------------------------contact form layout-------------------------------------------------*/
+body>main:nth-child(9)>form{
+    position: absolute;
+    display: inline-block;
+    height: 70%;
+    width: 60%;
+    left: 38%;
+    top: 25%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px -1px 8px 2px #333131;
+
+}
+
+body>main:nth-child(9)>form>fieldset{
+    position: absolute;
+    display: inline-block;
+    top: 1%;
+    left: 1%;
+    height: 98%;
+    width: 98%;
+    padding: 0;
+    border-radius: 5%;
+    border: 1px solid black;
+    color: #E60965;
+}
+
+/*-------------------------------------1st text field----------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>input#txtCusName{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 90%;
+    left: 5%;
+    top: 10%;
+    border-radius: 2%;
+}
+
+
+/*-------------------------------------2nd text field----------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>input#txtContact{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 90%;
+    left: 5%;
+    top: 25%;
+    border-radius: 2%;
+}
+
+
+/*-------------------------------------3rd text field----------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>input#txtMail{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 90%;
+    left: 5%;
+    top: 40%;
+    border-radius: 2%;
+}
+
+
+/*-------------------------------------4th text field----------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>input#txtAddress{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 90%;
+    left: 5%;
+    top: 55%;
+    border-radius: 2%;
+}
+
+
+/*-------------------------------------5th text field----------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>input#txtSubject{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 90%;
+    left: 5%;
+    top: 71%;
+    border-radius: 2%;
+}
+
+
+/*-----------------------------------------------send button----------------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>button{
+    position: absolute;
+    display: inline-block;
+    height: 8%;
+    width: 90%;
+    left: 5%;
+    bottom: 5%;
+    border-radius: 2%;
+}
+
+body>main:nth-child(9)>form>fieldset>button:hover{
+    color: #E60965;
+}
+
+/*---------------------------------------------------1st label------------------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>label#l1{
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 5%;
+    color: #E60965;
+}
+
+
+/*---------------------------------------------------2nd label------------------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>label#l2{
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 20%;
+    color: #E60965;
+}
+
+/*---------------------------------------------------3rd label------------------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>label#l3{
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 35%;
+    color: #E60965;
+}
+
+
+/*---------------------------------------------------4th label------------------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>label#l4{
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 50%;
+    color: #E60965;
+}
+
+
+/*---------------------------------------------------5th label------------------------------------------------------*/
+body>main:nth-child(9)>form>fieldset>label#l5{
+    position: absolute;
+    display: inline-block;
+    left: 5%;
+    top: 65%;
+    color: #E60965;
+}
+
+
+
+
+
+
+
+
+
 
 
 

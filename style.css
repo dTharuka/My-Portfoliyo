@@ -511,3 +511,297 @@ body>main:nth-child(3)>section:nth-child(5)>h4>pre>text{
 /*-------------------------------------------------------------------------------------------------------*/
 
 
+
+
+
+/*========================================== 3rd main =========================================================*/
+
+/*----------------------------------------------main 3----------------------------------------------------------*/
+body>main:nth-child(4){
+    height: 100%;
+    width: 82%;
+    top: 200%;
+    /*left: 20%;*/
+    right: 0;
+    border-left: 2px solid #E60965;
+    background-color: yellow;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/*-----------------------------------------3rd main small headline--------------------------------------------------*/
+body>main:nth-child(4)>h6:nth-child(1){
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 5%;
+        right: 44%;
+        font-size: 120%;
+        color: #E60965;
+}
+
+/*--------------------------------------------------3rd  main big headline-------------------------------------------*/
+body>main:nth-child(4)>h1:nth-child(2){
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 10%;
+        right: 40%;
+        font-size: 350%;
+        color: #5C5055;
+
+}
+
+/*--------------------------------------------contrnt lader y acsis----------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(4){
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    height: 55%;
+    width: 2px;
+    background-color: #5C5055;
+}
+
+/*--------------------------------------------contrnt lader x acsis 1 ----------------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(5){
+    position: absolute;
+    top: 56.5%;
+    left: 10%;
+    height: 2px;
+    width: 13%;
+    background-color: #5C5055;
+}
+
+/*--------------------------------------------contrnt lader x acsis 2 ----------------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(6){
+    position: absolute;
+    top: 84.5%;
+    left: 10%;
+    height: 2px;
+    width: 13%;
+    background-color: #5C5055;
+}
+
+
+/*-------------------------------------------1st button------------------------------------------------------------*/
+body>main:nth-child(4)>section>h3>button:nth-child(1){
+    position: absolute;
+    top: 30%;
+    left: 0;
+    border-radius: 5%;
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    font-size: 180%;
+}
+
+body>main:nth-child(4)>section>h3>button:nth-child(1):hover{
+    color: #E60965;
+}
+
+
+/*-------------------------------------------------1st button content box 1 -----------------------------------------*/
+body>main:nth-child(4)>section>section>div:nth-child(1){
+    height: 27%;
+    width: 45%;
+    position: absolute;
+    top: 42%;
+    left: 23%;
+    border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    background-color: white;
+}
+
+/*----------------------------------1st button content headline (A\L) in content box 1------------------------------*/
+body>main:nth-child(4)>section>section>div:nth-child(1)>h2:nth-child(1){
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    height: 10%;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+/*----------------------------------1st button content in content box 1------------------------------------*/
+body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: -35%;
+    height: 10%;
+    width: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2)>pre{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2)>pre>text{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*-------------------------------------------------2nd button content box 1 -----------------------------------------*/
+body>main:nth-child(4)>section>section>div:nth-child(2){
+    height: 27%;
+    width: 45%;
+    position: absolute;
+    top: 71%;
+    left: 23%;
+    border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    background-color: white;
+}
+
+/*----------------------------------2nd button content headline (A\L) in content box 1------------------------------*/
+body>main:nth-child(4)>section>section>div:nth-child(2)>h2:nth-child(1){
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    height: 10%;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*----------------------------------2nd button content in content box 1------------------------------------*/
+body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: -35%;
+    height: 10%;
+    width: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 100%;
+}
+
+body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2)>pre{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 100%;
+}
+
+body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2)>pre>text{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 100%;
+}
+
+
+/*-------------------------------------------2nd button------------------------------------------------------------*/
+body>main:nth-child(4)>section>h3>button:nth-child(2){
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border-radius: 5%;
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    font-size: 180%;
+}
+
+body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
+    color: #E60965;
+}
+
+/*-------------------------------------------3rd button------------------------------------------------------------*/
+body>main:nth-child(4)>section>h3>button:nth-child(3){
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border-radius: 5%;
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    font-size: 180%;
+}
+
+body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
+    color: #E60965;
+}
+
+/*-------------------------------------------4th button------------------------------------------------------------*/
+body>main:nth-child(4)>section>h3>button:nth-child(4){
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    border-radius: 5%;
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+    font-size: 180%;
+}
+
+body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
+    color: #E60965;
+}
+
+
+
+

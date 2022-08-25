@@ -98,6 +98,10 @@ body>header>img#whatsAppPhoto{
     border-color: white;
 
 }
+
+body>header>img#whatsAppPhoto:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+}
 /*-----------------------telegram image------------------------------------------------*/
 
 body>header>img#telegramPhoto{
@@ -110,6 +114,11 @@ body>header>img#telegramPhoto{
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
     border-color: white;
+
+}
+
+body>header>img#telegramPhoto:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
 
 }
 
@@ -128,6 +137,11 @@ body>header>img#linkedinPhoto{
 
 }
 
+body>header>img#linkedinPhoto:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+
+}
+
 
 /*======================================================================================================*/
 
@@ -135,7 +149,7 @@ body>header>img#linkedinPhoto{
 
 /*========================================== 1st main Home page =========================================================*/
 
-/*-----------------main----------------------------------*/
+/*-----------------main------------------------------------------------------------------------*/
 body>main:nth-child(2){
     height: 100%;
     width: 82%;
@@ -180,6 +194,7 @@ body>main:nth-child(2)>button:nth-child(3){
     border-radius: 5%;
     border-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
+    font-size: 170%;
 }
 
 body>main:nth-child(2)>button:nth-child(3):hover{
@@ -200,6 +215,7 @@ body>main:nth-child(2)>button:nth-child(4){
     border-radius: 5%;
     border-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
+    font-size: 170%;
 }
 
 body>main:nth-child(2)>button:nth-child(4):hover{
@@ -1053,14 +1069,58 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1){
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
     border-color: white;
+    color: #E60965;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1):hover{
     background-color: #E60965;
     color: white;
-    box-shadow: 0px -1px 8px 2px #333131;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
-/*------------------------------------java client 1 --------------------------------------------*/
+
+/*-------------------------------------------java client 1 text-----------------------------------------------*/
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(2){
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    top: 60%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(4){
+    position: absolute;
+    display: inline-block;
+    top: 67%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(5){
+    position: absolute;
+    display: inline-block;
+    top: 74%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(6){
+    position: absolute;
+    display: inline-block;
+    top: 81%;
+    left: 3%;
+    font-size: 130%;
+}
+
+
+/*------------------------------------java client 1 image--------------------------------------------*/
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>img{
     height: 50%;
@@ -1085,15 +1145,59 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+    color: #E60965;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2):hover{
     background-color: #E60965;
     color: white;
-    box-shadow: 0px -1px 8px 2px #333131;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
-/*------------------------------------java client 2 --------------------------------------------*/
+/*----------------------------------------java client 2 text---------------------------------------------*/
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(2){
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    top: 60%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(4){
+    position: absolute;
+    display: inline-block;
+    top: 67%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(5){
+    position: absolute;
+    display: inline-block;
+    top: 74%;
+    left: 3%;
+    font-size: 130%;
+}
+
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(6){
+    position: absolute;
+    display: inline-block;
+    top: 81%;
+    left: 3%;
+    font-size: 130%;
+}
+
+
+/*------------------------------------java client 2 image--------------------------------------------*/
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>img{
     height: 50%;

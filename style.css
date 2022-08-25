@@ -33,7 +33,8 @@ body>header>img#myPhoto{
     top: 1%;
     left: 7%;
     border-radius: 50%;
-    box-shadow: 0px -1px 8px 2px #333131;
+    box-shadow: 0px -1px 8px 2px #E60965;
+    border-color: white;
 }
 /*-----------------------heder text area position-----------------------------------------------*/
 body>header>nav>h2{
@@ -94,6 +95,7 @@ body>header>img#whatsAppPhoto{
     bottom: 1%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 
 }
 /*-----------------------telegram image------------------------------------------------*/
@@ -107,6 +109,7 @@ body>header>img#telegramPhoto{
     bottom: 1%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 
 }
 
@@ -121,6 +124,7 @@ body>header>img#linkedinPhoto{
     bottom: 1%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 
 }
 
@@ -138,7 +142,7 @@ body>main:nth-child(2){
     top: 0;
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: chartreuse;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -159,8 +163,10 @@ body>main>section>img#mainPhoto{
     height: 55%;
     width: 35%;
     border-radius: 50%;
-    box-shadow: 0px -1px 8px 2px #333131;
+    box-shadow: 0px -1px 8px 2px #E60965;
+    border-color: white;
 }
+
 
 /*--------------------------------------contact me button------------------------------------------------------------*/
 body>main:nth-child(2)>button:nth-child(3){
@@ -604,7 +610,7 @@ body>main:nth-child(4){
     /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: yellow;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -686,10 +692,12 @@ body>main:nth-child(4)>section>h3>button:nth-child(1){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     font-size: 180%;
+    border-color: white;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(1):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 
@@ -703,6 +711,12 @@ body>main:nth-child(4)>section>section>div:nth-child(1){
     border-radius: 2%;
     box-shadow: 0px -1px 8px 2px #333131;
     background-color: white;
+    border-color: white;
+}
+
+body>main:nth-child(4)>section>section>div:nth-child(1):hover{
+    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*----------------------------------1st button content headline (A\L) in content box 1------------------------------*/
@@ -771,6 +785,12 @@ body>main:nth-child(4)>section>section>div:nth-child(2){
     border-radius: 2%;
     box-shadow: 0px -1px 8px 2px #333131;
     background-color: white;
+    border-color: white;
+}
+
+body>main:nth-child(4)>section>section>div:nth-child(2):hover{
+    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*----------------------------------2nd button content headline (A\L) in content box 1------------------------------*/
@@ -842,10 +862,12 @@ body>main:nth-child(4)>section>h3>button:nth-child(2){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     font-size: 180%;
+    border-color: white;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*-------------------------------------------3rd button------------------------------------------------------------*/
@@ -859,10 +881,12 @@ body>main:nth-child(4)>section>h3>button:nth-child(3){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     font-size: 180%;
+    border-color: white;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*-------------------------------------------4th button------------------------------------------------------------*/
@@ -876,10 +900,12 @@ body>main:nth-child(4)>section>h3>button:nth-child(4){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     font-size: 180%;
+    border-color: white;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*========================================================================================================================*/
@@ -894,7 +920,7 @@ body>main:nth-child(5){
     /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: cornflowerblue;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -941,6 +967,7 @@ body>main:nth-child(5)>section:nth-child(3){
     top: 30%;
     left: 5%;
     background-color: transparent;
+    border-color: transparent;
 }
 /*----------------------------------------1st button------------------------------------------------------*/
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1){
@@ -952,11 +979,12 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1){
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
+    border: 0 solid white;
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*----------------------------------------2nd button------------------------------------------------------*/
@@ -969,11 +997,12 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2){
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
+    border: 0 solid white;
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*----------------------------------------3rd button------------------------------------------------------*/
@@ -986,11 +1015,12 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3){
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
+    border: 0 solid white;
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*----------------------------------------4th button------------------------------------------------------*/
@@ -1003,11 +1033,12 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
+    border: 0 solid white;
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*------------------------------------java 1st client box--------------------------------------------*/
@@ -1021,19 +1052,26 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 }
 
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1):hover{
+    background-color: #E60965;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
 /*------------------------------------java client 1 --------------------------------------------*/
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>img{
-    height: 40%;
-    width: 70%;
+    height: 50%;
+    width: 90%;
     display: inline-block;
     position: absolute;
-    top: 7%;
-    left: 15%;
+    top: 5%;
+    left: 5%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 }
 
 /*------------------------------------java 2nd client box--------------------------------------------*/
@@ -1049,17 +1087,24 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2){
     box-shadow: 0px -1px 8px 2px #333131;
 }
 
+body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2):hover{
+    background-color: #E60965;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
 /*------------------------------------java client 2 --------------------------------------------*/
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>img{
-    height: 40%;
-    width: 70%;
+    height: 50%;
+    width: 90%;
     display: inline-block;
     position: absolute;
-    top: 7%;
-    left: 15%;
+    top: 5%;
+    left: 5%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -1076,7 +1121,7 @@ body>main:nth-child(6){
     /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: darksalmon;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -1127,6 +1172,7 @@ body>main:nth-child(6)>section:nth-child(3){
     top: 20%;
     left: 48%;
     background-color: transparent;
+    border-color: transparent;
 }
 
 /*-----------------------------------------------button 1--------------------------------------------------------*/
@@ -1140,12 +1186,12 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1){
     font-size: 200%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
-    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
 }
 
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*-----------------------------------------------button 2--------------------------------------------------------*/
@@ -1159,12 +1205,12 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2){
     font-size: 200%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
-    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
 }
 
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*-----------------------------------------------button 3--------------------------------------------------------*/
@@ -1178,12 +1224,12 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3){
     font-size: 200%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
-    border: 0;
-    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
 }
 
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3):hover{
     color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*---------------------------------------------------text box----------------------------------------------------*/
@@ -1198,6 +1244,12 @@ body>main:nth-child(6)>section:nth-child(4){
     font-size: 150%;
     border-radius: 2%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
+}
+
+body>main:nth-child(6)>section:nth-child(4):hover{
+    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*----------------------------------------------text box button-----------------------------------------------------*/
@@ -1211,11 +1263,15 @@ body>main:nth-child(6)>section:nth-child(4)>button{
     box-shadow: 0px -1px 8px 2px #333131;
     background-color: white;
     font-size: 150%;
+    padding: 0;
+    border: 0 solid white;
 
 }
 
 body>main:nth-child(6)>section:nth-child(4)>button:hover{
-    color: #E60965;
+    background-color: #E60965;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
@@ -1231,7 +1287,7 @@ body>main:nth-child(7){
     /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: fuchsia;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -1280,6 +1336,7 @@ body>main:nth-child(7)>section{
     left: 5%;
     top: 25%;
     background-color: transparent;
+    border: 0 solid transparent;
 }
 
 /*----------------------------------------------1st content bar---------------------------------------------------------*/
@@ -1292,7 +1349,14 @@ body>main:nth-child(7)>section>aside:nth-child(1){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     border-radius: 5%;
+    border: 0 solid white;
 }
+
+body>main:nth-child(7)>section>aside:nth-child(1):hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #E60965;
+}
+
 
 /*-----------------------------------------------------------1st content bar image---------------------------------*/
 body>main:nth-child(7)>section>aside:nth-child(1)>img{
@@ -1307,8 +1371,23 @@ body>main:nth-child(7)>section>aside:nth-child(1)>img{
 
 }
 
+body>main:nth-child(7)>section>aside:nth-child(1)>img:hover{
+    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
+}
+
 /*-----------------------------------------------1st content middle text------------------------------------------------*/
-body>main:nth-child(7)>section>aside:nth-child(1)>h3{
+/*body>main:nth-child(7)>section>aside:nth-child(1)>h3{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    height: 45%;*/
+/*    width: 95%;*/
+/*    left: 2.5%;*/
+/*    top: 50%;*/
+
+/*}*/
+
+body>main:nth-child(7)>section>aside:nth-child(1)>div{
     display: inline-block;
     position: absolute;
     height: 45%;
@@ -1318,14 +1397,41 @@ body>main:nth-child(7)>section>aside:nth-child(1)>h3{
 
 }
 
-body>main:nth-child(7)>section>aside:nth-child(1)>h3>pre{
+
+/*body>main:nth-child(7)>section>aside:nth-child(1)>h3>pre{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    !*left: -130%;*!*/
+/*    !*top: 0;*!*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    font-size: 150%;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*}*/
+
+body>main:nth-child(7)>section>aside:nth-child(1)>div>h5:nth-child(1){
     display: inline-block;
     position: absolute;
     height: 100%;
     width: 100%;
-    left: -130%;
-    top: 0;
-    font-size: 150%;
+    left: 10%;
+    top: 10%;
+    font-size: 200%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+body>main:nth-child(7)>section>aside:nth-child(1)>div>h5:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 10%;
+    top: 30%;
+    font-size: 200%;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -1344,6 +1450,11 @@ body>main:nth-child(7)>section>aside:nth-child(2){
     border-radius: 5%;
 }
 
+body>main:nth-child(7)>section>aside:nth-child(2):hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #E60965;
+}
+
 
 /*-----------------------------------------------------------2nd content bar image---------------------------------*/
 body>main:nth-child(7)>section>aside:nth-child(2)>img{
@@ -1355,11 +1466,26 @@ body>main:nth-child(7)>section>aside:nth-child(2)>img{
     border-radius: 10%;
     left: 2.5%;
     top: 2.5%;
+    border: 0 solid white;
 
 }
 
+body>main:nth-child(7)>section>aside:nth-child(2)>img:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+}
+
 /*-----------------------------------------------2nd content middle text------------------------------------------------*/
-body>main:nth-child(7)>section>aside:nth-child(2)>h3{
+/*body>main:nth-child(7)>section>aside:nth-child(2)>h3{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    height: 45%;*/
+/*    width: 95%;*/
+/*    left: 2.5%;*/
+/*    top: 50%;*/
+
+/*}*/
+
+body>main:nth-child(7)>section>aside:nth-child(2)>div{
     display: inline-block;
     position: absolute;
     height: 45%;
@@ -1369,18 +1495,43 @@ body>main:nth-child(7)>section>aside:nth-child(2)>h3{
 
 }
 
-body>main:nth-child(7)>section>aside:nth-child(2)>h3>pre{
+/*body>main:nth-child(7)>section>aside:nth-child(2)>h3>pre{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    left: -150%;*/
+/*    top: 0;*/
+/*    font-size: 150%;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+
+/*}*/
+
+body>main:nth-child(7)>section>aside:nth-child(2)>div>h5:nth-child(1){
     display: inline-block;
     position: absolute;
     height: 100%;
     width: 100%;
-    left: -150%;
-    top: 0;
-    font-size: 150%;
+    left: 10%;
+    top: 10%;
+    font-size: 200%;
     margin-bottom: 0;
     margin-top: 0;
-
 }
+
+body>main:nth-child(7)>section>aside:nth-child(2)>div>h5:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 10%;
+    top: 30%;
+    font-size: 200%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 
 /*----------------------------------------------3rd content bar---------------------------------------------------------*/
 body>main:nth-child(7)>section>aside:nth-child(3){
@@ -1392,8 +1543,13 @@ body>main:nth-child(7)>section>aside:nth-child(3){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     border-radius: 5%;
+    border: 0 solid white;
 }
 
+body>main:nth-child(7)>section>aside:nth-child(3):hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #E60965;
+}
 
 /*-----------------------------------------------------------3rd content bar image---------------------------------*/
 body>main:nth-child(7)>section>aside:nth-child(3)>img{
@@ -1408,8 +1564,12 @@ body>main:nth-child(7)>section>aside:nth-child(3)>img{
 
 }
 
+body>main:nth-child(7)>section>aside:nth-child(3)>img:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+}
+
 /*-----------------------------------------------3rd content middle text------------------------------------------------*/
-body>main:nth-child(7)>section>aside:nth-child(3)>h3{
+body>main:nth-child(7)>section>aside:nth-child(3)>div{
     display: inline-block;
     position: absolute;
     height: 45%;
@@ -1419,17 +1579,28 @@ body>main:nth-child(7)>section>aside:nth-child(3)>h3{
 
 }
 
-body>main:nth-child(7)>section>aside:nth-child(3)>h3>pre{
+body>main:nth-child(7)>section>aside:nth-child(3)>div>h5:nth-child(1){
     display: inline-block;
     position: absolute;
     height: 100%;
     width: 100%;
-    left: -150%;
-    top: 0;
-    font-size: 150%;
+    left: 10%;
+    top: 10%;
+    font-size: 200%;
     margin-bottom: 0;
     margin-top: 0;
+}
 
+body>main:nth-child(7)>section>aside:nth-child(3)>div>h5:nth-child(2){
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 10%;
+    top: 30%;
+    font-size: 200%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------*/
@@ -1448,7 +1619,7 @@ body>main:nth-child(8){
     /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: orangered;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -1491,7 +1662,7 @@ body>main:nth-child(9){
     /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
-    background-color: darkseagreen;
+    background-color: white;
     position: absolute;
     display: inline-block;
     margin-bottom: 0;
@@ -1543,7 +1714,12 @@ body>main:nth-child(9)>form{
     background-color: white;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border-color: white;
 
+}
+
+body>main:nth-child(9)>form:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 body>main:nth-child(9)>form>fieldset{
@@ -1559,6 +1735,11 @@ body>main:nth-child(9)>form>fieldset{
     color: #E60965;
 }
 
+body>main:nth-child(9)>form>fieldset:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+    border-color: white;
+}
+
 /*-------------------------------------1st text field----------------------------------------------*/
 body>main:nth-child(9)>form>fieldset>input#txtCusName{
     position: absolute;
@@ -1568,8 +1749,14 @@ body>main:nth-child(9)>form>fieldset>input#txtCusName{
     left: 5%;
     top: 10%;
     border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+    padding: 0;
 }
 
+body>main:nth-child(9)>form>fieldset>input#txtCusName:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+}
 
 /*-------------------------------------2nd text field----------------------------------------------*/
 body>main:nth-child(9)>form>fieldset>input#txtContact{
@@ -1580,6 +1767,14 @@ body>main:nth-child(9)>form>fieldset>input#txtContact{
     left: 5%;
     top: 25%;
     border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+    padding: 0;
+}
+
+body>main:nth-child(9)>form>fieldset>input#txtContact:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+
 }
 
 
@@ -1592,6 +1787,14 @@ body>main:nth-child(9)>form>fieldset>input#txtMail{
     left: 5%;
     top: 40%;
     border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+    padding: 0;
+}
+
+body>main:nth-child(9)>form>fieldset>input#txtMail:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+
 }
 
 
@@ -1604,6 +1807,14 @@ body>main:nth-child(9)>form>fieldset>input#txtAddress{
     left: 5%;
     top: 55%;
     border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+    padding: 0;
+}
+
+body>main:nth-child(9)>form>fieldset>input#txtAddress:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+
 }
 
 
@@ -1616,6 +1827,14 @@ body>main:nth-child(9)>form>fieldset>input#txtSubject{
     left: 5%;
     top: 71%;
     border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+    padding: 0;
+}
+
+body>main:nth-child(9)>form>fieldset>input#txtSubject:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+
 }
 
 
@@ -1628,10 +1847,15 @@ body>main:nth-child(9)>form>fieldset>button{
     left: 5%;
     bottom: 5%;
     border-radius: 2%;
+    box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+    padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>button:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
     color: #E60965;
+
 }
 
 /*---------------------------------------------------1st label------------------------------------------------------*/
@@ -1693,7 +1917,13 @@ body>main:nth-child(9)>div{
     background-color: white;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
 
+}
+
+body>main:nth-child(9)>div:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #E60965;
 }
 
 /*-------------------------------------------left side image------------------------------------------------------*/
@@ -1707,6 +1937,11 @@ body>main:nth-child(9)>div>img{
     position: absolute;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+    border: 0 solid white;
+}
+
+body>main:nth-child(9)>div>img:hover{
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 

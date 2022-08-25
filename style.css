@@ -358,6 +358,12 @@ body>main:nth-child(3)>section:nth-child(3){
     box-shadow: 0px -1px 8px 2px #333131;
 }
 
+body>main:nth-child(3)>section:nth-child(3):hover{
+    background-color: #E60965;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #E60965;
+}
+
 /*------------------------------------andrid icon image(1st box image)----------------------------------------------------------*/
 body>main:nth-child(3)>section:nth-child(3)>img{
 
@@ -368,6 +374,7 @@ body>main:nth-child(3)>section:nth-child(3)>img{
     right: 40%;
     display: inline-block;
 }
+
 
 /*------------------------------------------1st box hedline-----------------------------------------------------*/
 body>main:nth-child(3)>section:nth-child(3)>h3{
@@ -432,6 +439,12 @@ body>main:nth-child(3)>section:nth-child(4){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+}
+
+body>main:nth-child(3)>section:nth-child(4):hover{
+    background-color: #E60965;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*------------------------------------web icon image(2nd box image)----------------------------------------------------------*/
@@ -508,6 +521,12 @@ body>main:nth-child(3)>section:nth-child(5){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #333131;
+}
+
+body>main:nth-child(3)>section:nth-child(5):hover{
+    background-color: #E60965;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #E60965;
 }
 
 /*------------------------------------UIUX icon image(3rd box image)----------------------------------------------------------*/

@@ -433,6 +433,7 @@ body>main:nth-child(3)>section:nth-child(3)>h4>pre{
     margin-bottom: 0;
     margin-top: 0;
     font-size: 120%;
+    font-style: italic;
 }
 
 body>main:nth-child(3)>section:nth-child(3)>h4>pre>text{
@@ -516,6 +517,7 @@ body>main:nth-child(3)>section:nth-child(4)>h4>pre{
     margin-bottom: 0;
     margin-top: 0;
     font-size: 120%;
+    font-style: italic;
 }
 
 body>main:nth-child(3)>section:nth-child(4)>h4>pre>text{
@@ -597,6 +599,7 @@ body>main:nth-child(3)>section:nth-child(5)>h4>pre{
     margin-bottom: 0;
     margin-top: 0;
     font-size: 120%;
+    font-style: italic;
 }
 
 body>main:nth-child(3)>section:nth-child(5)>h4>pre>text{
@@ -777,6 +780,7 @@ body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2)>pre{
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    font-style: italic;
 }
 
 body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2)>pre>text{
@@ -851,6 +855,7 @@ body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2)>pre{
     margin-left: 0;
     margin-right: 0;
     font-size: 100%;
+    font-style: italic;
 }
 
 body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2)>pre>text{
@@ -2061,6 +2066,7 @@ body>main:nth-child(9)>div>pre{
     position: absolute;
     margin: 0;
     border: 0;
+    font-style: italic;
 }
 
 body>main:nth-child(9)>div>pre>h5{

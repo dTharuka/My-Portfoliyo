@@ -39,27 +39,48 @@ body>header>img#myPhoto{
 body>header>nav>h2{
    position: absolute;
     display: inline-block;
-    left: 30%;
+    /*left: 30%;*/
+
+    left: 0;
+    width: 100%;
 
 }
 
 body>header>nav>h2>a{
     color: #5C5055;
     text-decoration: none;
+
+    left: 20%;
+    display: inline-block;
+    position: absolute;
 }
 
 body>header>nav>h2>a:hover{
     color: #E60965;
 }
 
+/*-----------------------------font image-------------------------------------------------------------------------*/
+body>header>nav>h2>a>i{
+    position: relative;
+    display: inline-block;
+    right: 10%;
+
+}
+
+
+
 /*-----------------------Find with me text------------------------------------------------*/
 body>header>h4{
     position: absolute;
     margin-top: 0;
     margin-bottom: 0;
-    left: 10%;
+    left: 25%;
     bottom: 9%;
 
+}
+
+body>header>h4:hover{
+    color: #E60965;
 }
 
 
@@ -69,7 +90,7 @@ body>header>img#whatsAppPhoto{
     position: absolute;
     height: 7%;
     width: 15%;
-    left: 5%;
+    left: 10%;
     bottom: 1%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
@@ -82,7 +103,7 @@ body>header>img#telegramPhoto{
     position: absolute;
     height: 7%;
     width: 15%;
-    left: 25%;
+    left: 40%;
     bottom: 1%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
@@ -96,7 +117,7 @@ body>header>img#linkedinPhoto{
     position: absolute;
     height: 7%;
     width: 15%;
-    left: 45%;
+    left: 70%;
     bottom: 1%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #333131;
@@ -115,7 +136,6 @@ body>main:nth-child(2){
     height: 100%;
     width: 82%;
     top: 0;
-    /*left: 20%;*/
     right: 0;
     border-left: 2px solid #E60965;
     background-color: chartreuse;

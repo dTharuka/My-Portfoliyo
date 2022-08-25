@@ -176,6 +176,26 @@ body>main:nth-child(2)>button:nth-child(3){
     box-shadow: 0px -1px 8px 2px #333131;
 }
 
+body>main:nth-child(2)>button:nth-child(3):hover{
+    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
+
+}
+
+/*-------------------------------------------download cv botton------------------------------------------------*/
+body>main:nth-child(2)>button:nth-child(4){
+    position: absolute;
+    display: inline-block;
+    bottom: 40%;
+    left: 65%;
+    background-color: white;
+    height: 4%;
+    width: 10%;
+    border-radius: 5%;
+    border-color: white;
+    box-shadow: 0px -1px 8px 2px #333131;
+}
+
 
 /*-----------------Home page under main photo text 1 ----------------------------------*/
 body>main>section:nth-child(1)>h1{

@@ -196,6 +196,12 @@ body>main:nth-child(2)>button:nth-child(4){
     box-shadow: 0px -1px 8px 2px #333131;
 }
 
+body>main:nth-child(2)>button:nth-child(4):hover{
+    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #E60965;
+
+}
+
 
 /*-----------------Home page under main photo text 1 ----------------------------------*/
 body>main>section:nth-child(1)>h1{

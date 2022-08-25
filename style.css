@@ -166,11 +166,11 @@ body>main>section>img#mainPhoto{
 body>main:nth-child(2)>button:nth-child(3){
     position: absolute;
     display: inline-block;
-    bottom: 18%;
-    left: 15.5%;
+    bottom: 15%;
+    left: 13%;
     background-color: white;
-    height: 4%;
-    width: 10%;
+    height: 6%;
+    width: 15%;
     border-radius: 5%;
     border-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
@@ -189,8 +189,8 @@ body>main:nth-child(2)>button:nth-child(4){
     bottom: 40%;
     left: 65%;
     background-color: white;
-    height: 4%;
-    width: 10%;
+    height: 6%;
+    width: 15%;
     border-radius: 5%;
     border-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
@@ -236,7 +236,7 @@ body>main>section:nth-child(1)>h5{
 
 /*------------------------------------Abuth me txt 1------------------------------------------------------*/
 body>main>section:nth-child(2)>h1{
-    top: 5%;
+    top: 20%;
     right: 10%;
     position: absolute;
     height: 10%;
@@ -252,8 +252,8 @@ body>main>section:nth-child(2)>h1{
 
 /*------------------------------------About me txt 2------------------------------------------------------*/
 body>main>section:nth-child(2)>h3>pre>text{
-    top: 20%;
-    right: 3%;
+    top: 0;
+    right: 0;
     position: absolute;
     height: 10%;
     width: 25%;
@@ -267,11 +267,11 @@ body>main>section:nth-child(2)>h3>pre>text{
 /*------------------------------------Edit settings in About me txt 2------------------------------------------------------*/
 
 body>main>section:nth-child(2)>h3>pre{
-    top: 20%;
+    top: 30%;
     right: 3%;
     position: absolute;
-    /*height: 20%;*/
-    /*width: 75%;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
     display: inline-block;
     margin-bottom: 0;
     /*margin-right: 0;*/

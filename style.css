@@ -273,40 +273,52 @@ body>main>section:nth-child(2)>h1{
 }
 
 /*------------------------------------About me txt 2------------------------------------------------------*/
-body>main>section:nth-child(2)>h3>pre>text{
-    top: 0;
-    right: 0;
+/*body>main>section:nth-child(2)>h3>pre>text{*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    position: absolute;*/
+/*    height: 10%;*/
+/*    width: 25%;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-right: 0;*/
+/*    margin-left: 0;*/
+/*    margin-top: 0;*/
+/*    font-size: 150%;*/
+/*}*/
+
+body>main>section:nth-child(2)>pre{
+    top: 30%;
+    left: 25%;
     position: absolute;
     height: 10%;
-    width: 25%;
+    width: 0;
     display: inline-block;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: 0;
-    font-size: 150%;
+    font-style: italic;
+    font-size: 170%;
+    margin: 0;
 }
 /*------------------------------------Edit settings in About me txt 2------------------------------------------------------*/
 
-body>main>section:nth-child(2)>h3>pre{
-    top: 30%;
-    right: 3%;
-    position: absolute;
-    /*height: 100%;*/
-    /*width: 100%;*/
-    display: inline-block;
-    margin-bottom: 0;
-    /*margin-right: 0;*/
-    /*margin-left: 0;*/
-    margin-top: 0;
-    font-size: 180%;
-    font-family: Times, Serif;
-}
+/*body>main>section:nth-child(2)>h3>pre{*/
+/*    top: 30%;*/
+/*    right: 3%;*/
+/*    position: absolute;*/
+/*    !*height: 100%;*!*/
+/*    !*width: 100%;*!*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    !*margin-right: 0;*!*/
+/*    !*margin-left: 0;*!*/
+/*    margin-top: 0;*/
+/*    font-size: 180%;*/
+/*    font-family: Times, Serif;*/
+/*}*/
 
-body>main>section:nth-child(2)>h3{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+/*body>main>section:nth-child(2)>h3{*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 /*======================================================================================================*/
 
@@ -412,22 +424,22 @@ body>main:nth-child(3)>section:nth-child(3)>h3{
 }
 
 /*------------------------------------------------1st box middle containt-------------------------------------------------*/
-body>main:nth-child(3)>section:nth-child(3)>h4{
-    position: absolute;
-    height: 60%;
-    width: 90%;
-    top: 30%;
-    left: 0;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
-}
+/*body>main:nth-child(3)>section:nth-child(3)>h4{*/
+/*    position: absolute;*/
+/*    height: 60%;*/
+/*    width: 90%;*/
+/*    top: 30%;*/
+/*    left: 0;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*}*/
 
-body>main:nth-child(3)>section:nth-child(3)>h4>pre{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
+body>main:nth-child(3)>section:nth-child(3)>pre{
+    position: relative;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    top: 47%;
     left: -40%;
     display: inline-block;
     margin-bottom: 0;
@@ -436,17 +448,17 @@ body>main:nth-child(3)>section:nth-child(3)>h4>pre{
     font-style: italic;
 }
 
-body>main:nth-child(3)>section:nth-child(3)>h4>pre>text{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
-    left: -40%;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 120%;
-}
+/*body>main:nth-child(3)>section:nth-child(3)>pre>text{*/
+/*    position: absolute;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    top: 30%;*/
+/*    left: -40%;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*    font-size: 120%;*/
+/*}*/
 
 /*-------------------------------------------------------------------------------------------------------*/
 
@@ -496,22 +508,22 @@ body>main:nth-child(3)>section:nth-child(4)>h3{
 
 
 /*------------------------------------------------2nd box middle containt-------------------------------------------------*/
-body>main:nth-child(3)>section:nth-child(4)>h4{
-    position: absolute;
-    height: 60%;
-    width: 90%;
-    top: 30%;
-    left: 0;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
-}
+/*body>main:nth-child(3)>section:nth-child(4)>h4{*/
+/*    position: absolute;*/
+/*    height: 60%;*/
+/*    width: 90%;*/
+/*    top: 30%;*/
+/*    left: 0;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*}*/
 
-body>main:nth-child(3)>section:nth-child(4)>h4>pre{
+body>main:nth-child(3)>section:nth-child(4)>pre{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    top: 50%;
     left: -50%;
     display: inline-block;
     margin-bottom: 0;
@@ -520,17 +532,17 @@ body>main:nth-child(3)>section:nth-child(4)>h4>pre{
     font-style: italic;
 }
 
-body>main:nth-child(3)>section:nth-child(4)>h4>pre>text{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
-    left: -50%;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 120%;
-}
+/*body>main:nth-child(3)>section:nth-child(4)>h4>pre>text{*/
+/*    position: absolute;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    top: 30%;*/
+/*    left: -50%;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*    font-size: 120%;*/
+/*}*/
 
 /*-------------------------------------------------------------------------------------------------------*/
 
@@ -578,22 +590,22 @@ body>main:nth-child(3)>section:nth-child(5)>h3{
 }
 
 /*------------------------------------------------3rd box middle containt-------------------------------------------------*/
-body>main:nth-child(3)>section:nth-child(5)>h4{
-    position: absolute;
-    height: 60%;
-    width: 90%;
-    top: 30%;
-    left: 0;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
-}
+/*body>main:nth-child(3)>section:nth-child(5)>h4{*/
+/*    position: absolute;*/
+/*    height: 60%;*/
+/*    width: 90%;*/
+/*    top: 30%;*/
+/*    left: 0;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*}*/
 
-body>main:nth-child(3)>section:nth-child(5)>h4>pre{
+body>main:nth-child(3)>section:nth-child(5)>pre{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    top: 50%;
     left: -50%;
     display: inline-block;
     margin-bottom: 0;
@@ -602,17 +614,17 @@ body>main:nth-child(3)>section:nth-child(5)>h4>pre{
     font-style: italic;
 }
 
-body>main:nth-child(3)>section:nth-child(5)>h4>pre>text{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 30%;
-    left: -50%;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 120%;
-}
+/*body>main:nth-child(3)>section:nth-child(5)>h4>pre>text{*/
+/*    position: absolute;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    top: 30%;*/
+/*    left: -50%;*/
+/*    display: inline-block;*/
+/*    margin-bottom: 0;*/
+/*    margin-top: 0;*/
+/*    font-size: 120%;*/
+/*}*/
 
 /*-------------------------------------------------------------------------------------------------------*/
 

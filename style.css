@@ -1,9 +1,9 @@
 
 /*========================================== body =========================================================*/
 body{
+    /*position: relative;*/
     height: 100vh;
     width: 100vw;
-    /*position: relative;*/
     overflow-x: hidden;
 }
 
@@ -1103,6 +1103,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(2){
     top: 53%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(3){
@@ -1111,6 +1112,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(3){
     top: 60%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(4){
@@ -1119,6 +1121,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(4){
     top: 67%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(5){
@@ -1127,6 +1130,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(5){
     top: 74%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(6){
@@ -1135,6 +1139,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(6){
     top: 81%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 
@@ -1180,6 +1185,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(2){
     top: 53%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(3){
@@ -1188,6 +1194,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(3){
     top: 60%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(4){
@@ -1196,6 +1203,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(4){
     top: 67%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(5){
@@ -1204,6 +1212,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(5){
     top: 74%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(6){
@@ -1212,6 +1221,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(6){
     top: 81%;
     left: 3%;
     font-size: 130%;
+    font-style: italic;
 }
 
 
@@ -2090,7 +2100,7 @@ body>main:nth-child(9)>div>pre{
 /*    position: absolute;*/
 /*    margin: 0;*/
 /*    border: 0;*/
-/*    font-size: 120%;*/
+/*    font-size: 100%;*/
 /*}*/
 
 

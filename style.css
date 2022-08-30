@@ -33,7 +33,7 @@ body>header>img#myPhoto{
     top: 1%;
     left: 7%;
     border-radius: 50%;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
     border-color: white;
 }
 /*-----------------------heder text area position-----------------------------------------------*/
@@ -57,7 +57,7 @@ body>header>nav>h2>a{
 }
 
 body>header>nav>h2>a:hover{
-    color: #E60965;
+    color: #f9004d;
 }
 
 /*-----------------------------font image-------------------------------------------------------------------------*/
@@ -81,7 +81,7 @@ body>header>h4{
 }
 
 body>header>h4:hover{
-    color: #E60965;
+    color: #f9004d;
 }
 
 
@@ -100,7 +100,9 @@ body>header>img#whatsAppPhoto{
 }
 
 body>header>img#whatsAppPhoto:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    height: 8%;
+    width: 17%;
 }
 /*-----------------------telegram image------------------------------------------------*/
 
@@ -118,7 +120,9 @@ body>header>img#telegramPhoto{
 }
 
 body>header>img#telegramPhoto:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    height: 8%;
+    width: 17%;
 
 }
 
@@ -138,8 +142,9 @@ body>header>img#linkedinPhoto{
 }
 
 body>header>img#linkedinPhoto:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
-
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    height: 8%;
+    width: 17%;
 }
 
 
@@ -155,7 +160,7 @@ body>main:nth-child(2){
     width: 82%;
     top: 0;
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -177,7 +182,7 @@ body>main>section>img#mainPhoto{
     height: 55%;
     width: 35%;
     border-radius: 50%;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
     border-color: white;
 }
 
@@ -191,15 +196,15 @@ body>main:nth-child(2)>button:nth-child(3){
     background-color: white;
     height: 6%;
     width: 15%;
-    border-radius: 5%;
+    border-radius: 10px;
     border-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     font-size: 170%;
 }
 
 body>main:nth-child(2)>button:nth-child(3):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 
 }
 
@@ -212,15 +217,15 @@ body>main:nth-child(2)>button:nth-child(4){
     background-color: white;
     height: 6%;
     width: 15%;
-    border-radius: 5%;
+    border-radius: 10px;
     border-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
     font-size: 170%;
 }
 
 body>main:nth-child(2)>button:nth-child(4):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 
 }
 
@@ -269,7 +274,7 @@ body>main>section:nth-child(2)>h1{
     margin-left: 0;
     margin-top: 0;
     font-size: 300%;
-    color: #E60965;
+    color: #f9004d;
 }
 
 /*------------------------------------About me txt 2------------------------------------------------------*/
@@ -294,7 +299,7 @@ body>main>section:nth-child(2)>pre{
     height: 10%;
     width: 0;
     display: inline-block;
-    font-style: italic;
+    font-style: initial;
     font-size: 170%;
     margin: 0;
 }
@@ -336,7 +341,7 @@ body>main:nth-child(3){
     top: 100%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -375,7 +380,7 @@ body>main:nth-child(3)>h1{
     top: 15%;
     right: 40%;
     font-size: 350%;
-    color: #E60965;
+    color: #f9004d;
 
 }
 
@@ -394,9 +399,9 @@ body>main:nth-child(3)>section:nth-child(3){
 }
 
 body>main:nth-child(3)>section:nth-child(3):hover{
-    background-color: #E60965;
+    background-color: #f9004d;
     color: white;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*------------------------------------andrid icon image(1st box image)----------------------------------------------------------*/
@@ -478,9 +483,9 @@ body>main:nth-child(3)>section:nth-child(4){
 }
 
 body>main:nth-child(3)>section:nth-child(4):hover{
-    background-color: #E60965;
+    background-color: #f9004d;
     color: white;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*------------------------------------web icon image(2nd box image)----------------------------------------------------------*/
@@ -561,9 +566,9 @@ body>main:nth-child(3)>section:nth-child(5){
 }
 
 body>main:nth-child(3)>section:nth-child(5):hover{
-    background-color: #E60965;
+    background-color: #f9004d;
     color: white;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*------------------------------------UIUX icon image(3rd box image)----------------------------------------------------------*/
@@ -641,7 +646,7 @@ body>main:nth-child(4){
     top: 200%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -676,7 +681,7 @@ body>main:nth-child(4)>h1:nth-child(2){
         top: 10%;
         right: 40%;
         font-size: 350%;
-        color: #E60965;
+        color: #f9004d;
 
 }
 
@@ -718,7 +723,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(1){
     position: absolute;
     top: 30%;
     left: 0;
-    border-radius: 5%;
+    border-radius: 15px;
     height: 10%;
     width: 25%;
     background-color: white;
@@ -728,8 +733,8 @@ body>main:nth-child(4)>section>h3>button:nth-child(1){
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(1):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 
@@ -740,15 +745,15 @@ body>main:nth-child(4)>section>section>div:nth-child(1){
     position: absolute;
     top: 42%;
     left: 23%;
-    border-radius: 2%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     background-color: white;
     border-color: white;
 }
 
 body>main:nth-child(4)>section>section>div:nth-child(1):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*----------------------------------1st button content headline (A\L) in content box 1------------------------------*/
@@ -808,25 +813,25 @@ body>main:nth-child(4)>section>section>div:nth-child(1)>pre{
 /*    margin-right: 0;*/
 /*}*/
 
-/*-------------------------------------------------2nd button content box 1 -----------------------------------------*/
+/*-------------------------------------------------1st button content box 2 -----------------------------------------*/
 body>main:nth-child(4)>section>section>div:nth-child(2){
     height: 27%;
     width: 45%;
     position: absolute;
     top: 71%;
     left: 23%;
-    border-radius: 2%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     background-color: white;
     border-color: white;
 }
 
 body>main:nth-child(4)>section>section>div:nth-child(2):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
-/*----------------------------------2nd button content headline (A\L) in content box 1------------------------------*/
+/*----------------------------------1st button content headline (A\L) in content box 2------------------------------*/
 body>main:nth-child(4)>section>section>div:nth-child(2)>h2:nth-child(1){
     display: inline-block;
     position: absolute;
@@ -890,7 +895,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(2){
     position: absolute;
     top: 30%;
     left: 25%;
-    border-radius: 5%;
+    border-radius: 15px;
     height: 10%;
     width: 25%;
     background-color: white;
@@ -900,8 +905,8 @@ body>main:nth-child(4)>section>h3>button:nth-child(2){
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-------------------------------------------3rd button------------------------------------------------------------*/
@@ -909,7 +914,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(3){
     position: absolute;
     top: 30%;
     left: 50%;
-    border-radius: 5%;
+    border-radius: 15px;
     height: 10%;
     width: 25%;
     background-color: white;
@@ -919,8 +924,8 @@ body>main:nth-child(4)>section>h3>button:nth-child(3){
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-------------------------------------------4th button------------------------------------------------------------*/
@@ -928,7 +933,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(4){
     position: absolute;
     top: 30%;
     left: 75%;
-    border-radius: 5%;
+    border-radius: 15px;
     height: 10%;
     width: 25%;
     background-color: white;
@@ -938,8 +943,8 @@ body>main:nth-child(4)>section>h3>button:nth-child(4){
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*========================================================================================================================*/
@@ -953,7 +958,7 @@ body>main:nth-child(5){
     top: 300%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -988,7 +993,7 @@ body>main:nth-child(5)>h1:nth-child(2){
     top: 10%;
     right: 30%;
     font-size: 350%;
-    color: #E60965;
+    color: #f9004d;
 
 }
 
@@ -1009,7 +1014,7 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1){
     height: 25%;
     width: 100%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1017,8 +1022,8 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1){
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*----------------------------------------2nd button------------------------------------------------------*/
@@ -1027,7 +1032,7 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2){
     height: 25%;
     width: 100%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1035,8 +1040,8 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2){
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*----------------------------------------3rd button------------------------------------------------------*/
@@ -1045,7 +1050,7 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3){
     height: 25%;
     width: 100%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1053,8 +1058,8 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3){
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*----------------------------------------4th button------------------------------------------------------*/
@@ -1063,7 +1068,7 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
     height: 25%;
     width: 100%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 300%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1071,8 +1076,8 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
 }
 
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*------------------------------------java 1st client box--------------------------------------------*/
@@ -1084,16 +1089,16 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1){
     background-color: white;
     position: absolute;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     border-color: white;
-    color: #E60965;
+    color: #f9004d;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1):hover{
-    background-color: #E60965;
+    background-color: #f9004d;
     color: white;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-------------------------------------------java client 1 text-----------------------------------------------*/
@@ -1166,15 +1171,15 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2){
     background-color: white;
     position: absolute;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
-    color: #E60965;
+    color: #f9004d;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2):hover{
-    background-color: #E60965;
+    background-color: #f9004d;
     color: white;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*----------------------------------------java client 2 text---------------------------------------------*/
@@ -1252,7 +1257,7 @@ body>main:nth-child(6){
     top: 400%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -1290,7 +1295,7 @@ body>main:nth-child(6)>h1{
     top: 25%;
     right: 67%;
     font-size: 350%;
-    color: #E60965;
+    color: #f9004d;
 
 }
 
@@ -1314,7 +1319,7 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1){
     height: 100%;
     width: calc(100%/3);
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 200%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1322,8 +1327,8 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1){
 }
 
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-----------------------------------------------button 2--------------------------------------------------------*/
@@ -1333,7 +1338,7 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2){
     height: 100%;
     width: calc(100%/3);
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 200%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1341,8 +1346,8 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2){
 }
 
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-----------------------------------------------button 3--------------------------------------------------------*/
@@ -1352,7 +1357,7 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3){
     height: 100%;
     width: 32%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 200%;
     box-shadow: 0px -1px 8px 2px #333131;
     padding: 0;
@@ -1360,8 +1365,8 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3){
 }
 
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*---------------------------------------------------text box----------------------------------------------------*/
@@ -1374,14 +1379,14 @@ body>main:nth-child(6)>section:nth-child(4){
     left: 48%;
     background-color: white;
     font-size: 150%;
-    border-radius: 2%;
+    border-radius: 10px;
     box-shadow: 0px -1px 8px 2px #333131;
     border-color: white;
 }
 
 body>main:nth-child(6)>section:nth-child(4):hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*----------------------------------------------text box button-----------------------------------------------------*/
@@ -1391,7 +1396,7 @@ body>main:nth-child(6)>section:nth-child(4)>button{
     left: 5%;
     bottom: 2%;
     position: absolute;
-    border-radius: 2%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     background-color: white;
     font-size: 150%;
@@ -1401,7 +1406,7 @@ body>main:nth-child(6)>section:nth-child(4)>button{
 }
 
 body>main:nth-child(6)>section:nth-child(4)>button:hover{
-    background-color: #E60965;
+    background-color: #f9004d;
     color: white;
     box-shadow: 0px -1px 8px 2px #333131;
 }
@@ -1418,7 +1423,7 @@ body>main:nth-child(7){
     top: 500%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -1456,7 +1461,7 @@ body>main:nth-child(7)>h1{
     top: 10%;
     right: 40%;
     font-size: 350%;
-    color: #E60965;
+    color: #f9004d;
 
 }
 
@@ -1480,13 +1485,13 @@ body>main:nth-child(7)>section>aside:nth-child(1){
     left: 0;
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
-    border-radius: 5%;
+    border-radius: 15px;
     border: 0 solid white;
 }
 
 body>main:nth-child(7)>section>aside:nth-child(1):hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
-    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    color: #f9004d;
 }
 
 
@@ -1497,15 +1502,15 @@ body>main:nth-child(7)>section>aside:nth-child(1)>img{
     height: 45%;
     width: 95%;
     box-shadow: 0px -1px 8px 2px #333131;
-    border-radius: 10%;
+    border-radius: 15px;
     left: 2.5%;
     top: 2.5%;
 
 }
 
 body>main:nth-child(7)>section>aside:nth-child(1)>img:hover{
-    color: #E60965;
-    box-shadow: 0px -1px 8px 2px #E60965;
+    color: #f9004d;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-----------------------------------------------1st content middle text------------------------------------------------*/
@@ -1579,12 +1584,12 @@ body>main:nth-child(7)>section>aside:nth-child(2){
     left: 35%;
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 body>main:nth-child(7)>section>aside:nth-child(2):hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
-    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    color: #f9004d;
 }
 
 
@@ -1595,7 +1600,7 @@ body>main:nth-child(7)>section>aside:nth-child(2)>img{
     height: 45%;
     width: 95%;
     box-shadow: 0px -1px 8px 2px #333131;
-    border-radius: 10%;
+    border-radius: 15px;
     left: 2.5%;
     top: 2.5%;
     border: 0 solid white;
@@ -1603,7 +1608,7 @@ body>main:nth-child(7)>section>aside:nth-child(2)>img{
 }
 
 body>main:nth-child(7)>section>aside:nth-child(2)>img:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-----------------------------------------------2nd content middle text------------------------------------------------*/
@@ -1674,13 +1679,13 @@ body>main:nth-child(7)>section>aside:nth-child(3){
     left: 70%;
     background-color: white;
     box-shadow: 0px -1px 8px 2px #333131;
-    border-radius: 5%;
+    border-radius: 15px;
     border: 0 solid white;
 }
 
 body>main:nth-child(7)>section>aside:nth-child(3):hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
-    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    color: #f9004d;
 }
 
 /*-----------------------------------------------------------3rd content bar image---------------------------------*/
@@ -1690,14 +1695,14 @@ body>main:nth-child(7)>section>aside:nth-child(3)>img{
     height: 45%;
     width: 95%;
     box-shadow: 0px -1px 8px 2px #333131;
-    border-radius: 10%;
+    border-radius: 15px;
     left: 2.5%;
     top: 2.5%;
 
 }
 
 body>main:nth-child(7)>section>aside:nth-child(3)>img:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-----------------------------------------------3rd content middle text------------------------------------------------*/
@@ -1750,7 +1755,7 @@ body>main:nth-child(8){
     top: 600%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -1793,7 +1798,7 @@ body>main:nth-child(9){
     top: 700%;
     /*left: 20%;*/
     right: 0;
-    border-left: 2px solid #E60965;
+    border-left: 2px solid #f9004d;
     background-color: white;
     position: absolute;
     display: inline-block;
@@ -1831,7 +1836,7 @@ body>main:nth-child(9)>h1{
     top: 10%;
     left: 30%;
     font-size: 350%;
-    color: #E60965;
+    color: #f9004d;
 
 }
 
@@ -1844,14 +1849,14 @@ body>main:nth-child(9)>form{
     left: 38%;
     top: 25%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     border-color: white;
 
 }
 
 body>main:nth-child(9)>form:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 body>main:nth-child(9)>form>fieldset{
@@ -1862,13 +1867,13 @@ body>main:nth-child(9)>form>fieldset{
     height: 98%;
     width: 98%;
     padding: 0;
-    border-radius: 5%;
+    border-radius: 15px;
     border: 1px solid black;
-    color: #E60965;
+    color: #f9004d;
 }
 
 body>main:nth-child(9)>form>fieldset:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
     border-color: white;
 }
 
@@ -1880,14 +1885,14 @@ body>main:nth-child(9)>form>fieldset>input#txtCusName{
     width: 90%;
     left: 5%;
     top: 10%;
-    border-radius: 2%;
+    border-radius: 8px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
     padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>input#txtCusName:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
 /*-------------------------------------2nd text field----------------------------------------------*/
@@ -1898,14 +1903,14 @@ body>main:nth-child(9)>form>fieldset>input#txtContact{
     width: 90%;
     left: 5%;
     top: 25%;
-    border-radius: 2%;
+    border-radius: 8px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
     padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>input#txtContact:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 
 }
 
@@ -1918,14 +1923,14 @@ body>main:nth-child(9)>form>fieldset>input#txtMail{
     width: 90%;
     left: 5%;
     top: 40%;
-    border-radius: 2%;
+    border-radius: 8px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
     padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>input#txtMail:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 
 }
 
@@ -1938,14 +1943,14 @@ body>main:nth-child(9)>form>fieldset>input#txtAddress{
     width: 90%;
     left: 5%;
     top: 55%;
-    border-radius: 2%;
+    border-radius: 8px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
     padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>input#txtAddress:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 
 }
 
@@ -1958,14 +1963,14 @@ body>main:nth-child(9)>form>fieldset>input#txtSubject{
     width: 90%;
     left: 5%;
     top: 71%;
-    border-radius: 2%;
+    border-radius: 8px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
     padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>input#txtSubject:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
 
 }
 
@@ -1978,15 +1983,15 @@ body>main:nth-child(9)>form>fieldset>button{
     width: 90%;
     left: 5%;
     bottom: 5%;
-    border-radius: 2%;
+    border-radius: 10px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
     padding: 0;
 }
 
 body>main:nth-child(9)>form>fieldset>button:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
-    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    color: #f9004d;
 
 }
 
@@ -1996,7 +2001,7 @@ body>main:nth-child(9)>form>fieldset>label#l1{
     display: inline-block;
     left: 5%;
     top: 5%;
-    color: #E60965;
+    color: #f9004d;
 }
 
 
@@ -2006,7 +2011,7 @@ body>main:nth-child(9)>form>fieldset>label#l2{
     display: inline-block;
     left: 5%;
     top: 20%;
-    color: #E60965;
+    color: #f9004d;
 }
 
 /*---------------------------------------------------3rd label------------------------------------------------------*/
@@ -2015,7 +2020,7 @@ body>main:nth-child(9)>form>fieldset>label#l3{
     display: inline-block;
     left: 5%;
     top: 35%;
-    color: #E60965;
+    color: #f9004d;
 }
 
 
@@ -2025,7 +2030,7 @@ body>main:nth-child(9)>form>fieldset>label#l4{
     display: inline-block;
     left: 5%;
     top: 50%;
-    color: #E60965;
+    color: #f9004d;
 }
 
 
@@ -2035,7 +2040,7 @@ body>main:nth-child(9)>form>fieldset>label#l5{
     display: inline-block;
     left: 5%;
     top: 65%;
-    color: #E60965;
+    color: #f9004d;
 }
 
 /*-------------------------------------------left side content------------------------------------------------------*/
@@ -2047,15 +2052,15 @@ body>main:nth-child(9)>div{
     left: 5%;
     top: 25%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
 
 }
 
 body>main:nth-child(9)>div:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
-    color: #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    color: #f9004d;
 }
 
 /*-------------------------------------------left side image------------------------------------------------------*/
@@ -2067,13 +2072,15 @@ body>main:nth-child(9)>div>img{
     left: 5%;
     display: inline-block;
     position: absolute;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #333131;
     border: 0 solid white;
 }
 
 body>main:nth-child(9)>div>img:hover{
-    box-shadow: 0px -1px 8px 2px #E60965;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    height: 61%;
+    width: 91%;
 }
 
 
@@ -2089,6 +2096,10 @@ body>main:nth-child(9)>div>pre{
     margin: 0;
     border: 0;
     font-style: italic;
+    font-size: 100%;
+}
+body>main:nth-child(9)>div>pre:hover{
+    font-size: 110%;
 }
 
 /*body>main:nth-child(9)>div>pre>text{*/

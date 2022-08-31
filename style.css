@@ -33,8 +33,12 @@ body>header>img#myPhoto{
     top: 1%;
     left: 7%;
     border-radius: 50%;
-    box-shadow: 0px -1px 8px 2px #f9004d;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
+}
+
+body>header>img#myPhoto:hover{
+    box-shadow: 0px -1px 8px 2px #f9004d;
 }
 /*-----------------------heder text area position-----------------------------------------------*/
 body>header>nav>h2{
@@ -185,8 +189,13 @@ body>main>section>img#mainPhoto{
     height: 55%;
     width: 35%;
     border-radius: 50%;
-    box-shadow: 0px -1px 8px 2px #f9004d;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
+}
+
+body>main>section>img#mainPhoto:hover{
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    z-index: 1;
 }
 
 
@@ -412,6 +421,7 @@ body>main:nth-child(3)>section:nth-child(3):hover{
     background-color: #f9004d;
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
+    z-index: 1;
 }
 
 /*------------------------------------andrid icon image(1st box image)----------------------------------------------------------*/
@@ -465,7 +475,7 @@ body>main:nth-child(3)>section:nth-child(3)>pre{
 body>main:nth-child(3)>section:nth-child(3)>pre:hover{
     font-size: 135%;
     font-style: normal;
-    left: -50%;
+    left: -47%;
 }
 
 /*body>main:nth-child(3)>section:nth-child(3)>pre>text{*/
@@ -501,6 +511,7 @@ body>main:nth-child(3)>section:nth-child(4):hover{
     background-color: #f9004d;
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
+    z-index: 1;
 }
 
 /*------------------------------------web icon image(2nd box image)----------------------------------------------------------*/
@@ -590,6 +601,7 @@ body>main:nth-child(3)>section:nth-child(5):hover{
     background-color: #f9004d;
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
+    z-index: 1;
 }
 
 /*------------------------------------UIUX icon image(3rd box image)----------------------------------------------------------*/

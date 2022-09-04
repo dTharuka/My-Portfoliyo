@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Animations | IJSE</title>
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link href="assets/img/fav.png" rel="icon">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        body{
+            position: relative;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+        div:nth-child(1){
+            position: absolute;
+            width: 15%;
+            height: 10%;
+            border-radius: 15px;
+            border: 2px solid black;
+            background-color: red;
+            margin: 0;
+            animation-name: my-animation;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            /*animation-play-state: paused;*/
+        }
+
+
+        @keyframes my-animation {
+            0%{
+                margin: 0;
+                background-color: blue;
+
+                }
+            12.5%{
+                margin-left: 82%;
+                margin-top: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+                background-color: yellow;
+                transform: rotate(180deg);
+
+            }
+            25%{
+                margin-left: 82%;
+                margin-top: 40%;
+                margin-right: 0;
+                margin-bottom: 0;
+                background-color: red;
+                transform: rotate(360deg);
+            }
+            37.5%{
+                margin-left: 0;
+                margin-top: 40%;
+                margin-right: 85%;
+                margin-bottom: 0;
+                background-color: deeppink;
+                transform: rotate(180deg);
+            }
+            50%{
+                background: orange;
+                margin: 0;
+                transform: rotate(360deg);
+            }
+            62.5%{
+                margin-left: 0;
+                margin-top: 40%;
+                margin-right: 85%;
+                margin-bottom: 0;
+                background-color: deeppink;
+                transform: rotate(180deg);
+            }
+            75%{
+                margin-left: 82%;
+                margin-top: 40%;
+                margin-right: 0;
+                margin-bottom: 0;
+                background-color: red;
+                transform: rotate(360deg);
+            }
+            87.5%{
+                margin-left: 82%;
+                margin-top: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+                background-color: yellow;
+                transform: rotate(180deg);
+            }
+            100%{
+                margin: 0;
+                background-color: blue;
+                transform: rotate(360deg);
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

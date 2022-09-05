@@ -30,15 +30,21 @@ body>header>img#myPhoto{
     display: inline-block;
     height: 30%;
     width: 85%;
-    top: 1%;
+    top: 2%;
     left: 7%;
     border-radius: 50%;
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
+    transition: 1s;
 }
 
 body>header>img#myPhoto:hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
+    height: 31%;
+    width: 88%;
+    top: 1%;
+    left: 4%;
+    transition: 1s;
 }
 /*-----------------------heder text area position-----------------------------------------------*/
 body>header>nav>h2{
@@ -64,6 +70,7 @@ body>header>nav>h2>a{
 body>header>nav>h2>a:hover{
     color: #f9004d;
     font-size: 110%;
+
 }
 
 /*-----------------------------font image-------------------------------------------------------------------------*/

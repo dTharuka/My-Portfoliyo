@@ -872,12 +872,14 @@ body>main:nth-child(4)>section>section>div:nth-child(1)>pre{
     margin-right: 0;
     /*font-style: italic;*/
     font-family: 'Playfair Display', serif;
+    transition: 1s;
 }
 
 body>main:nth-child(4)>section>section>div:nth-child(1)>pre:hover{
     font-size: 135%;
     font-style: normal;
     left: -15%;
+    transition: 1s;
 }
 
 /*body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2)>pre>text{*/
@@ -953,11 +955,13 @@ body>main:nth-child(4)>section>section>div:nth-child(2)>pre{
     margin-right: 0;
     font-size: 100%;
     font-family: 'Playfair Display', serif;
+    transition: 1s;
 }
 body>main:nth-child(4)>section>section>div:nth-child(2)>pre:hover{
     font-size: 135%;
     font-style: normal;
     left: -15%;
+    transition: 1s;
 }
 
 /*body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2)>pre>text{*/

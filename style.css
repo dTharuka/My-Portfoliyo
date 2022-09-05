@@ -797,6 +797,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(1){
     font-size: 180%;
     border-color: white;
     border: 0;
+    transition: 1s;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(1):hover{
@@ -806,6 +807,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(1):hover{
     width: 26%;
     font-size: 185%;
     z-index: 1;
+    transition: 1s;
 }
 
 
@@ -986,6 +988,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(2){
     font-size: 180%;
     border-color: white;
     border: 0;
+    transition: 1s;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
@@ -995,6 +998,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
     width: 26%;
     font-size: 185%;
     z-index: 1;
+    transition: 1s;
 }
 
 /*-------------------------------------------3rd button------------------------------------------------------------*/
@@ -1010,6 +1014,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(3){
     font-size: 180%;
     border-color: white;
     border: 0;
+    transition: 1s;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
@@ -1020,6 +1025,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
     font-size: 185%;
     z-index: 1;
     left: 49%;
+    transition: 1s;
 }
 
 /*-------------------------------------------4th button------------------------------------------------------------*/
@@ -1035,6 +1041,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(4){
     font-size: 180%;
     border-color: white;
     border: 0;
+    transition: 1s;
 }
 
 body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
@@ -1045,6 +1052,7 @@ body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
     font-size: 185%;
     z-index: 1;
     left: 74%;
+    transition: 1s;
 }
 
 /*========================================================================================================================*/

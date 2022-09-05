@@ -1582,12 +1582,14 @@ body>main:nth-child(7)>section>aside:nth-child(1){
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-radius: 15px;
     border: 0 solid white;
+    transition: 1s;
 }
 
 body>main:nth-child(7)>section>aside:nth-child(1):hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     color: #f9004d;
     width: 32%;
+    transition: 1s;
 }
 
 
@@ -1601,6 +1603,7 @@ body>main:nth-child(7)>section>aside:nth-child(1)>img{
     border-radius: 15px;
     left: 2.5%;
     top: 2.5%;
+    transition: 1s;
 
 }
 
@@ -1609,6 +1612,7 @@ body>main:nth-child(7)>section>aside:nth-child(1)>img:hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     width: 100%;
     left: 0;
+    transition: 1s;
 }
 
 /*-----------------------------------------------1st content middle text------------------------------------------------*/
@@ -1683,12 +1687,14 @@ body>main:nth-child(7)>section>aside:nth-child(2){
     background-color: white;
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-radius: 15px;
+    transition: 1s;
 }
 
 body>main:nth-child(7)>section>aside:nth-child(2):hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     color: #f9004d;
     width: 32%;
+    transition: 1s;
 }
 
 
@@ -1703,6 +1709,7 @@ body>main:nth-child(7)>section>aside:nth-child(2)>img{
     left: 2.5%;
     top: 2.5%;
     border: 0 solid white;
+    transition: 1s;
 
 }
 
@@ -1710,6 +1717,7 @@ body>main:nth-child(7)>section>aside:nth-child(2)>img:hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     width: 100%;
     left: 0;
+    transition: 1s;
 }
 
 /*-----------------------------------------------2nd content middle text------------------------------------------------*/
@@ -1782,12 +1790,14 @@ body>main:nth-child(7)>section>aside:nth-child(3){
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-radius: 15px;
     border: 0 solid white;
+    transition: 1s;
 }
 
 body>main:nth-child(7)>section>aside:nth-child(3):hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     color: #f9004d;
     width: 32%;
+    transition: 1s;
 }
 
 /*-----------------------------------------------------------3rd content bar image---------------------------------*/
@@ -1800,6 +1810,7 @@ body>main:nth-child(7)>section>aside:nth-child(3)>img{
     border-radius: 15px;
     left: 2.5%;
     top: 2.5%;
+    transition: 1s;
 
 }
 
@@ -1807,6 +1818,7 @@ body>main:nth-child(7)>section>aside:nth-child(3)>img:hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     width: 100%;
     left: 0;
+    transition: 1s;
 }
 
 /*-----------------------------------------------3rd content middle text------------------------------------------------*/

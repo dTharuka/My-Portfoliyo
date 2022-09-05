@@ -1186,6 +1186,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1){
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
     color: #f9004d;
+    transition: 1s;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1):hover{
@@ -1193,6 +1194,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1):hover{
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
     width: 22%;
+    transition: 1s;
 }
 
 /*-------------------------------------------java client 1 text-----------------------------------------------*/
@@ -1268,6 +1270,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2){
     border-radius: 15px;
     box-shadow: 0px -1px 8px 2px #bdbaba;
     color: #f9004d;
+    transition: 1s;
 }
 
 body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2):hover{
@@ -1275,6 +1278,7 @@ body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2):hover{
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
     width: 22%;
+    transition: 1s;
 }
 
 /*----------------------------------------java client 2 text---------------------------------------------*/

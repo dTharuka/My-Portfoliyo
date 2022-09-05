@@ -279,6 +279,7 @@ body>main>section:nth-child(1)>h5{
     margin-left: 0;
     margin-top: 0;
     font-size: 130%;
+    color: #f9004d;
 }
 
 /*------------------------------------Abuth me txt 1------------------------------------------------------*/
@@ -312,6 +313,7 @@ body>main>section:nth-child(2)>h1{
 /*    font-size: 150%;*/
 /*}*/
 
+
 body>main>section:nth-child(2)>pre{
     top: 30%;
     left: 37%;
@@ -323,7 +325,11 @@ body>main>section:nth-child(2)>pre{
     font-family: 'Playfair Display', serif;
     font-size: 170%;
     margin: 0;
+
 }
+
+
+
 /*------------------------------------Edit settings in About me txt 2------------------------------------------------------*/
 
 /*body>main>section:nth-child(2)>h3>pre{*/
@@ -417,6 +423,7 @@ body>main:nth-child(3)>section:nth-child(3){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #bdbaba;
+    transition: 1s;
 }
 
 body>main:nth-child(3)>section:nth-child(3):hover{
@@ -424,6 +431,8 @@ body>main:nth-child(3)>section:nth-child(3):hover{
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
     z-index: 1;
+    top: 35%;
+    transition: 1s;
 }
 
 /*------------------------------------andrid icon image(1st box image)----------------------------------------------------------*/
@@ -508,6 +517,7 @@ body>main:nth-child(3)>section:nth-child(4){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #bdbaba;
+    transition: 1s;
 }
 
 body>main:nth-child(3)>section:nth-child(4):hover{
@@ -515,6 +525,8 @@ body>main:nth-child(3)>section:nth-child(4):hover{
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
     z-index: 1;
+    top: 35%;
+    transition: 1s;
 }
 
 /*------------------------------------web icon image(2nd box image)----------------------------------------------------------*/
@@ -599,6 +611,7 @@ body>main:nth-child(3)>section:nth-child(5){
     display: inline-block;
     border-radius: 5%;
     box-shadow: 0px -1px 8px 2px #bdbaba;
+    transition: 1s;
 }
 
 body>main:nth-child(3)>section:nth-child(5):hover{
@@ -606,6 +619,8 @@ body>main:nth-child(3)>section:nth-child(5):hover{
     color: white;
     box-shadow: 0px -1px 8px 2px #f9004d;
     z-index: 1;
+    top: 35%;
+    transition: 1s;
 }
 
 /*------------------------------------UIUX icon image(3rd box image)----------------------------------------------------------*/

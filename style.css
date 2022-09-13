@@ -2274,6 +2274,2279 @@ body>main:nth-child(9)>div>pre:hover{
 /*    font-size: 100%;*/
 /*}*/
 
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media  all and (max-width: 1024px){
+
+    /*========================================== body =========================================================*/
+    body{
+        /*position: relative;*/
+        height: 100vh;
+        width: 1024px;
+        overflow-x: hidden;
+    }
+
+    /*=======================================================================================================*/
+
+
+
+    /*========================================== header =========================================================*/
+
+    body>header{
+        height: 100%;
+        width: 18%;
+        background-color: white;
+        display: inline-block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        /*border-right: 1px solid #E60965;*/
+    }
+
+
+
+    /*----------------------left bar photo--------------------------------------------------*/
+    body>header>img#myPhoto{
+        position: relative;
+        display: inline-block;
+        height: 25%;
+        width: 85%;
+        top: 2%;
+        left: 2.5%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+        transition: 1s;
+    }
+
+
+    body>header>img#myPhoto:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 31%;
+        width: 88%;
+        top: 1%;
+        left: 4%;
+        transition: 1s;
+    }
+    /*-----------------------heder text area position-----------------------------------------------*/
+    body>header>nav>h2{
+        position: absolute;
+        display: inline-block;
+        /*left: 30%;*/
+
+        left: 0;
+        width: 100%;
+
+    }
+
+    body>header>nav>h2>a{
+        color: #656565;
+        text-decoration: none;
+
+        left: 10%;
+        display: inline-block;
+        position: absolute;
+        font-size: 80%;
+    }
+
+    body>header>nav>h2>a:hover{
+        color: #f9004d;
+        font-size: 110%;
+
+    }
+
+    /*-----------------------------font image-------------------------------------------------------------------------*/
+    body>header>nav>h2>a>i{
+        position: relative;
+        display: inline-block;
+        right: 10%;
+
+    }
+
+
+
+    /*-----------------------Find with me text------------------------------------------------*/
+    body>header>h4{
+        position: absolute;
+        margin-top: 0;
+        margin-bottom: 0;
+        left: 17%;
+        bottom: 8%;
+        color: #656565;
+
+    }
+
+    body>header>h4:hover{
+        color: #f9004d;
+    }
+
+
+    /*-----------------------whatsApp image------------------------------------------------*/
+
+    body>header>img#whatsAppPhoto{
+        position: absolute;
+        height: 5%;
+        width: 13%;
+        left: 10%;
+        bottom: 2%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color:white;
+
+    }
+
+    body>header>img#whatsAppPhoto:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 8%;
+        width: 17%;
+
+    }
+    /*-----------------------telegram image------------------------------------------------*/
+
+    body>header>img#telegramPhoto{
+
+        position: absolute;
+        height: 5%;
+        width: 13%;
+        left: 40%;
+        bottom: 2%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+
+    }
+
+    body>header>img#telegramPhoto:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 8%;
+        width: 17%;
+
+    }
+
+    /*-----------------------Linkedin image------------------------------------------------*/
+
+    body>header>img#linkedinPhoto{
+
+        position: absolute;
+        height: 5%;
+        width: 13%;
+        left: 70%;
+        bottom: 2%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+
+    }
+
+    body>header>img#linkedinPhoto:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 8%;
+        width: 17%;
+    }
+
+
+    /*======================================================================================================*/
+
+
+
+    /*========================================== 1st main Home page =========================================================*/
+
+    /*-----------------main------------------------------------------------------------------------*/
+    body>main:nth-child(2){
+        height: 100%;
+        width: 82%;
+        top: 0;
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        /*margin: auto;*/
+    }
+
+    /*-----------------main image----------------------------------*/
+
+    body>main>section>img#mainPhoto{
+        position: absolute;
+        top: 8%;
+        left: 3%;
+        display: inline-block;
+        margin: auto;
+        height: 45%;
+        width: 35%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+    }
+
+    body>main>section>img#mainPhoto:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        z-index: 1;
+    }
+
+
+    /*--------------------------------------contact me button------------------------------------------------------------*/
+    body>main:nth-child(2)>a:nth-child(3)>button{
+        position: absolute;
+        display: inline-block;
+        bottom: 20%;
+        left: 13%;
+        background-color: white;
+        height: 7%;
+        width: 16%;
+        border-radius: 10px;
+        border: 0;
+        border-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        font-size: 150%;
+    }
+
+    body>main:nth-child(2)>a:nth-child(3)>button:hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        font-size: 175%;
+        height: 8%;
+        width: 17%;
+    }
+
+    /*-------------------------------------------download cv botton------------------------------------------------*/
+    body>main:nth-child(2)>button:nth-child(4){
+        position: absolute;
+        display: inline-block;
+        bottom: 37%;
+        left: 65%;
+        background-color: white;
+        height: 7%;
+        width: 20%;
+        border-radius: 10px;
+        border: 0;
+        border-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        font-size: 150%;
+    }
+
+    body>main:nth-child(2)>button:nth-child(4):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        font-size: 175%;
+        height: 8%;
+        width: 17%;
+
+    }
+
+
+    /*-----------------Home page under main photo text 1 ----------------------------------*/
+    body>main>section:nth-child(1)>h1{
+        top: 58%;
+        left: 4%;
+        position: absolute;
+        height: 10%;
+        width: 40%;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 250%;
+    }
+
+
+    /*-----------------Home page under main photo text 2 ----------------------------------*/
+    body>main>section:nth-child(1)>h5{
+        top: 68%;
+        left: 12%;
+        position: absolute;
+        height: 10%;
+        width: 25%;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 130%;
+        color: #f9004d;
+    }
+
+    /*------------------------------------Abuth me txt 1------------------------------------------------------*/
+    body>main>section:nth-child(2)>h1{
+        top: 20%;
+        right: 8%;
+        position: absolute;
+        height: 10%;
+        width: 35%;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 300%;
+        color: #f9004d;
+    }
+
+    /*------------------------------------About me txt 2------------------------------------------------------*/
+    /*body>main>section:nth-child(2)>h3>pre>text{*/
+    /*    top: 0;*/
+    /*    right: 0;*/
+    /*    position: absolute;*/
+    /*    height: 10%;*/
+    /*    width: 25%;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-right: 0;*/
+    /*    margin-left: 0;*/
+    /*    margin-top: 0;*/
+    /*    font-size: 150%;*/
+    /*}*/
+
+
+    body>main>section:nth-child(2)>pre{
+        top: 30%;
+        left: 33%;
+        position: absolute;
+        height: 10%;
+        width: 0;
+        display: inline-block;
+        /*font-style: initial;*/
+        font-family: 'Playfair Display', serif;
+        font-size: 150%;
+        margin: 0;
+
+    }
+
+
+
+    /*------------------------------------Edit settings in About me txt 2------------------------------------------------------*/
+
+    /*body>main>section:nth-child(2)>h3>pre{*/
+    /*    top: 30%;*/
+    /*    right: 3%;*/
+    /*    position: absolute;*/
+    /*    !*height: 100%;*!*/
+    /*    !*width: 100%;*!*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    !*margin-right: 0;*!*/
+    /*    !*margin-left: 0;*!*/
+    /*    margin-top: 0;*/
+    /*    font-size: 180%;*/
+    /*    font-family: Times, Serif;*/
+    /*}*/
+
+    /*body>main>section:nth-child(2)>h3{*/
+    /*    margin-top: 0;*/
+    /*    margin-bottom: 0;*/
+    /*}*/
+
+    /*======================================================================================================*/
+
+
+
+
+
+    /*========================================== 2nd main =========================================================*/
+
+
+    /*--------------------------------------main 2-------------------------------------------------------------------*/
+    body>main:nth-child(3){
+        height: 100%;
+        width: 82%;
+        top: 100%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+
+    /*---------------------------------------------------2nd main small hedline-----------------------------------------*/
+
+    body>main:nth-child(3)>h6{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 5%;
+        right: 43%;
+        font-size: 120%;
+        color: #5C5055;
+
+    }
+
+
+    /*---------------------------------------------------2nd main big hedline-----------------------------------------*/
+    body>main:nth-child(3)>h1{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 15%;
+        right: 32%;
+        font-size: 350%;
+        color: #f9004d;
+
+    }
+
+
+    /*-----------------------------------------app devolopment box--------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(3){
+        position: absolute;
+        height: 50%;
+        width: 30%;
+        left: 2%;
+        background-color: white;
+        top: 40%;
+        display: inline-block;
+        border-radius: 5%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        transition: 1s;
+    }
+
+    body>main:nth-child(3)>section:nth-child(3):hover{
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        z-index: 1;
+        top: 35%;
+        transition: 1s;
+    }
+
+    /*------------------------------------andrid icon image(1st box image)----------------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(3)>img{
+
+        position: absolute;
+        height: 20%;
+        width: 20%;
+        top: 5%;
+        right: 40%;
+        display: inline-block;
+    }
+
+
+    /*------------------------------------------1st box hedline-----------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(3)>h3{
+
+        position: absolute;
+        height: 10%;
+        width: 90%;
+        top: 20%;
+        left: 8%;
+        display: inline-block;
+        font-size: 170%;
+    }
+
+    /*------------------------------------------------1st box middle containt-------------------------------------------------*/
+    /*body>main:nth-child(3)>section:nth-child(3)>h4{*/
+    /*    position: absolute;*/
+    /*    height: 60%;*/
+    /*    width: 90%;*/
+    /*    top: 30%;*/
+    /*    left: 0;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*}*/
+
+    body>main:nth-child(3)>section:nth-child(3)>pre{
+        position: relative;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        top: 45%;
+        left: -10%;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 100%;
+        /*font-style: italic;*/
+        font-family: 'Playfair Display', serif;
+    }
+    body>main:nth-child(3)>section:nth-child(3)>pre:hover{
+        font-size: 135%;
+        font-style: normal;
+        left: -7%;
+    }
+
+    /*body>main:nth-child(3)>section:nth-child(3)>pre>text{*/
+    /*    position: absolute;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    top: 30%;*/
+    /*    left: -40%;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*    font-size: 120%;*/
+    /*}*/
+
+    /*-------------------------------------------------------------------------------------------------------*/
+
+
+    /*-----------------------------------------web devolopment box--------------------------------------------------*/
+
+    body>main:nth-child(3)>section:nth-child(4){
+        position: absolute;
+        height: 50%;
+        width: 30%;
+        background-color: white;
+        top: 40%;
+        left: 35%;
+        display: inline-block;
+        border-radius: 5%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        transition: 1s;
+    }
+
+    body>main:nth-child(3)>section:nth-child(4):hover{
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        z-index: 1;
+        top: 35%;
+        transition: 1s;
+    }
+
+    /*------------------------------------web icon image(2nd box image)----------------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(4)>img{
+
+        position: absolute;
+        height: 20%;
+        width: 20%;
+        top: 5%;
+        right: 40%;
+        display: inline-block;
+    }
+
+    /*------------------------------------------2nd box hedline-----------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(4)>h3{
+
+        position: absolute;
+        height: 10%;
+        width: 90%;
+        top: 20%;
+        left: 8%;
+        display: inline-block;
+        font-size: 170%;
+    }
+
+
+    /*------------------------------------------------2nd box middle containt-------------------------------------------------*/
+    /*body>main:nth-child(3)>section:nth-child(4)>h4{*/
+    /*    position: absolute;*/
+    /*    height: 60%;*/
+    /*    width: 90%;*/
+    /*    top: 30%;*/
+    /*    left: 0;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*}*/
+
+    body>main:nth-child(3)>section:nth-child(4)>pre{
+        position: absolute;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        top: 50%;
+        left: -15%;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 100%;
+        /*font-style: italic;*/
+        font-family: 'Playfair Display', serif;
+    }
+
+    body>main:nth-child(3)>section:nth-child(4)>pre:hover{
+        font-size: 135%;
+        font-style: normal;
+        left: -10%;
+    }
+
+    /*body>main:nth-child(3)>section:nth-child(4)>h4>pre>text{*/
+    /*    position: absolute;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    top: 30%;*/
+    /*    left: -50%;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*    font-size: 120%;*/
+    /*}*/
+
+    /*-------------------------------------------------------------------------------------------------------*/
+
+    /*-----------------------------------------UIUX devolopment box--------------------------------------------------*/
+
+    body>main:nth-child(3)>section:nth-child(5){
+        position: absolute;
+        height: 50%;
+        width: 30%;
+        background-color: white;
+        top: 40%;
+        left: 68%;
+        display: inline-block;
+        border-radius: 5%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        transition: 1s;
+    }
+
+    body>main:nth-child(3)>section:nth-child(5):hover{
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        z-index: 1;
+        top: 35%;
+        transition: 1s;
+    }
+
+    /*------------------------------------UIUX icon image(3rd box image)----------------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(5)>img{
+
+        position: absolute;
+        height: 20%;
+        width: 20%;
+        top: 5%;
+        right: 40%;
+        display: inline-block;
+    }
+
+    /*------------------------------------------3rd box hedline-----------------------------------------------------*/
+    body>main:nth-child(3)>section:nth-child(5)>h3{
+
+        position: absolute;
+        height: 10%;
+        width: 90%;
+        top: 20%;
+        left: 20%;
+        display: inline-block;
+        font-size: 170%;
+    }
+
+    /*------------------------------------------------3rd box middle containt-------------------------------------------------*/
+    /*body>main:nth-child(3)>section:nth-child(5)>h4{*/
+    /*    position: absolute;*/
+    /*    height: 60%;*/
+    /*    width: 90%;*/
+    /*    top: 30%;*/
+    /*    left: 0;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*}*/
+
+    body>main:nth-child(3)>section:nth-child(5)>pre{
+        position: absolute;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        top: 50%;
+        left: -15%;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 100%;
+        /*font-style: italic;*/
+        font-family: 'Playfair Display', serif;
+    }
+
+    body>main:nth-child(3)>section:nth-child(5)>pre:hover{
+        font-size: 135%;
+        font-style: normal;
+        left: -10%;
+    }
+
+    /*body>main:nth-child(3)>section:nth-child(5)>h4>pre>text{*/
+    /*    position: absolute;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    top: 30%;*/
+    /*    left: -50%;*/
+    /*    display: inline-block;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*    font-size: 120%;*/
+    /*}*/
+
+    /*-------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+    /*========================================== 3rd main =========================================================*/
+
+    /*----------------------------------------------main 3----------------------------------------------------------*/
+    body>main:nth-child(4){
+        height: 100%;
+        width: 82%;
+        top: 200%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /*-----------------------------------------3rd main small headline--------------------------------------------------*/
+    body>main:nth-child(4)>h6:nth-child(1){
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 5%;
+        right: 40%;
+        font-size: 120%;
+        color: #5C5055;
+    }
+
+    /*--------------------------------------------------3rd  main big headline-------------------------------------------*/
+    body>main:nth-child(4)>h1:nth-child(2){
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 10%;
+        right: 35%;
+        font-size: 350%;
+        color: #f9004d;
+
+    }
+
+    /*--------------------------------------------contrnt lader y acsis----------------------------------------------------*/
+    body>main:nth-child(4)>div:nth-child(4){
+        position: absolute;
+        top: 43%;
+        left: 10%;
+        height: 55%;
+        width: 2px;
+        background-color: #dadada;
+    }
+
+    /*--------------------------------------------contrnt lader x acsis 1 ----------------------------------------------------*/
+
+    body>main:nth-child(4)>div:nth-child(5){
+        position: absolute;
+        top: 56.5%;
+        left: 10%;
+        height: 2px;
+        width: 13%;
+        background-color: #dadada;
+    }
+
+    /*--------------------------------------------contrnt lader x acsis 2 ----------------------------------------------------*/
+
+    body>main:nth-child(4)>div:nth-child(6){
+        position: absolute;
+        top: 84.5%;
+        left: 10%;
+        height: 2px;
+        width: 13%;
+        background-color: #dadada;
+    }
+
+
+    /*-------------------------------------------1st button------------------------------------------------------------*/
+    body>main:nth-child(4)>section>h3>button:nth-child(1){
+        position: absolute;
+        top: 30%;
+        left: 0;
+        border-radius: 15px;
+        height: 10%;
+        width: 25%;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        font-size: 180%;
+        border-color: white;
+        border: 0;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>h3>button:nth-child(1):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 11%;
+        width: 26%;
+        font-size: 185%;
+        z-index: 1;
+        transition: 1s;
+    }
+
+
+    /*-------------------------------------------------1st button content box 1 -----------------------------------------*/
+    body>main:nth-child(4)>section>section>div:nth-child(1){
+        height: 27%;
+        width: 55%;
+        position: absolute;
+        top: 42%;
+        left: 23%;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        background-color: white;
+        border-color: white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>section>div:nth-child(1):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        transition: 1s;
+    }
+
+    /*----------------------------------1st button content headline (A\L) in content box 1------------------------------*/
+    body>main:nth-child(4)>section>section>div:nth-child(1)>h2:nth-child(1){
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: 35%;
+        height: 10%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    /*----------------------------------1st button content in content box 1------------------------------------*/
+    /*body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2){*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    top: 35%;*/
+    /*    left: -35%;*/
+    /*    height: 10%;*/
+    /*    width: 20%;*/
+    /*    margin-top: 0;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-left: 0;*/
+    /*    margin-right: 0;*/
+    /*}*/
+
+    body>main:nth-child(4)>section>section>div:nth-child(1)>pre{
+        display: inline-block;
+        position: absolute;
+        top: 35%;
+        left: 0;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        /*font-style: italic;*/
+        font-family: 'Playfair Display', serif;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>section>div:nth-child(1)>pre:hover{
+        font-size: 135%;
+        font-style: normal;
+        left: -15%;
+        transition: 1s;
+    }
+
+    /*body>main:nth-child(4)>section>section>div:nth-child(1)>h4:nth-child(2)>pre>text{*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    margin-top: 0;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-left: 0;*/
+    /*    margin-right: 0;*/
+    /*}*/
+
+    /*-------------------------------------------------1st button content box 2 -----------------------------------------*/
+    body>main:nth-child(4)>section>section>div:nth-child(2){
+        height: 27%;
+        width: 55%;
+        position: absolute;
+        top: 71%;
+        left: 23%;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        background-color: white;
+        border-color: white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>section>div:nth-child(2):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        transition: 1s;
+    }
+
+    /*----------------------------------1st button content headline (A\L) in content box 2------------------------------*/
+    body>main:nth-child(4)>section>section>div:nth-child(2)>h2:nth-child(1){
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: 35%;
+        height: 10%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*----------------------------------2nd button content in content box 1------------------------------------*/
+    /*body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2){*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    top: 35%;*/
+    /*    left: -35%;*/
+    /*    height: 10%;*/
+    /*    width: 20%;*/
+    /*    margin-top: 0;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-left: 0;*/
+    /*    margin-right: 0;*/
+    /*    font-size: 100%;*/
+    /*}*/
+
+    body>main:nth-child(4)>section>section>div:nth-child(2)>pre{
+        display: inline-block;
+        position: absolute;
+        top: 35%;
+        left: 0;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 100%;
+        font-family: 'Playfair Display', serif;
+        transition: 1s;
+    }
+    body>main:nth-child(4)>section>section>div:nth-child(2)>pre:hover{
+        font-size: 135%;
+        font-style: normal;
+        left: -15%;
+        transition: 1s;
+    }
+
+    /*body>main:nth-child(4)>section>section>div:nth-child(2)>h4:nth-child(2)>pre>text{*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    margin-top: 0;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-left: 0;*/
+    /*    margin-right: 0;*/
+    /*    font-size: 100%;*/
+    /*}*/
+
+
+    /*-------------------------------------------2nd button------------------------------------------------------------*/
+    body>main:nth-child(4)>section>h3>button:nth-child(2){
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        border-radius: 15px;
+        height: 10%;
+        width: 25%;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        font-size: 180%;
+        border-color: white;
+        border: 0;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 11%;
+        width: 26%;
+        font-size: 185%;
+        z-index: 1;
+        transition: 1s;
+    }
+
+    /*-------------------------------------------3rd button------------------------------------------------------------*/
+    body>main:nth-child(4)>section>h3>button:nth-child(3){
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        border-radius: 15px;
+        height: 10%;
+        width: 25%;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        font-size: 180%;
+        border-color: white;
+        border: 0;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 11%;
+        width: 26%;
+        font-size: 185%;
+        z-index: 1;
+        left: 49%;
+        transition: 1s;
+    }
+
+    /*-------------------------------------------4th button------------------------------------------------------------*/
+    body>main:nth-child(4)>section>h3>button:nth-child(4){
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        border-radius: 15px;
+        height: 10%;
+        width: 24.9%;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        font-size: 180%;
+        border-color: white;
+        border: 0;
+        transition: 1s;
+    }
+
+    body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 11%;
+        width: 26%;
+        font-size: 185%;
+        z-index: 1;
+        left: 74%;
+        transition: 1s;
+    }
+
+    /*========================================================================================================================*/
+
+    /*================================================== 4th main =========================================================*/
+
+    /*----------------------------------------main page 4th------------------------------------------------*/
+    body>main:nth-child(5){
+        height: 100%;
+        width: 82%;
+        top: 300%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /*-----------------------------------------4th main small headline--------------------------------------------------*/
+    body>main:nth-child(5)>h6:nth-child(1){
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 5%;
+        right: 38%;
+        font-size: 120%;
+        color: #5C5055;
+    }
+
+    /*--------------------------------------------------4th  main big headline-------------------------------------------*/
+    body>main:nth-child(5)>h1:nth-child(2){
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 10%;
+        right: 17%;
+        font-size: 350%;
+        color: #f9004d;
+
+    }
+
+    /*----------------------------------------button box----------------------------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(3){
+        position: absolute;
+        display: inline-block;
+        height: 60%;
+        width: 20%;
+        top: 30%;
+        left: 5%;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    /*----------------------------------------1st button------------------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1){
+        top: 0;
+        height: 25%;
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(1):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*----------------------------------------2nd button------------------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2){
+        top: 25%;
+        height: 25%;
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*----------------------------------------3rd button------------------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3){
+        top: 50%;
+        height: 25%;
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*----------------------------------------4th button------------------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
+        bottom: 0;
+        height: 25%;
+        width: 100%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*------------------------------------java 1st client box--------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1){
+        top: 30%;
+        left: 30%;
+        height: 60%;
+        width: 25%;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+        color: #f9004d;
+        transition: 1s;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1):hover{
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        width: 22%;
+        transition: 1s;
+    }
+
+    /*-------------------------------------------java client 1 text-----------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(2){
+        position: absolute;
+        display: inline-block;
+        top: 53%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(3){
+        position: absolute;
+        display: inline-block;
+        top: 60%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(4){
+        position: absolute;
+        display: inline-block;
+        top: 67%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(5){
+        position: absolute;
+        display: inline-block;
+        top: 74%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>h5:nth-child(6){
+        position: absolute;
+        display: inline-block;
+        top: 81%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+
+    /*------------------------------------java client 1 image--------------------------------------------*/
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(1)>img{
+        height: 50%;
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+    }
+
+    /*------------------------------------java 2nd client box--------------------------------------------*/
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2){
+        top: 30%;
+        left: 65%;
+        height: 60%;
+        width: 25%;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        color: #f9004d;
+        transition: 1s;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2):hover{
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        width: 22%;
+        transition: 1s;
+    }
+
+    /*----------------------------------------java client 2 text---------------------------------------------*/
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(2){
+        position: absolute;
+        display: inline-block;
+        top: 53%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(3){
+        position: absolute;
+        display: inline-block;
+        top: 60%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(4){
+        position: absolute;
+        display: inline-block;
+        top: 67%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(5){
+        position: absolute;
+        display: inline-block;
+        top: 74%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>h5:nth-child(6){
+        position: absolute;
+        display: inline-block;
+        top: 81%;
+        left: 3%;
+        font-size: 110%;
+        font-style: italic;
+    }
+
+
+    /*------------------------------------java client 2 image--------------------------------------------*/
+
+    body>main:nth-child(5)>section:nth-child(4)>div:nth-child(2)>img{
+        height: 50%;
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        border-radius: 50%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------*/
+
+
+
+    /*================================================== 5th main =========================================================*/
+
+    /*----------------------------------------main page 5th------------------------------------------------*/
+    body>main:nth-child(6){
+        height: 100%;
+        width: 82%;
+        top: 400%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /*---------------------------------------------------5th main small headline-----------------------------------------*/
+
+    body>main:nth-child(6)>h6{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 20%;
+        right: 78%;
+        font-size: 120%;
+        color: #5C5055;
+
+    }
+
+
+    /*---------------------------------------------------5th main big headline-----------------------------------------*/
+    body>main:nth-child(6)>h1{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 25%;
+        right: 67%;
+        font-size: 270%;
+        color: #f9004d;
+
+    }
+
+
+    /*-------------------------------------------------button box--------------------------------------------------*/
+    body>main:nth-child(6)>section:nth-child(3){
+        position: absolute;
+        display: inline-block;
+        height: 15%;
+        width: 50%;
+        top: 20%;
+        left: 40%;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    /*-----------------------------------------------button 1--------------------------------------------------------*/
+    body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1){
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 33%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(6)>section:nth-child(3)>button:nth-child(1):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*-----------------------------------------------button 2--------------------------------------------------------*/
+    body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2){
+        top: 0;
+        left: 33.5%;
+        height: 100%;
+        width: 33%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*-----------------------------------------------button 3--------------------------------------------------------*/
+    body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3){
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 32%;
+        background-color: white;
+        border-radius: 15px;
+        font-size: 200%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        padding: 0;
+        border: 0 solid white;
+    }
+
+    body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*---------------------------------------------------text box----------------------------------------------------*/
+    body>main:nth-child(6)>section:nth-child(4){
+        position: absolute;
+        display: inline-block;
+        height: 60%;
+        width: 50%;
+        top: 35.5%;
+        left: 40%;
+        background-color: white;
+        font-size: 125%;
+        border-radius: 10px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+    }
+
+    body>main:nth-child(6)>section:nth-child(4):hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*----------------------------------------------text box button-----------------------------------------------------*/
+    body>main:nth-child(6)>section:nth-child(4)>button{
+        height: 15%;
+        width: 90%;
+        left: 5%;
+        bottom: 2%;
+        position: absolute;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        background-color: white;
+        font-size: 150%;
+        padding: 0;
+        border: 0 solid white;
+
+    }
+
+    body>main:nth-child(6)>section:nth-child(4)>button:hover{
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+    }
+
+    /*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+    /*================================================== 6th main =========================================================*/
+
+    /*----------------------------------------main page 6th------------------------------------------------*/
+    body>main:nth-child(7){
+        height: 100%;
+        width: 82%;
+        top: 500%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /*---------------------------------------------------2nd main small hedline-----------------------------------------*/
+
+    body>main:nth-child(7)>h6{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 5%;
+        right: 28%;
+        font-size: 120%;
+        color: #5C5055;
+
+    }
+
+
+    /*---------------------------------------------------2nd main big hedline-----------------------------------------*/
+    body>main:nth-child(7)>h1{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 10%;
+        right: 37%;
+        font-size: 350%;
+        color: #f9004d;
+
+    }
+
+    /*-----------------------------------------------------content box--------------------------------------------------*/
+    body>main:nth-child(7)>section{
+        position: absolute;
+        height: 60%;
+        width: 90%;
+        left: 5%;
+        top: 25%;
+        background-color: transparent;
+        border: 0 solid transparent;
+    }
+
+    /*----------------------------------------------1st content bar---------------------------------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(1){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 30%;
+        left: 0;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-radius: 15px;
+        border: 0 solid white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(1):hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        color: #f9004d;
+        width: 32%;
+        transition: 1s;
+    }
+
+
+    /*-----------------------------------------------------------1st content bar image---------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(1)>img{
+        display: inline-block;
+        position: absolute;
+        height: 45%;
+        width: 95%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-radius: 15px;
+        left: 2.5%;
+        top: 2.5%;
+        transition: 1s;
+
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(1)>img:hover{
+        color: #f9004d;
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        width: 100%;
+        left: 0;
+        transition: 1s;
+    }
+
+    /*-----------------------------------------------1st content middle text------------------------------------------------*/
+    /*body>main:nth-child(7)>section>aside:nth-child(1)>h3{*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    height: 45%;*/
+    /*    width: 95%;*/
+    /*    left: 2.5%;*/
+    /*    top: 50%;*/
+
+    /*}*/
+
+    body>main:nth-child(7)>section>aside:nth-child(1)>div{
+        display: inline-block;
+        position: absolute;
+        height: 45%;
+        width: 95%;
+        left: 2.5%;
+        top: 50%;
+
+    }
+
+
+    /*body>main:nth-child(7)>section>aside:nth-child(1)>h3>pre{*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    !*left: -130%;*!*/
+    /*    !*top: 0;*!*/
+    /*    left: 0;*/
+    /*    top: 0;*/
+    /*    font-size: 150%;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+    /*}*/
+
+    body>main:nth-child(7)>section>aside:nth-child(1)>div>h5:nth-child(1){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 5%;
+        top: 10%;
+        font-size: 160%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(1)>div>h5:nth-child(2){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 5%;
+        top: 30%;
+        font-size: 160%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
+
+    /*----------------------------------------------2nd content bar---------------------------------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(2){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 30%;
+        left: 35%;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-radius: 15px;
+        transition: 1s;
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(2):hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        color: #f9004d;
+        width: 32%;
+        transition: 1s;
+    }
+
+
+    /*-----------------------------------------------------------2nd content bar image---------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(2)>img{
+        display: inline-block;
+        position: absolute;
+        height: 45%;
+        width: 95%;
+        box-shadow: 0px -1px 8px 2px #333131;
+        border-radius: 15px;
+        left: 2.5%;
+        top: 2.5%;
+        border: 0 solid white;
+        transition: 1s;
+
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(2)>img:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        width: 100%;
+        left: 0;
+        transition: 1s;
+    }
+
+    /*-----------------------------------------------2nd content middle text------------------------------------------------*/
+    /*body>main:nth-child(7)>section>aside:nth-child(2)>h3{*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    height: 45%;*/
+    /*    width: 95%;*/
+    /*    left: 2.5%;*/
+    /*    top: 50%;*/
+
+    /*}*/
+
+    body>main:nth-child(7)>section>aside:nth-child(2)>div{
+        display: inline-block;
+        position: absolute;
+        height: 45%;
+        width: 95%;
+        left: 2.5%;
+        top: 50%;
+
+    }
+
+    /*body>main:nth-child(7)>section>aside:nth-child(2)>h3>pre{*/
+    /*    display: inline-block;*/
+    /*    position: absolute;*/
+    /*    height: 100%;*/
+    /*    width: 100%;*/
+    /*    left: -150%;*/
+    /*    top: 0;*/
+    /*    font-size: 150%;*/
+    /*    margin-bottom: 0;*/
+    /*    margin-top: 0;*/
+
+    /*}*/
+
+    body>main:nth-child(7)>section>aside:nth-child(2)>div>h5:nth-child(1){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 5%;
+        top: 10%;
+        font-size: 160%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(2)>div>h5:nth-child(2){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 5%;
+        top: 30%;
+        font-size: 160%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
+    /*----------------------------------------------3rd content bar---------------------------------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(3){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 30%;
+        left: 70%;
+        background-color: white;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-radius: 15px;
+        border: 0 solid white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(3):hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        color: #f9004d;
+        width: 32%;
+        transition: 1s;
+    }
+
+    /*-----------------------------------------------------------3rd content bar image---------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(3)>img{
+        display: inline-block;
+        position: absolute;
+        height: 45%;
+        width: 95%;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-radius: 15px;
+        left: 2.5%;
+        top: 2.5%;
+        transition: 1s;
+
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(3)>img:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        width: 100%;
+        left: 0;
+        transition: 1s;
+    }
+
+    /*-----------------------------------------------3rd content middle text------------------------------------------------*/
+    body>main:nth-child(7)>section>aside:nth-child(3)>div{
+        display: inline-block;
+        position: absolute;
+        height: 45%;
+        width: 95%;
+        left: 2.5%;
+        top: 50%;
+
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(3)>div>h5:nth-child(1){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 10%;
+        top: 5%;
+        font-size: 160%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    body>main:nth-child(7)>section>aside:nth-child(3)>div>h5:nth-child(2){
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 5%;
+        top: 30%;
+        font-size: 160%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+    /*================================================== 7th main =========================================================*/
+
+    /*----------------------------------------main page 7th------------------------------------------------*/
+    body>main:nth-child(8){
+        height: 100%;
+        width: 82%;
+        top: 600%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    /*------------------------------------------image box---------------------------------------------*/
+    body>main:nth-child(8)>section{
+        display: inline-block;
+        position: absolute;
+        height: 80%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    /*-----------------------------------------------------------boss baby image-------------------------------------*/
+    body>main:nth-child(8)>section>img{
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+    /*================================================== 8th main =========================================================*/
+
+    /*----------------------------------------main page 8th------------------------------------------------*/
+    body>main:nth-child(9){
+        height: 100%;
+        width: 82%;
+        top: 700%;
+        /*left: 20%;*/
+        right: 0;
+        border-left: 2px solid #f6f6f6;
+        background-color: white;
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /*---------------------------------------------------8th main small hedline-----------------------------------------*/
+
+    body>main:nth-child(9)>h6{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 5%;
+        left: 45%;
+        font-size: 120%;
+        color: #5C5055;
+
+    }
+
+
+    /*---------------------------------------------------8th main big hedline-----------------------------------------*/
+    body>main:nth-child(9)>h1{
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        top: 10%;
+        left: 17%;
+        font-size: 350%;
+        color: #f9004d;
+
+    }
+
+    /*--------------------------------------------contact form layout-------------------------------------------------*/
+    body>main:nth-child(9)>form{
+        position: absolute;
+        display: inline-block;
+        height: 70%;
+        width: 60%;
+        left: 38%;
+        top: 25%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border-color: white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(9)>form:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        transition: 1s;
+    }
+
+    body>main:nth-child(9)>form>fieldset{
+        position: absolute;
+        display: inline-block;
+        top: 1%;
+        left: 1%;
+        height: 98%;
+        width: 98%;
+        padding: 0;
+        border-radius: 15px;
+        border: 1px solid #dadada;
+        color: #f9004d;
+        transition: 1s;
+    }
+
+    body>main:nth-child(9)>form>fieldset:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        border-color: white;
+        transition: 1s;
+    }
+
+    /*-------------------------------------1st text field----------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>input#txtCusName{
+        position: absolute;
+        display: inline-block;
+        height: 8%;
+        width: 90%;
+        left: 5%;
+        top: 10%;
+        border-radius: 8px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        padding: 0;
+    }
+
+    body>main:nth-child(9)>form>fieldset>input#txtCusName:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+    }
+
+    /*-------------------------------------2nd text field----------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>input#txtContact{
+        position: absolute;
+        display: inline-block;
+        height: 8%;
+        width: 90%;
+        left: 5%;
+        top: 25%;
+        border-radius: 8px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        padding: 0;
+    }
+
+    body>main:nth-child(9)>form>fieldset>input#txtContact:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+
+    }
+
+
+    /*-------------------------------------3rd text field----------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>input#txtMail{
+        position: absolute;
+        display: inline-block;
+        height: 8%;
+        width: 90%;
+        left: 5%;
+        top: 40%;
+        border-radius: 8px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        padding: 0;
+    }
+
+    body>main:nth-child(9)>form>fieldset>input#txtMail:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+
+    }
+
+
+    /*-------------------------------------4th text field----------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>input#txtAddress{
+        position: absolute;
+        display: inline-block;
+        height: 8%;
+        width: 90%;
+        left: 5%;
+        top: 55%;
+        border-radius: 8px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        padding: 0;
+    }
+
+    body>main:nth-child(9)>form>fieldset>input#txtAddress:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+
+    }
+
+
+    /*-------------------------------------5th text field----------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>input#txtSubject{
+        position: absolute;
+        display: inline-block;
+        height: 8%;
+        width: 90%;
+        left: 5%;
+        top: 71%;
+        border-radius: 8px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        padding: 0;
+    }
+
+    body>main:nth-child(9)>form>fieldset>input#txtSubject:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+
+    }
+
+
+    /*-----------------------------------------------send button----------------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>button{
+        position: absolute;
+        display: inline-block;
+        height: 8%;
+        width: 90%;
+        left: 5%;
+        bottom: 5%;
+        border-radius: 10px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        padding: 0;
+        background-color: white;
+        color: #757474;
+    }
+
+    body>main:nth-child(9)>form>fieldset>button:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        color: #f9004d;
+
+    }
+
+    /*---------------------------------------------------1st label------------------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>label#l1{
+        position: absolute;
+        display: inline-block;
+        left: 5%;
+        top: 5%;
+        color: #f9004d;
+    }
+
+
+    /*---------------------------------------------------2nd label------------------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>label#l2{
+        position: absolute;
+        display: inline-block;
+        left: 5%;
+        top: 20%;
+        color: #f9004d;
+    }
+
+    /*---------------------------------------------------3rd label------------------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>label#l3{
+        position: absolute;
+        display: inline-block;
+        left: 5%;
+        top: 35%;
+        color: #f9004d;
+    }
+
+
+    /*---------------------------------------------------4th label------------------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>label#l4{
+        position: absolute;
+        display: inline-block;
+        left: 5%;
+        top: 50%;
+        color: #f9004d;
+    }
+
+
+    /*---------------------------------------------------5th label------------------------------------------------------*/
+    body>main:nth-child(9)>form>fieldset>label#l5{
+        position: absolute;
+        display: inline-block;
+        left: 5%;
+        top: 65%;
+        color: #f9004d;
+    }
+
+    /*-------------------------------------------left side content------------------------------------------------------*/
+    body>main:nth-child(9)>div{
+        position: absolute;
+        display: inline-block;
+        height: 70%;
+        width: 30%;
+        left: 5%;
+        top: 25%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(9)>div:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        color: #f9004d;
+        width: 33%;
+        height: 73%;
+        left: 2%;
+        transition: 1s;
+    }
+
+    /*-------------------------------------------left side image------------------------------------------------------*/
+
+    body>main:nth-child(9)>div>img{
+        height: 60%;
+        width: 90%;
+        top: 5%;
+        left: 5%;
+        display: inline-block;
+        position: absolute;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px 2px #bdbaba;
+        border: 0 solid white;
+        transition: 1s;
+    }
+
+    body>main:nth-child(9)>div>img:hover{
+        box-shadow: 0px -1px 8px 2px #f9004d;
+        height: 61%;
+        width: 91%;
+        transition: 1s;
+    }
+
+
+    /*-------------------------------------------left side text------------------------------------------------------*/
+
+    body>main:nth-child(9)>div>pre{
+        /*height: 20%;*/
+        /*width: 90%;*/
+        top: 65%;
+        left: -20%;
+        display: inline-block;
+        position: absolute;
+        margin: 0;
+        border: 0;
+        font-family: 'Playfair Display', serif;
+        font-size: 100%;
+        transition: 1s;
+    }
+    body>main:nth-child(9)>div>pre:hover{
+        font-size: 130%;
+        left: -15%;
+        transition: 1s;
+    }
+
+}
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/

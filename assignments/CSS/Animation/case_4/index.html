@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slider Effect</title>
+    <style>
+        body {
+
+        }
+
+        main {
+            width: 1538px;
+            height: 730px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 2px;
+            overflow-x: hidden;
+            background: url("assets/sky.jpg") center;
+            background-size: cover;
+
+        }
+
+        main > section {
+            width: 400%;
+            height: 100%;
+            display: flex;
+            animation-name: my-anim;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            /*animation-play-state: paused;*/
+        }
+
+        main > section > div {
+
+            height: 100%;
+            position: absolute;
+            width: 100%;
+        }
+
+        main > section > div:nth-child(1) {
+            top: 380px;
+            height: 350px;
+            background: url("assets/road.jpg") center;
+            background-size: cover;
+        }
+
+        main > section > div:nth-child(2) {
+            top: 182px;
+            height: 200px;
+            z-index: 20;
+            background: url("assets/city.png") center;
+            /*background-size: cover;*/
+        }
+
+        main > section > div:nth-child(3) {
+            top: 182px;
+            height: 200px;
+            z-index: 20;
+            background: url("assets/city.png") center;
+            /*background-size: cover;*/
+        }
+
+        main > section > div:nth-child(4) {
+            top: 182px;
+            height: 200px;
+            z-index: 20;
+            background: url("assets/city.png") center;
+            /*background-size: cover;*/
+        }
+
+
+        main>div:nth-child(1)#car_body>img{
+            display: inline-block;
+            position: absolute;
+            width: 300px;
+            height: 150px;
+            top: 50%;
+            left: 40%;
+            z-index: 100;
+        }
+
+        main>div:nth-child(2)>img{
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            top: 61%;
+            left: 53.5%;
+            display: inline-block;
+            z-index: 100;
+            animation-name: my-animation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /*animation-timing-function: linear;*/
+        }
+
+        main>div:nth-child(3)>img{
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            top: 61%;
+            left: 41.5%;
+            display: inline-block;
+            z-index: 100;
+            animation-name: my-animation2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /*animation-timing-function: linear;*/
+        }
+
+        @keyframes my-animation2 {
+        0%{
+            transform: rotate(-360deg);
+        }
+        }
+
+
+
+        @keyframes my-animation {
+       0%{
+           transform: rotate(-360deg);
+       }
+
+        }
+
+
+        @keyframes my-anim {
+            0% {
+                transform: translate(0)
+            }
+            25% {
+                transform: translate(-25%)
+            }
+            75% {
+                transform: translate(-50%)
+            }
+            100% {
+                transform: translate(-75%)
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<main>
+    <div id="car_body">
+        <img alt="" src="assets/car.png">
+    </div>
+
+    <div>
+        <img src="assets/wheel.png">
+    </div>
+
+    <div>
+        <img src="assets/wheel.png">
+    </div>
+    <section>
+
+
+        <div></div>
+        <div class="buildings"></div>
+        <div class="buildings"></div>
+        <div class="buildings"></div>
+
+
+
+    </section>
+
+
+</main>
+</body>
+</html>

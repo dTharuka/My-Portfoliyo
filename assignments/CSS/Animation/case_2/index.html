@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout Case 5</title>
+    <style>
+        div{
+            border: 5px solid red;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            border-radius: 100%;
+            animation: myAnimation 3s infinite;
+        }
+
+        @keyframes myAnimation {
+            from{
+                height: 1px;
+                width: 1px;
+            }
+            to{
+                height: 300px;
+                width: 300px;
+                opacity: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div>
+</div>
+</body>
+</html>

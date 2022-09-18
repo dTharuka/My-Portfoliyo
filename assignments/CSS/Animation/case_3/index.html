@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slider Effect</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        main {
+            width: 900px;
+            height: 480px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 15px;
+            border: 10px solid white;
+            overflow-x: hidden;
+
+        }
+
+        main > section {
+            width: 400%;
+            height: 100%;
+            display: flex;
+            animation-name: my-anim;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        main > section > div {
+            height: 100%;
+            width: 100%;
+        }
+
+        main > section > div:nth-child(1) {
+            background: url("assets/1644243.jpg") center;
+            background-size: cover;
+        }
+
+        main > section > div:nth-child(2) {
+            background: url("assets/1644280.jpg") center;
+            background-size: cover;
+        }
+
+        main > section > div:nth-child(3) {
+            background: url("assets/1638521.jpg") center;
+            background-size: cover;
+        }
+
+        main > section > div:nth-child(4) {
+            background: url("assets/7285303.jpg") center;
+            background-size: cover;
+        }
+
+        @keyframes my-anim {
+            0%,20% {
+                transform: translate(0)
+            }
+            25%,45% {
+                transform: translate(-25%)
+            }
+            50%,70% {
+                transform: translate(-50%)
+            }
+            75%,100% {
+                transform: translate(-75%)
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+</body>
+</html>

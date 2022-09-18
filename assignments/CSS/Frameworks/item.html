@@ -2,9 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Manage Store</title>
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <meta name="keyword" content="bootstrap,css framework">
+    <meta name="description" content="bootstrap">
+    <meta name="viewport" content="width=device_width initial-scale=1">
+    <meta name="theme-color" content="white">
+    <link href="assets/boostrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .nav-item{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        body>header>nav>div>a{
+            color: yellow !important;
+        }
+        body>header>nav>div>div>ul>li>a{
+            font-size: 30px !important;
+        }
+        .navbar-brand{
+            /*font-weight: bold;*/
+            font-size: 30px;
+            /*font-family: 'Lobster', cursive;*/
+        }
+        .container-fluid{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
 </head>
 <body>
+<header>
 
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand display-6 " style="margin-left: 10px" href="#">NEON WINE STORE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="margin-left: 20px" id="navbarSupportedContent">
+                <ul  class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link display-6 " aria-current="page" id="linkHome" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-6 " id="linkOrder" href="orders.html" >Orders</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link active display-6 " id="linkItem" href="item.html" >Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-6 " id="linkCustomer" href="customer.html" >Customers</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="container-fluid mt-3 " id="itemForm">
+
+        <section class="row mt-3 justify-content-around" style="margin-left: 0; margin-right: 0">
+            <div class="col-12 col-md-4">
+                <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 bg-info bg-opacity-25 rounded-3">
+                    <h1 class="h1 mb-3 display-6">Manage Item</h1>
+                    <div class="mb-3">
+                        <label class="form-label" for="srcItemID">Search Item</label>
+                        <input class="form-control" id="srcItemID" placeholder="Item ID" type="text">
+                    </div>
+                    <button type="button" class="btn btn-success">Add</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                    <button type="button" class="btn btn-warning">Update</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="mb-3">
+                    <label class="form-label " for="itemId">Item Id</label>
+                    <input class="form-control " id="itemId" placeholder="Item ID" type="text">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="ItemName">Item Name</label>
+                    <input class="form-control" id="ItemName" placeholder="Item Name" type="text">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="itemQty">Item Qty</label>
+                    <input class="form-control" id="itemQty" placeholder="Item Qty" type="number">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="unitPrice">Unit Price</label>
+                    <input class="form-control" id="unitPrice" placeholder="Unit PriCe" type="number">
+                </div>
+            </div>
+        </section>
+        <section class="row justify-content-center w-100">
+            <div class="col"  style="padding-left: 2rem">
+                <table class="table table-hover container-fluid">
+                    <thead class="bg-info text-center">
+                    <tr>
+                        <th>Item ID</th>
+                        <th>Item Name</th>
+                        <th>Item Qty</th>
+                        <th>Unit Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>I001</td>
+                        <td>Red</td>
+                        <td>40</td>
+                        <td>500.00</td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Reguler</td>
+                        <td>60</td>
+                        <td>300.00</td>
+                    </tr>
+                    <tr>
+                        <td>I003</td>
+                        <td>White</td>
+                        <td>30</td>
+                        <td>100.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>I004</td>
+                        <td>Black</td>
+                        <td>70</td>
+                        <td>150.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
+</main>
+
+<script src="assets/boostrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

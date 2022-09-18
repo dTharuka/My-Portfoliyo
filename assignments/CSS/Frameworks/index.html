@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-item{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        body>header>nav>div>a{
+            color: yellow !important;
+        }
+
+        body>header>nav>div>div>ul>li>a{
+            font-size: 30px !important;
+        }
+
+        .navbar-brand{
+            /*font-weight: bold;*/
+            font-size: 30px;
+            /*font-family: 'Lobster', cursive;*/
+        }
+        .container-fluid{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand display-6 " style="margin-left: 10px" href="#">NEON WINE STORE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="margin-left: 20px" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active display-6 " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-6 " href="orders.html" >Orders</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link  display-6 " href="item.html" >Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-6 " href="customer.html" >Customers</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="container-fluid " id="dashForm">
+    <div class="has-bg-img ">
+        <img class="bg-img position-relative " src="assets/image/shop.gif" alt="..." style="width: 100% ;height: 90vh ">
+    </div>
+</section>
+</body>
+
+</html>

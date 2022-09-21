@@ -1012,6 +1012,18 @@ body>main:nth-child(4)>section>h3>button:nth-child(2):hover{
     transition: 1s;
 }
 
+/*-----------------------------------2nd button content box------------------------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(7){
+    position: absolute;
+    height: 57%;
+    width: 90%;
+    top: 42%;
+    left: 5%;
+    background-color: red;
+    display: none;
+}
+
 /*-------------------------------------------3rd button------------------------------------------------------------*/
 body>main:nth-child(4)>section>h3>button:nth-child(3){
     position: absolute;
@@ -1037,6 +1049,18 @@ body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
     z-index: 1;
     left: 49%;
     transition: 1s;
+}
+
+/*-----------------------------------3rd button content box------------------------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(8){
+    position: absolute;
+    height: 57%;
+    width: 90%;
+    top: 42%;
+    left: 5%;
+    background-color: green;
+    display: none;
 }
 
 /*-------------------------------------------4th button------------------------------------------------------------*/
@@ -1066,6 +1090,97 @@ body>main:nth-child(4)>section>h3>button:nth-child(4):hover{
     transition: 1s;
 }
 
+/*-----------------------------------4th button content box------------------------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(9){
+    position: absolute;
+    height: 57%;
+    width: 90%;
+    top: 42%;
+    left: 5%;
+    background-color: white;
+    display: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 30px;
+}
+
+body>main:nth-child(4)>div:nth-child(9)>div:nth-child(5){
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #dcdcdc;
+    left: 50%;
+}
+
+body>main:nth-child(4)>div:nth-child(9)>img:nth-child(1){
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 40%;
+    width: 20%;
+    border-radius: 20px;
+
+}
+
+body>main:nth-child(4)>div:nth-child(9)>img:nth-child(2){
+    position: absolute;
+    top: 59%;
+    left: 5%;
+    height: 40%;
+    width: 20%;
+    border-radius: 20px;
+
+}
+
+body>main:nth-child(4)>div:nth-child(9)>img:nth-child(3){
+    position: absolute;
+    top: 59%;
+    left: 28%;
+    height: 40%;
+    width: 20%;
+    border-radius: 20px;
+
+}
+
+body>main:nth-child(4)>div:nth-child(9)>img:nth-child(4){
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    height: 40%;
+    width: 20%;
+    border-radius: 20px;
+
+}
+
+body>main:nth-child(4)>div:nth-child(9)>h1:nth-child(6){
+    top: 0;
+    margin: 0;
+    left: 18%;
+    position: absolute;
+    display: inline-block;
+    font-size: 150%;
+}
+
+body>main:nth-child(4)>div:nth-child(9)>img:nth-child(7){
+    top: 45%;
+    margin: 0;
+    left: 52%;
+    height: 50%;
+    width: 47%;
+    position: absolute;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+body>main:nth-child(4)>div:nth-child(9)>h1:nth-child(8){
+    top: 25%;
+    margin: 0;
+    left: 65%;
+    position: absolute;
+    display: inline-block;
+    font-size: 150%;
+}
 /*========================================================================================================================*/
 
 /*================================================== 4th main =========================================================*/
@@ -1163,6 +1278,114 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(2):hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
+/*----------------------------------------2nd button content box-------------------------------------*/
+body>main:nth-child(5)>div:nth-child(5){
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    top: 30%;
+    left: 30%;
+    background-color: white;
+    display: none;
+}
+
+/*-----------------------------------2nd button content box inside 1st client box-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(1){
+    top: 0;
+    left: 13%;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: #f9004d;
+    transition: 1s;
+}
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(1):hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    width: 39%;
+    transition: 1s;
+}
+
+/*-----------------------------------2nd button content box inside 1st client box img-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(1)>img{
+    height: 50%;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+}
+
+
+/*---------------------------2nd button content box inside 1st client box content-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(1)>ul{
+    position: revert;
+    font-size: 145%;
+    font-style: italic;
+}
+
+
+/*-----------------------------------2nd button content box inside 2nd client box-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(2){
+    top: 0;
+    left: 65%;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: #f9004d;
+    transition: 1s;
+}
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(2):hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    width: 39%;
+    transition: 1s;
+}
+
+/*-----------------------------------2nd button content box inside 2nd client box img-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(2)>img{
+    height: 50%;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+}
+
+
+/*---------------------------2nd button content box inside 2nd client box content-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(5)>div:nth-child(2)>ul{
+    position: revert;
+    font-size: 145%;
+    font-style: italic;
+}
+
 /*----------------------------------------3rd button------------------------------------------------------*/
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3){
     top: 50%;
@@ -1181,6 +1404,113 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(3):hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
+/*----------------------------------------3rd button content box-------------------------------------*/
+body>main:nth-child(5)>div:nth-child(6){
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    top: 30%;
+    left: 30%;
+    background-color: white;
+    display: none;
+}
+
+/*-----------------------------------3rd button content box inside 1st client box-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(1){
+    top: 0;
+    left: 13%;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: #f9004d;
+    transition: 1s;
+}
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(1):hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    width: 39%;
+    transition: 1s;
+}
+
+/*-----------------------------------3rd button content box inside 1st client box img-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(1)>img{
+    height: 50%;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+}
+
+
+/*---------------------------3rd button content box inside 1st client box content-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(1)>ul{
+    position: revert;
+    font-size: 145%;
+    font-style: italic;
+}
+
+/*-----------------------------------3rd button content box inside 2nd client box-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(2){
+    top: 0;
+    left: 65%;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: #f9004d;
+    transition: 1s;
+}
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(2):hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    width: 39%;
+    transition: 1s;
+}
+
+/*-----------------------------------3rd button content box inside 2nd client box img-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(2)>img{
+    height: 50%;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+}
+
+
+/*---------------------------3rd button content box inside 2nd client box content-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(6)>div:nth-child(2)>ul{
+    position: revert;
+    font-size: 145%;
+    font-style: italic;
+}
+
 /*----------------------------------------4th button------------------------------------------------------*/
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
     bottom: 0;
@@ -1197,6 +1527,113 @@ body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4){
 body>main:nth-child(5)>section:nth-child(3)>button:nth-child(4):hover{
     color: #f9004d;
     box-shadow: 0px -1px 8px 2px #f9004d;
+}
+
+/*----------------------------------------4th button content box-------------------------------------*/
+body>main:nth-child(5)>div:nth-child(7){
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    top: 30%;
+    left: 30%;
+    background-color: white;
+    display: none;
+}
+
+/*-----------------------------------4th button content box inside 1st client box-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(1){
+    top: 0;
+    left: 13%;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: #f9004d;
+    transition: 1s;
+}
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(1):hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    width: 39%;
+    transition: 1s;
+}
+
+/*-----------------------------------4th button content box inside 1st client box img-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(1)>img{
+    height: 50%;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+}
+
+
+/*---------------------------4th button content box inside 1st client box content-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(1)>ul{
+    position: revert;
+    font-size: 145%;
+    font-style: italic;
+}
+
+/*-----------------------------------4th button content box inside 2nd client box-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(2){
+    top: 0;
+    left: 65%;
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: #f9004d;
+    transition: 1s;
+}
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(2):hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #f9004d;
+    width: 39%;
+    transition: 1s;
+}
+
+/*-----------------------------------4th button content box inside 2nd client box img-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(2)>img{
+    height: 50%;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+}
+
+
+/*---------------------------4th button content box inside 2nd client box content-------------------------------------*/
+
+body>main:nth-child(5)>div:nth-child(7)>div:nth-child(2)>ul{
+    position: revert;
+    font-size: 145%;
+    font-style: italic;
 }
 
 /*------------------------------------java 1st client box--------------------------------------------*/
@@ -1475,6 +1912,59 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(2):hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
 }
 
+/*------------------------------------------2nd button content----------------------------------------------------*/
+
+body>main:nth-child(6)>div:nth-child(5){
+
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 35.5%;
+    left: 48%;
+    background-color: white;
+    font-size: 150%;
+    border-radius: 10px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    color: black;
+    display: none;
+}
+
+body>main:nth-child(6)>div:nth-child(5):hover{
+    color: #f9004d;
+}
+
+/*------------------------------------------2nd button text----------------------------------------------------*/
+
+body>main:nth-child(6)>div:nth-child(5)>ul>h3{
+    position: absolute;
+    font-size: 100%;
+    top: 15%;
+}
+
+/*------------------------------------------2nd button content inside button----------------------------------------------------*/
+
+body>main:nth-child(6)>div:nth-child(5)>button{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    height: 15%;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    background-color: white;
+    font-size: 150%;
+    padding: 0;
+    border: 0 solid white;
+}
+
+body>main:nth-child(6)>div:nth-child(5)>button:hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+}
+
+
 /*-----------------------------------------------button 3--------------------------------------------------------*/
 body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3){
     top: 0;
@@ -1493,6 +1983,59 @@ body>main:nth-child(6)>section:nth-child(3)>button:nth-child(3):hover{
     color: #f9004d;
     box-shadow: 0px -1px 8px 2px #f9004d;
 }
+
+
+/*------------------------------------------3rd button content----------------------------------------------------*/
+
+body>main:nth-child(6)>div:nth-child(6){
+
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 35.5%;
+    left: 48%;
+    background-color: white;
+    font-size: 150%;
+    border-radius: 10px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-color: white;
+    display: none;
+}
+
+body>main:nth-child(6)>div:nth-child(6):hover{
+    color: #f9004d;
+}
+
+/*------------------------------------------3rd button text----------------------------------------------------*/
+
+body>main:nth-child(6)>div:nth-child(6)>ul>h3{
+    position: absolute;
+    font-size: 100%;
+    top: 15%;
+}
+
+/*------------------------------------------3rd button content inside button----------------------------------------------------*/
+
+body>main:nth-child(6)>div:nth-child(6)>button{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    height: 15%;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    background-color: white;
+    font-size: 150%;
+    padding: 0;
+    border: 0 solid white;
+}
+
+body>main:nth-child(6)>div:nth-child(6)>button:hover{
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+}
+
 
 /*---------------------------------------------------text box----------------------------------------------------*/
 body>main:nth-child(6)>section:nth-child(4){

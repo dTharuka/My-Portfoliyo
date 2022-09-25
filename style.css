@@ -491,6 +491,7 @@ body>main>section:nth-child(2)>pre{
     width: 1%;
     left: 65%;
     top: 63%;
+    border-radius: 100%;
     background-color: #bdbaba;
     animation-name: my-animation;
     animation-duration: 60s;
@@ -1685,7 +1686,7 @@ body>main:nth-child(4)>div:nth-child(9){
     left: 5%;
     background-color: white;
     display: none;
-    border: 1px solid #dcdcdc;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
     border-radius: 30px;
 }
 
@@ -1756,6 +1757,7 @@ body>main:nth-child(4)>div:nth-child(9)>img:nth-child(7){
     display: inline-block;
     border-radius: 10px;
     border: 1px solid #dcdcdc;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
 }
 
 body>main:nth-child(4)>div:nth-child(9)>h1:nth-child(8){
@@ -2859,6 +2861,200 @@ body>main:nth-child(6)>div:nth-child(9)>h2:nth-child(4){
     display: inline-block;
     color: #8a8888;
 }
+
+
+
+/*-----------------------------bubble-1 animation-----------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(10){
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #f9004d;
+    animation-name: my-animation_2;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes my-animation_2 {
+    0%{
+        top: 40%;
+        left: 2%;
+    }
+
+    25%{
+        top: 40%;
+        left: 38%;
+
+    }
+
+    50%{
+        top: 80%;
+        left: 2%;
+    }
+
+
+    75%{
+        top: 80%;
+        left: 38%;
+    }
+
+
+    100%{
+        top: 40%;
+        left: 2%;
+    }
+
+}
+
+
+/*-----------------------------bubble-2 animation-----------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(11){
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #f9004d;
+    animation-name: my-animation_3;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes my-animation_3 {
+    0%{
+        top: 40%;
+        left: 38%;
+    }
+
+    25%{
+        top: 40%;
+        left: 2%;
+
+    }
+
+    50%{
+        top: 80%;
+        left: 38%;
+    }
+
+
+    75%{
+        top: 80%;
+        left: 2%;
+    }
+
+
+    100%{
+        top: 40%;
+        left: 38%;
+    }
+
+}
+
+
+/*-----------------------------bubble-3 animation-----------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(12){
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #f9004d;
+    animation-name: my-animation_4;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes my-animation_4 {
+    0%{
+        top: 80%;
+        left: 2%;
+    }
+
+    25%{
+        top: 80%;
+        left: 38%;
+
+    }
+
+    50%{
+        top: 40%;
+        left: 2%;
+    }
+
+
+    75%{
+        top: 40%;
+        left: 38%;
+    }
+
+
+    100%{
+        top: 80%;
+        left: 2%;
+    }
+
+}
+
+/*-----------------------------bubble-4 animation-----------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(13){
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #f9004d;
+    animation-name: my-animation_5;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes my-animation_5 {
+    0%{
+        top: 80%;
+        left: 38%;
+    }
+
+    25%{
+        top: 80%;
+        left: 2%;
+
+    }
+
+    50%{
+        top: 40%;
+        left: 38%;
+    }
+
+
+    75%{
+        top: 40%;
+        left: 2%;
+    }
+
+
+    100%{
+        top: 80%;
+        left: 38%;
+    }
+
+}
+
+
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 

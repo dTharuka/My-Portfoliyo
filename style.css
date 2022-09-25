@@ -238,7 +238,7 @@ body>main:nth-child(2)>a:nth-child(3)>button:hover{
 body>main:nth-child(2)>button:nth-child(4){
     position: absolute;
     display: inline-block;
-    bottom: 37%;
+    bottom: 50%;
     left: 65%;
     background-color: white;
     height: 7%;
@@ -294,7 +294,7 @@ body>main>section:nth-child(1)>h5{
 
 /*------------------------------------Abuth me txt 1------------------------------------------------------*/
 body>main>section:nth-child(2)>h1{
-    top: 20%;
+    top: 10%;
     right: 8%;
     position: absolute;
     height: 10%;
@@ -325,7 +325,7 @@ body>main>section:nth-child(2)>h1{
 
 
 body>main>section:nth-child(2)>pre{
-    top: 30%;
+    top: 20%;
     left: 37%;
     position: absolute;
     height: 10%;
@@ -361,6 +361,188 @@ body>main>section:nth-child(2)>pre{
 /*    margin-top: 0;*/
 /*    margin-bottom: 0;*/
 /*}*/
+
+
+/*----------------------------------------clock------------------------------------------------------*/
+
+#C12{
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    left: 63.5%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C1{
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    right: 24%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+#C2{
+    position: absolute;
+    display: inline-block;
+    top: 60%;
+    right: 16%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C3{
+    position: absolute;
+    display: inline-block;
+    top: 72%;
+    right: 16%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C4{
+    position: absolute;
+    display: inline-block;
+    top: 83%;
+    right: 16%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C5{
+    position: absolute;
+    display: inline-block;
+    bottom: 1%;
+    right: 24%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C6{
+    position: absolute;
+    display: inline-block;
+    bottom: 1%;
+    left: 65%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C7{
+    position: absolute;
+    display: inline-block;
+    bottom: 1%;
+    left: 57%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C8{
+    position: absolute;
+    display: inline-block;
+    top: 83%;
+    left: 49.5%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+
+#C9{
+    position: absolute;
+    display: inline-block;
+    top: 72%;
+    left: 49.5%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C10{
+    position: absolute;
+    display: inline-block;
+    top: 60%;
+    left: 49.5%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#C11{
+    position: absolute;
+    display: inline-block;
+    top: 53%;
+    left: 56%;
+    font-size: 350%;
+    margin: 0;
+    color: #bdbaba;
+}
+
+#clockBar{
+    position: absolute;
+    height: 15%;
+    width: 1%;
+    left: 65%;
+    top: 63%;
+    background-color: #bdbaba;
+    animation-name: my-animation;
+    animation-duration: 60s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+#clock_circle{
+    position: absolute;
+    height: 45%;
+    width: 35%;
+    background-color: white;
+    left: 49%;
+    top: 53%;
+    border-radius: 15%;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+
+}
+
+
+@keyframes my-animation{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        top: 68%;
+        left: 74%;
+        transform: rotate(90deg);
+
+    }
+
+    50%{
+        top: 74%;
+        left: 65%;
+        transform: rotate(180deg);
+    }
+
+    75%{
+        top: 68%;
+        left: 59%;
+        transform: rotate(270deg);
+
+    }
+
+    100%{
+        left: 65%;
+        top: 63%;
+        transform: rotate(360deg);
+    }
+}
 
 /*======================================================================================================*/
 
@@ -1056,12 +1238,415 @@ body>main:nth-child(4)>section>h3>button:nth-child(3):hover{
 body>main:nth-child(4)>div:nth-child(8){
     position: absolute;
     height: 57%;
-    width: 90%;
+    width: 95%;
     top: 42%;
-    left: 5%;
-    background-color: green;
+    left: 2.5%;
+    background-color: white;
     display: none;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    border-radius: 30px;
 }
+/*--------------------------------------project-1 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(1){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 35%;
+    top: 3%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(1):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+
+/*--------------------------------------project-2 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(2){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 35%;
+    top: 22%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(2):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-3 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(3){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 35%;
+    top: 41%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(3):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-4 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(4){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 35%;
+    top: 60%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(4):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-5 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(5){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 35%;
+    top: 79%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(5):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+
+/*--------------------------------------project-6 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(6){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 57%;
+    top: 3%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(6):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+
+/*--------------------------------------project-7 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(7){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 57%;
+    top: 22%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(7):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-8 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(8){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 57%;
+    top: 41%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(8):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-9 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(9){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 57%;
+    top: 60%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(9):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-10 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(10){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 57%;
+    top: 79%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(10):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+
+/*--------------------------------------project-11 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(11){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 79%;
+    top: 3%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(11):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-12 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(12){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 79%;
+    top: 22%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(12):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-13 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(13){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 79%;
+    top: 41%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(13):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-14 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(14){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 79%;
+    top: 60%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(14):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*--------------------------------------project-15 button----------------------------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(15){
+    position: absolute;
+    width: 20%;
+    height: 18%;
+    left: 79%;
+    top: 79%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>button:nth-child(15):hover{
+    width: 21%;
+    color: white;
+    background-color: #f9004d;
+    font-size: 300%;
+}
+
+/*-------------------------------------------3rd button main image bord---------------------------------------------*/
+body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16){
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    top: 5%;
+    left: 2.5%;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #bdbaba;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+
+}
+
+
+/*-------------------------------------------3rd button sub image bord---------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>div{
+    position: absolute;
+    height: 70%;
+    width: 90%;
+    background-color: white;
+    border: 1px solid #bdbaba;
+    box-shadow: 0px -1px 5px 2px #bdbaba;
+    border-radius: 20px;
+    top: 5%;
+    left: 5%;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>div:hover{
+    height: 75%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>div>img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*-------------------------------------------3rd button image view button---------------------------------------------*/
+
+body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>button{
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 77.5%;
+    border-radius: 10px;
+    font-size: 200%;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    color: #f9004d;
+}
+
+body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>button:hover{
+    background-color: #f9004d;
+    color: white;
+}
+
+
 
 /*-------------------------------------------4th button------------------------------------------------------------*/
 body>main:nth-child(4)>section>h3>button:nth-child(4){
@@ -2077,6 +2662,202 @@ body>main:nth-child(6)>section:nth-child(4)>button:hover{
     background-color: #f9004d;
     color: white;
     box-shadow: 0px -1px 8px 2px #bdbaba;
+}
+
+
+/*-----------------------------static payment------------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(7){
+    position: absolute;
+    height: 45%;
+    width: 45%;
+    left: 1.5%;
+    top: 36%;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #bdbaba;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    display: none;
+}
+
+body>main:nth-child(6)>div:nth-child(7):hover>pre{
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(7):hover>h1{
+    color: #f9004d;
+}
+body>main:nth-child(6)>div:nth-child(7):hover>h2:nth-child(3){
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(7):hover>h2:nth-child(4){
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(7)>h1{
+    position: absolute;
+    left: 25%;
+    top: 3%;
+    margin: 0;
+    font-size: 300%;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(7)>pre{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 170%;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(7)>h2:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: inline-block;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(7)>h2:nth-child(4){
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    display: inline-block;
+    color: #8a8888;
+}
+
+
+/*-----------------------------standard payment------------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(8){
+    position: absolute;
+    height: 45%;
+    width: 45%;
+    left: 1.5%;
+    top: 36%;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #bdbaba;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    display: none;
+}
+
+body>main:nth-child(6)>div:nth-child(8):hover>pre{
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(8):hover>h1{
+    color: #f9004d;
+}
+body>main:nth-child(6)>div:nth-child(8):hover>h2:nth-child(3){
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(8):hover>h2:nth-child(4){
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(8)>h1{
+    position: absolute;
+    left: 16%;
+    top: 3%;
+    margin: 0;
+    font-size: 300%;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(8)>pre{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 170%;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(8)>h2:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: inline-block;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(8)>h2:nth-child(4){
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    display: inline-block;
+    color: #8a8888;
+}
+
+
+
+/*-----------------------------premium payment------------------------------------------------------*/
+body>main:nth-child(6)>div:nth-child(9){
+    position: absolute;
+    height: 45%;
+    width: 45%;
+    left: 1.5%;
+    top: 36%;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #bdbaba;
+    box-shadow: 0px -1px 8px 2px #bdbaba;
+    display: none;
+}
+
+body>main:nth-child(6)>div:nth-child(9):hover>pre{
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(9):hover>h1{
+    color: #f9004d;
+}
+body>main:nth-child(6)>div:nth-child(9):hover>h2:nth-child(3){
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(9):hover>h2:nth-child(4){
+    color: #f9004d;
+}
+
+body>main:nth-child(6)>div:nth-child(9)>h1{
+    position: absolute;
+    left: 17%;
+    top: 3%;
+    margin: 0;
+    font-size: 300%;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(9)>pre{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 170%;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(9)>h2:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: inline-block;
+    color: #8a8888;
+}
+
+body>main:nth-child(6)>div:nth-child(9)>h2:nth-child(4){
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    display: inline-block;
+    color: #8a8888;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/

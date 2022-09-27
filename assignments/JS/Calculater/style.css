@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles for calculator width height and borders */
+.calculator {
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background: red;
+    overflow: hidden;
+}
+
+/* calculator display set up */
+form input {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    background: red;
+
+    /* text starting direction changed */
+    text-align: right;
+
+    /* disabling calculator display click and and typing option */
+    pointer-events: none;
+}
+
+/* spacing buttons and setup their margins */
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+}
+
+/* giving styles for buttons */
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border:white;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 40px 2px rgba(17, 9, 9, 0.27);
+}
+
+/* colours set up for operators */
+.btn-purple{
+    background-color:green ;
+    color: white;
+    box-shadow: 0 0 40px 2px rgba(17, 9, 9, 0.27);
+}
+
+/* colours set up for numbers */
+.btn-grey{
+    background-color: white;
+    color: black;
+}
+
+/* adding colours to equal btn */
+.btn-equal{
+    background-color:#3CCF4E;
+}
+
+/* adding colours to clear btn */
+.btn-clear{
+    background-color:#D61C4E;
+}
+
+#octa-cat{
+    position: absolute;
+    width: 400px;
+    margin-left: -31%;
+    height: 400px;
+}
+
+#prof-cat{
+    position: absolute;
+    width: 400px;
+    margin-left: 30%;
+    height: 400px;
+}

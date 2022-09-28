@@ -365,185 +365,298 @@ body>main>section:nth-child(2)>pre{
 
 /*----------------------------------------clock------------------------------------------------------*/
 
-#C12{
-    position: absolute;
-    display: inline-block;
-    top: 53%;
-    left: 63.5%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
+/*#C12{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 53%;*/
+/*    left: 63.5%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
 
-#C1{
-    position: absolute;
-    display: inline-block;
-    top: 53%;
-    right: 24%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-#C2{
-    position: absolute;
-    display: inline-block;
-    top: 60%;
-    right: 16%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
+/*#C1{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 53%;*/
+/*    right: 24%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+/*#C2{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 60%;*/
+/*    right: 16%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
 
-#C3{
-    position: absolute;
+/*#C3{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 72%;*/
+/*    right: 16%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C4{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 83%;*/
+/*    right: 16%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C5{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    bottom: 1%;*/
+/*    right: 24%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C6{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    bottom: 1%;*/
+/*    left: 65%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C7{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    bottom: 1%;*/
+/*    left: 57%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C8{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 83%;*/
+/*    left: 49.5%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+
+/*#C9{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 72%;*/
+/*    left: 49.5%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C10{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 60%;*/
+/*    left: 49.5%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#C11{*/
+/*    position: absolute;*/
+/*    display: inline-block;*/
+/*    top: 53%;*/
+/*    left: 56%;*/
+/*    font-size: 350%;*/
+/*    margin: 0;*/
+/*    color: #bdbaba;*/
+/*}*/
+
+/*#clockBar{*/
+/*    position: absolute;*/
+/*    height: 15%;*/
+/*    width: 1%;*/
+/*    left: 65%;*/
+/*    top: 63%;*/
+/*    border-radius: 100%;*/
+/*    background-color: #bdbaba;*/
+/*    animation-name: my-animation;*/
+/*    animation-duration: 60s;*/
+/*    animation-delay: 1s;*/
+/*    animation-iteration-count: infinite;*/
+
+/*}*/
+
+/*#clock_circle{*/
+/*    position: absolute;*/
+/*    height: 45%;*/
+/*    width: 35%;*/
+/*    background-color: white;*/
+/*    left: 49%;*/
+/*    top: 53%;*/
+/*    border-radius: 15%;*/
+/*    box-shadow: 0px -1px 8px 2px #bdbaba;*/
+
+/*}*/
+
+
+/*@keyframes my-animation{*/
+/*    0%{*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+
+/*    25%{*/
+/*        top: 68%;*/
+/*        left: 74%;*/
+/*        transform: rotate(90deg);*/
+
+/*    }*/
+
+/*    50%{*/
+/*        top: 74%;*/
+/*        left: 65%;*/
+/*        transform: rotate(180deg);*/
+/*    }*/
+
+/*    75%{*/
+/*        top: 68%;*/
+/*        left: 59%;*/
+/*        transform: rotate(270deg);*/
+
+/*    }*/
+
+/*    100%{*/
+/*        left: 65%;*/
+/*        top: 63%;*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+
+/*------------------------------------------car animation----------------------------------------------------*/
+
+/*-------------------------------car body--------------------------------------*/
+#car_body>img{
     display: inline-block;
-    top: 72%;
-    right: 16%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C4{
     position: absolute;
-    display: inline-block;
-    top: 83%;
-    right: 16%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C5{
-    position: absolute;
-    display: inline-block;
-    bottom: 1%;
-    right: 24%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C6{
-    position: absolute;
-    display: inline-block;
-    bottom: 1%;
-    left: 65%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C7{
-    position: absolute;
-    display: inline-block;
-    bottom: 1%;
-    left: 57%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C8{
-    position: absolute;
-    display: inline-block;
-    top: 83%;
-    left: 49.5%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-
-#C9{
-    position: absolute;
-    display: inline-block;
-    top: 72%;
-    left: 49.5%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C10{
-    position: absolute;
-    display: inline-block;
-    top: 60%;
-    left: 49.5%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#C11{
-    position: absolute;
-    display: inline-block;
-    top: 53%;
-    left: 56%;
-    font-size: 350%;
-    margin: 0;
-    color: #bdbaba;
-}
-
-#clockBar{
-    position: absolute;
-    height: 15%;
-    width: 1%;
-    left: 65%;
-    top: 63%;
-    border-radius: 100%;
-    background-color: #bdbaba;
-    animation-name: my-animation;
-    animation-duration: 60s;
+    width: 25%;
+    height: 20%;
+    top: 70%;
+    left: 30%;
+    z-index: 100;
+    animation-name: my-carAnimation;
+    animation-duration: 10s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
-
 }
 
-#clock_circle{
+@keyframes my-carAnimation {
+    0% {
+        top: 70%;
+        left: 30%;
+    }
+
+    50% {
+        top: 70%;
+        left: 75%;
+
+    }
+
+    100% {
+        top: 70%;
+        left: 30%;
+
+    }
+}
+
+/*------------------------------back weel-----------------------------------------*/
+#weel-1>img{
     position: absolute;
-    height: 45%;
-    width: 35%;
-    background-color: white;
-    left: 49%;
-    top: 53%;
-    border-radius: 15%;
-    box-shadow: 0px -1px 8px 2px #bdbaba;
-
+    height: 60px;
+    width: 60px;
+    top: 80.5%;
+    left: 32%;
+    display: inline-block;
+    z-index: 100;
+    animation-name: my-animationW1;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 
-
-@keyframes my-animation{
+@keyframes my-animationW1 {
     0%{
+        top: 80.5%;
+        left: 32%;
         transform: rotate(0deg);
     }
 
-    25%{
-        top: 68%;
-        left: 74%;
-        transform: rotate(90deg);
-
-    }
-
     50%{
-        top: 74%;
-        left: 65%;
-        transform: rotate(180deg);
-    }
-
-    75%{
-        top: 68%;
-        left: 59%;
-        transform: rotate(270deg);
-
+        top: 80.5%;
+        left: 77%;
+        transform: rotate(360deg);
     }
 
     100%{
-        left: 65%;
-        top: 63%;
+        top: 80.5%;
+        left: 32%;
+        transform: rotate(-360deg);
+    }
+
+}
+
+
+/*---------------------------------1st weel------------------------------------*/
+#weel-2>img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 80.5%;
+    left: 47.2%;
+    display: inline-block;
+    z-index: 100;
+    animation-name: my-animationW2;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my-animationW2 {
+    0%{
+        top: 80.5%;
+        left: 47.2%;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        top: 80.5%;
+        left: 92.3%;
         transform: rotate(360deg);
     }
+
+    100%{
+        top: 80.5%;
+        left: 47.2%;
+        transform: rotate(-360deg);
+    }
+
 }
+
+
+
 
 /*======================================================================================================*/
 

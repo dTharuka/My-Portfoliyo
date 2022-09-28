@@ -75,7 +75,7 @@
                         <label class="form-label" for="srcCusID">Search Customer</label>
                         <input class="form-control" id="srcCusID" placeholder="Customer ID" type="text">
                     </div>
-                    <button type="button" class="btn btn-success">Add</button>
+                    <button id="btnAddCustomer" type="button" class="btn btn-success">Add</button>
                     <button type="button" class="btn btn-danger">Delete</button>
                     <button type="button" class="btn btn-warning">Update</button>
                 </div>
@@ -103,7 +103,7 @@
         <!--        waguwa udata pllehata yawanne meken-->
         <section class="row justify-content-center w-100">
             <div class="col" style="padding-left: 2rem">
-                <table class="table table-hover container-fluid">
+                <table id="tblCustomer" class="table table-hover container-fluid">
                     <thead class="bg-info text-center">
                     <tr>
                         <th>Customer ID</th>
@@ -112,37 +112,53 @@
                         <th>Contact</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <td>C001</td>
-                        <td>Dakshina</td>
-                        <td>Balapitiya</td>
-                        <td>0777898765</td>
-                    </tr>
-                    <tr>
-                        <td>C002</td>
-                        <td>Lasindu</td>
-                        <td>Ambalangoda</td>
-                        <td>0779098765</td>
-                    </tr>
-                    <tr>
-                        <td>C003</td>
-                        <td>Dimanka</td>
-                        <td>Hikkaduwa</td>
-                        <td>0775698765</td>
-                    </tr>
-                    <tr>
-                        <td>C004</td>
-                        <td>Hashan</td>
-                        <td>Dodanduwa</td>
-                        <td>0779034525</td>
-                    </tr>
+                    <tbody id="tblBody">
+
                     </tbody>
                 </table>
             </div>
         </section>
     </section>
 </main>
+
+
+<!--================================================js============================================================-->
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script>
+
+    var s1=new Array();
+    $('#btnAddCustomer').click(function (){
+
+        $("#tblBody").empty();
+        let cusId = $('#cusID').val();
+        let cusName = $('#cusName').val();
+        let cusAddress = $('#cusAddress').val();
+        let cusSalary = $('#cusSalary').val();
+
+        var customerObj= {
+            cI: cusId,
+            cN: cusName,
+            cA: cusAddress,
+            cS: cusSalary
+        }
+
+        s1.push(customerObj);
+
+        for(var l of s1){
+            var row="<tr><th >"+l.cI+"</th><th >"+l.cN+"</th><th >"+l.cA+"</th><th>"+l.cS+"</th></tr>"
+            $('#tblCustomer').append(row);
+        }
+
+
+    })
+
+    $('#tblCustomer>tbody').click(function (){
+        alert("hello");
+    })
+
+</script>
+
 
 </body>
 </html>

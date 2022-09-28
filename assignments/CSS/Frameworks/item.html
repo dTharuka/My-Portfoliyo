@@ -73,7 +73,7 @@
                         <label class="form-label" for="srcItemID">Search Item</label>
                         <input class="form-control" id="srcItemID" placeholder="Item ID" type="text">
                     </div>
-                    <button type="button" class="btn btn-success">Add</button>
+                    <button id="btnAddItem" type="button" class="btn btn-success">Add</button>
                     <button type="button" class="btn btn-danger">Delete</button>
                     <button type="button" class="btn btn-warning">Update</button>
                 </div>
@@ -99,7 +99,7 @@
         </section>
         <section class="row justify-content-center w-100">
             <div class="col"  style="padding-left: 2rem">
-                <table class="table table-hover container-fluid">
+                <table id="tblItem" class="table table-hover container-fluid">
                     <thead class="bg-info text-center">
                     <tr>
                         <th>Item ID</th>
@@ -108,32 +108,8 @@
                         <th>Unit Price</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <td>I001</td>
-                        <td>Red</td>
-                        <td>40</td>
-                        <td>500.00</td>
-                    </tr>
-                    <tr>
-                        <td>I002</td>
-                        <td>Reguler</td>
-                        <td>60</td>
-                        <td>300.00</td>
-                    </tr>
-                    <tr>
-                        <td>I003</td>
-                        <td>White</td>
-                        <td>30</td>
-                        <td>100.00</td>
-                    </tr>
+                    <tbody id="itemTblBody">
 
-                    <tr>
-                        <td>I004</td>
-                        <td>Black</td>
-                        <td>70</td>
-                        <td>150.00</td>
-                    </tr>
                     </tbody>
                 </table>
             </div>
@@ -142,5 +118,44 @@
 </main>
 
 <script src="assets/boostrap/js/bootstrap.bundle.min.js"></script>
+
+<!--================================================js============================================================-->
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script>
+
+    var item1=new Array();
+    $('#btnAddItem').click(function (){
+
+        $("#itemTblBody").empty();
+
+        let itemId = $('#itemId').val();
+        let itemName = $('#ItemName').val();
+        let qty = $('#itemQty').val();
+        let unitPrice = $('#unitPrice').val();
+
+        var itemObj= {
+            itemI: itemId,
+            itemN: itemName,
+            itemQ: qty,
+            uP: unitPrice
+        }
+
+        item1.push(itemObj);
+
+        for(var l of item1){
+            var row="<tr><th >"+l.itemI+"</th><th >"+l.itemN+"</th><th >"+l.itemQ+"</th><th>"+l.uP+"</th></tr>"
+            $('#tblItem').append(row);
+        }
+
+
+    })
+
+    $('#tblItem>tbody').click(function (){
+        alert("hello");
+    })
+
+</script>
+
 </body>
 </html>

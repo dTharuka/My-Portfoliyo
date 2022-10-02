@@ -149,11 +149,52 @@
         }
 
 
+        clearItemText();
+        clickItemFind();
+        itemDoubleClick();
+
     })
 
-    $('#tblItem>tbody').click(function (){
-        alert("hello");
+
+    $('#srcItemID').keyup(function (e2){
+        let clickKey2=e2.which;
+        if(clickKey2 === 13){
+            for (var s2 of item1){
+                if(s2.itemI===$('#srcItemID').val()){
+                    $('#itemId').val(s2.itemI);
+                    $('#ItemName').val(s2.itemN);
+                    $('#itemQty').val(s2.itemQ);
+                    $('#unitPrice').val(s2.uP);
+
+                }
+            }
+        }
     })
+
+    function clearItemText(){
+        $('#itemId').val("");
+        $('#ItemName').val("");
+        $('#itemQty').val("");
+        $('#unitPrice').val("");
+    }
+
+    function clickItemFind(){
+        $('#itemTblBody>tr').click(function(){
+            $('#itemId').val($(this,'#itemTblBody>tr').children(':nth-child(1)').text());
+            $('#ItemName').val($(this,'#itemTblBody>tr').children(':nth-child(2)').text());
+            $('#itemQty').val($(this,'#itemTblBody>tr').children(':nth-child(3)').text());
+            $('#unitPrice').val($(this,'#itemTblBody>tr').children(':nth-child(4)').text());
+        })
+    }
+
+    function itemDoubleClick(){
+        $('#itemTblBody>tr').dblclick(function (){
+            clearItemText();
+            $('#itemId').val($(this).remove());
+        })
+    }
+
+
 
 </script>
 

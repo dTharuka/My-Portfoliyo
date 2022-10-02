@@ -76,8 +76,8 @@
                         <input class="form-control" id="srcCusID" placeholder="Customer ID" type="text">
                     </div>
                     <button id="btnAddCustomer" type="button" class="btn btn-success">Add</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                    <button type="button" class="btn btn-warning">Update</button>
+                    <button id="btnDeleteCustomer" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnUpdateCustomer" type="button" class="btn btn-warning">Update</button>
                 </div>
             </div>
             <div class="col-12 col-md-5">
@@ -128,6 +128,7 @@
 <script>
 
     var s1=new Array();
+    let upCheck;
     $('#btnAddCustomer').click(function (){
 
         $("#tblBody").empty();
@@ -151,11 +152,78 @@
         }
 
 
+
+
+        clearText();
+        clickFind();
+        doubleClick();
     })
 
-    $('#tblCustomer>tbody').click(function (){
-        alert("hello");
-    })
+    function clearText(){
+        $('#cusID').val("");
+        $('#cusName').val("");
+        $('#cusAddress').val("");
+        $('#cusSalary').val("");
+    }
+
+
+
+
+
+        $('#srcCusID').keyup(function (e){
+            let clickKey=e.which;
+            if(clickKey === 13){
+                for (var s of s1){
+                    if(s.cI===$('#srcCusID').val()){
+                        $('#cusID').val(s.cI);
+                        $('#cusName').val(s.cN);
+                        $('#cusAddress').val(s.cA);
+                        $('#cusSalary').val(s.cS);
+
+                    }
+                }
+            }
+        })
+
+
+
+
+        function clickFind(){
+            $('#tblBody>tr').click(function(){
+                $('#cusID').val($(this,'#tblBody>tr').children(':nth-child(1)').text());
+                $('#cusName').val($(this,'#tblBody>tr').children(':nth-child(2)').text());
+                $('#cusAddress').val($(this,'#tblBody>tr').children(':nth-child(3)').text());
+                $('#cusSalary').val($(this,'#tblBody>tr').children(':nth-child(4)').text());
+
+            })
+        }
+
+
+        $('#btnUpdateCustomer').click(function (){
+            var updateId=$('#cusID').val();
+            var updateName=$('#cusName').val();
+            var updateAddress=$('#cusAddress').val();
+            var updateSalary=$('#cusSalary').val();
+
+
+
+                var updateRow="<tr><th >"+updateId+"</th><th >"+updateName+"</th><th >"+updateAddress+"</th><th>"+updateSalary+"</th></tr>"
+                $('#tblCustomer').append(updateRow);
+
+        })
+
+
+
+        function doubleClick(){
+        $('#tblBody>tr').dblclick(function (){
+            clearText();
+            $('#cusID').val($(this).remove());
+        })
+        }
+
+
+
+
 
 </script>
 

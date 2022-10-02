@@ -38,6 +38,7 @@ body>header>img#myPhoto{
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
     transition: 1s;
+
 }
 
 
@@ -187,6 +188,7 @@ body>main:nth-child(2){
     margin-left: 0;
     margin-top: 0;
     /*margin: auto;*/
+
 }
 
 /*-----------------main image----------------------------------*/
@@ -207,6 +209,7 @@ body>main>section>img#mainPhoto{
 body>main>section>img#mainPhoto:hover{
     box-shadow: 0px -1px 8px 2px #f9004d;
     z-index: 1;
+
 }
 
 
@@ -1741,7 +1744,7 @@ body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>div>img{
 
 /*-------------------------------------------3rd button image view button---------------------------------------------*/
 
-body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>button{
+#VMButton{
     position: absolute;
     width: 90%;
     height: 20%;
@@ -1755,7 +1758,7 @@ body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>button{
     color: #f9004d;
 }
 
-body>main:nth-child(4)>div:nth-child(8)>div:nth-child(16)>button:hover{
+#VMButton{
     background-color: #f9004d;
     color: white;
 }

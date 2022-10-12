@@ -74,8 +74,8 @@
                         <input class="form-control" id="srcItemID" placeholder="Item ID" type="text">
                     </div>
                     <button id="btnAddItem" type="button" class="btn btn-success">Add</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                    <button type="button" class="btn btn-warning">Update</button>
+                    <button id="btnDeleteItem" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnUpdateItem" type="button" class="btn btn-warning">Update</button>
                 </div>
             </div>
             <div class="col-12 col-md-5">
@@ -125,6 +125,11 @@
 <script>
 
     var item1=new Array();
+    var itemObj;
+    let itemIdGenerater=1;
+
+    $('#itemId').val("I00-"+itemIdGenerater);
+
     $('#btnAddItem').click(function (){
 
         $("#itemTblBody").empty();
@@ -134,7 +139,7 @@
         let qty = $('#itemQty').val();
         let unitPrice = $('#unitPrice').val();
 
-        var itemObj= {
+         itemObj= {
             itemI: itemId,
             itemN: itemName,
             itemQ: qty,
@@ -152,6 +157,8 @@
         clearItemText();
         clickItemFind();
         itemDoubleClick();
+        itemIdGenerater++;
+        $('#itemId').val("I00-"+itemIdGenerater);
 
     })
 
@@ -171,8 +178,10 @@
         }
     })
 
+
+
     function clearItemText(){
-        $('#itemId').val("");
+        // $('#itemId').val("");
         $('#ItemName').val("");
         $('#itemQty').val("");
         $('#unitPrice').val("");
@@ -190,9 +199,155 @@
     function itemDoubleClick(){
         $('#itemTblBody>tr').dblclick(function (){
             clearItemText();
-            $('#itemId').val($(this).remove());
+            // $('#itemId').val($(this).remove());
+            $(this).remove();
         })
     }
+
+
+    // --------------------------enter eka gahuwama yatata yana seen eka--------------------------------------
+    $("#itemId,#ItemName,#itemQty,#unitPrice").keydown(function (event){
+        if(event.which === 9){
+            event.preventDefault();
+        }
+    })
+
+    $('#itemId').keyup(function (event){
+        let catchEvent=event.which;
+        console.log(catchEvent);
+        if(catchEvent === 13){
+            $('#ItemName').focus();
+        }
+    })
+
+    $('#ItemName').keyup(function (event){
+        let catchEvent=event.which;
+        console.log(catchEvent);
+        if(catchEvent === 13){
+            $('#itemQty').focus();
+        }
+    })
+
+    $('#itemQty').keyup(function (event){
+        let catchEvent=event.which;
+        console.log(catchEvent);
+        if(catchEvent === 13){
+            $('#unitPrice').focus();
+        }
+    })
+
+    $('#unitPrice').keyup(function (event){
+        let catchEvent=event.which;
+        console.log(catchEvent);
+        if(catchEvent === 13){
+
+            let itemId = $('#itemId').val();
+            let itemName = $('#ItemName').val();
+            let qty = $('#itemQty').val();
+            let unitPrice = $('#unitPrice').val();
+
+            itemObj= {
+                itemI: itemId,
+                itemN: itemName,
+                itemQ: qty,
+                uP: unitPrice
+            }
+
+            item1.push(itemObj);
+
+            var rowEnter="<tr><th >"+$('#itemId').val()+"</th><th >"+$('#ItemName').val()+"</th><th >"+$('#itemQty').val()+"</th><th>"+$('#unitPrice').val()+"</th></tr>"
+            $('#tblItem').append(rowEnter);
+            $('#itemId').val("");
+            $('#ItemName').val("");
+            $('#itemQty').val("");
+            $('#unitPrice').val("");
+            $('#itemId').focus();
+            clickItemFind();
+            itemDoubleClick();
+            itemIdGenerater++;
+            $('#itemId').val("I00-"+itemIdGenerater);
+        }
+    })
+
+    // ===============================Delete Item===================================================
+    $('#btnDeleteItem').click(function (){
+        var masseageItemDelete=confirm('are you wont delete this Item');
+        if (masseageItemDelete===true){
+            for (k=0;k<item1.length;k++){
+                let deleteCheck2=item1[k];
+                if ($('#itemId').val() === deleteCheck2.itemI){
+                    item1.splice(k,1);
+                    $('#itemTblBody').empty();
+
+
+                    for(var l of item1){
+                        var row="<tr><th >"+l.itemI+"</th><th >"+l.itemN+"</th><th >"+l.itemQ+"</th><th>"+l.uP+"</th></tr>"
+                        $('#itemTblBody').append(row);
+                    }
+
+                    $('#itemId').val("");
+                    $('#ItemName').val("");
+                    $('#itemQty').val("");
+                    $('#unitPrice').val("");
+
+                    $('#itemTblBody>tr').click(function(){
+                        $('#itemId').val($(this,'#itemTblBody>tr').children(':nth-child(1)').text());
+                        $('#ItemName').val($(this,'#itemTblBody>tr').children(':nth-child(2)').text());
+                        $('#itemQty').val($(this,'#itemTblBody>tr').children(':nth-child(3)').text());
+                        $('#unitPrice').val($(this,'#itemTblBody>tr').children(':nth-child(4)').text());
+                    })
+                }
+            }
+        }
+
+
+    })
+
+
+    $('#btnUpdateItem').click(function (){
+        var updateItemId=$('#itemId').val();
+        var updateItemName=$('#ItemName').val();
+        var updateItemQty=$('#itemQty').val();
+        var updateUnitPrice=$('#unitPrice').val();
+
+        for (cu=0;cu<item1.length;cu++){
+            let checkUpdate=item1[cu];
+            if (checkUpdate.itemI === updateItemId){
+
+                checkUpdate.itemI=updateItemId;
+                checkUpdate.itemN=updateItemName;
+                checkUpdate.itemQ=updateItemQty;
+                checkUpdate.uP=updateUnitPrice;
+
+                $('#itemTblBody').empty();
+
+
+                for(var l of item1){
+                    var row="<tr><th >"+l.itemI+"</th><th >"+l.itemN+"</th><th >"+l.itemQ+"</th><th>"+l.uP+"</th></tr>"
+                    $('#itemTblBody').append(row);
+                }
+
+                $('#itemId').val("");
+                $('#ItemName').val("");
+                $('#itemQty').val("");
+                $('#unitPrice').val("");
+
+                $('#itemTblBody>tr').click(function(){
+                    $('#itemId').val($(this,'#itemTblBody>tr').children(':nth-child(1)').text());
+                    $('#ItemName').val($(this,'#itemTblBody>tr').children(':nth-child(2)').text());
+                    $('#itemQty').val($(this,'#itemTblBody>tr').children(':nth-child(3)').text());
+                    $('#unitPrice').val($(this,'#itemTblBody>tr').children(':nth-child(4)').text());
+                })
+
+            }
+
+            $('#itemId').val("I00-"+itemIdGenerater);
+            $('#ItemName').focus();
+
+        }
+
+
+    })
 
 
 

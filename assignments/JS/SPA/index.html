@@ -5,7 +5,9 @@
     <title>POS System</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/boostrap/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <style>
 
 
@@ -113,7 +115,7 @@
 
 <section class="container-fluid " id="dashForm">
     <div class="has-bg-img ">
-        <img class="bg-img position-relative " src="assets/image/shop.gif" alt="..." style="width: 100% ;height: 90.6vh ">
+        <img class="bg-img position-relative " src="../assets/image/shop.gif" alt="..." style="width: 100% ;height: 90.6vh ">
     </div>
 </section>
 
@@ -129,9 +131,9 @@
                         <label class="form-label" for="srcCusID">Search Customer</label>
                         <input class="form-control" id="srcCusID" placeholder="Customer ID" type="text">
                     </div>
-                    <button type="button" class="btn btn-success">Add</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                    <button type="button" class="btn btn-warning">Update</button>
+                    <button id="btnAddCustomer" type="button" class="btn btn-success">Add</button>
+                    <button id="btnDeleteCustomer" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnUpdateCustomer" type="button" class="btn btn-warning">Update</button>
                 </div>
             </div>
             <div class="col-12 col-md-5">
@@ -142,14 +144,17 @@
                 <div class="mb-3">
                     <label class="form-label" for="cusName">Customer Name</label>
                     <input class="form-control" id="cusName" placeholder="Customer Name" type="text">
+                    <p><small class="text-danger fw-bold" id="cusNameTxtLbl"></small></p>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="cusAddress">Customer Address</label>
                     <input class="form-control" id="cusAddress" placeholder="Customer Address" type="text">
+                    <p><small class="text-danger fw-bold" id="cusAddressTxtLbl"></small></p>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="cusSalary">Contact</label>
                     <input class="form-control" id="cusSalary" placeholder="Customer Tp" type="text">
+                    <p><small class="text-danger fw-bold" id="cusSalaryTxtLbl"></small></p>
                 </div>
             </div>
         </section>
@@ -157,7 +162,7 @@
         <!--        waguwa udata pllehata yawanne meken-->
         <section class="row justify-content-center w-100">
             <div class="col" style="padding-left: 2rem">
-                <table class="table table-hover container-fluid">
+                <table id="tblCustomer" class="table table-hover container-fluid">
                     <thead class="bg-info text-center">
                     <tr>
                         <th>Customer ID</th>
@@ -166,32 +171,7 @@
                         <th>Contact</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <td>C001</td>
-                        <td>Muthu</td>
-                        <td>Galle</td>
-                        <td>0777898765</td>
-                    </tr>
-                    <tr>
-                        <td>C002</td>
-                        <td>Dilrukshi</td>
-                        <td>Matara</td>
-                        <td>0779098765</td>
-                    </tr>
-                    <tr>
-                        <td>C003</td>
-                        <td>Bimalsha</td>
-                        <td>Baddegama</td>
-                        <td>0775698765</td>
-                    </tr>
-                    <tr>
-                        <td>C004</td>
-                        <td>Ramindu</td>
-                        <td>Galle</td>
-                        <td>0779034525</td>
-                    </tr>
-                    </tbody>
+                    <tbody id="tblBody"></tbody>
                 </table>
             </div>
         </section>
@@ -210,33 +190,37 @@
                         <label class="form-label" for="srcItemID">Search Customer</label>
                         <input class="form-control" id="srcItemID" placeholder="Item ID" type="text">
                     </div>
-                    <button type="button" class="btn btn-success">Add</button>
-                    <button type="button" class="btn btn-danger">Delete</button>
-                    <button type="button" class="btn btn-warning">Update</button>
+                    <button id="btnAddItem" type="button" class="btn btn-success">Add</button>
+                    <button id="btnDeleteItem" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnUpdateItem" type="button" class="btn btn-warning">Update</button>
                 </div>
             </div>
             <div class="col-12 col-md-5">
                 <div class="mb-3">
                     <label class="form-label " for="itemId">Item Id</label>
                     <input class="form-control " id="itemId" placeholder="Item ID" type="text">
+                    <p><small class="text-danger fw-bold" id="itemIdTxtLbl"></small></p>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="ItemName">Item Name</label>
                     <input class="form-control" id="ItemName" placeholder="Item Name" type="text">
+                    <p><small class="text-danger fw-bold" id="itemNameTxtLbl"></small></p>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="itemQty">Item Qty</label>
                     <input class="form-control" id="itemQty" placeholder="Item Qty" type="number">
+                    <p><small class="text-danger fw-bold" id="itemQtyTxtLbl"></small></p>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="unitPrice">Unit Price</label>
                     <input class="form-control" id="unitPrice" placeholder="Unit PriCe" type="number">
+                    <p><small class="text-danger fw-bold" id="unitPriceTxtLbl"></small></p>
                 </div>
             </div>
         </section>
         <section class="row justify-content-center w-100">
             <div class="col"  style="padding-left: 2rem">
-                <table class="table table-hover container-fluid">
+                <table id="tblItem" class="table table-hover container-fluid">
                     <thead class="bg-info text-center">
                     <tr>
                         <th>Item ID</th>
@@ -245,33 +229,7 @@
                         <th>Unit Price</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <td>I001</td>
-                        <td>Milk</td>
-                        <td>40</td>
-                        <td>500.00</td>
-                    </tr>
-                    <tr>
-                        <td>I002</td>
-                        <td>Noodles</td>
-                        <td>60</td>
-                        <td>300.00</td>
-                    </tr>
-                    <tr>
-                        <td>I003</td>
-                        <td>Biscuit</td>
-                        <td>30</td>
-                        <td>100.00</td>
-                    </tr>
-
-                    <tr>
-                        <td>I004</td>
-                        <td>Cocacola</td>
-                        <td>70</td>
-                        <td>150.00</td>
-                    </tr>
-                    </tbody>
+                    <tbody id="itemTblBody"></tbody>
                 </table>
             </div>
         </section>
@@ -315,7 +273,7 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="form-group">
-                                                <label>Contact :</label>
+                                                <label>Customer :</label>
                                                 <select class="form-control" id="selectCusID">
 
                                                 </select>
@@ -395,8 +353,11 @@
 
                                         <!--                                        =======================================================================================-->
                                         <button class="btn btn-outline-info col-12 col-sm-auto mt-1" id="btnAddToTable" type="button">
-                                            Add Item
+                                            Add To Cart
                                         </button>
+
+                                        <button type="button" class="btn btn-warning col-12 col-sm-auto mt-1" data-bs-toggle="modal" data-bs-target="#myModal">Order Details</button>
+
                                     </div>
                                 </form>
                             </div>
@@ -475,43 +436,94 @@
             </div>
         </div>
     </section>
+
+
+
+    <div class="container mt-5">
+        <!--        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Contact Us</button>-->
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header" style="background: #0ab20d">
+                        <h5 class="modal-title" id="orderDetailLabel">Order Detail Form</h5>
+                        <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                type="button"></button>
+                    </div>
+                    <div class="modal-body"  style="margin-left: 1.5em">
+                        <section class="row" style="width: 100%">
+                            <table class="table table-dark table-striped mt-0 container-fluid">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Order Id</th>
+                                    <th scope="col">Order Date</th>
+                                    <th scope="col">Customer Id</th>
+                                    <th scope="col">Cash</th>
+                                    <th scope="col">Balance</th>
+                                    <th scope="col">Discount</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                                </thead>
+                                <tbody id="itemDetailsTblBody">
+
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 </main>
 
 
-<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="../assets/js/jquery-3.6.1.min.js"></script>
+<script src="controller/customerController.js"></script>
+<script src="controller/itemController.js"></script>
+<script src="controller/dashBordController.js"></script>
+<script src="controller/orderController.js"></script>
+<script src="db/db.js"></script>
 <!--=========================================================================================================================-->
 <script>
-    $('#custLoadId').click(function (){
-        $('#dashForm').hide()
-        $('#itemMain').hide()
-        $('#orderMain').hide()
-        $('#custMain').show()
-    })
-
-
-    $('#homeLoadId').click(function (){
-        $('#dashForm').show()
-        $('#itemMain').hide()
-        $('#orderMain').hide()
-        $('#custMain').hide()
-    })
-
-
-    $('#orderLoadId').click(function (){
-        $('#dashForm').hide()
-        $('#itemMain').hide()
-        $('#orderMain').show()
-        $('#custMain').hide()
-    })
-
-    $('#itemLoadId').click(function (){
-        $('#dashForm').hide()
-        $('#itemMain').show()
-        $('#orderMain').hide()
-        $('#custMain').hide()
-    })
+    // $('#custLoadId').click(function (){
+    //     $('#dashForm').hide()
+    //     $('#itemMain').hide()
+    //     $('#orderMain').hide()
+    //     $('#custMain').show()
+    // })
+    //
+    //
+    // $('#homeLoadId').click(function (){
+    //     $('#dashForm').show()
+    //     $('#itemMain').hide()
+    //     $('#orderMain').hide()
+    //     $('#custMain').hide()
+    // })
+    //
+    //
+    // $('#orderLoadId').click(function (){
+    //     $('#dashForm').hide()
+    //     $('#itemMain').hide()
+    //     $('#orderMain').show()
+    //     $('#custMain').hide()
+    // })
+    //
+    // $('#itemLoadId').click(function (){
+    //     $('#dashForm').hide()
+    //     $('#itemMain').show()
+    //     $('#orderMain').hide()
+    //     $('#custMain').hide()
+    // })
 </script>
 <!--============================================================================================================================-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>

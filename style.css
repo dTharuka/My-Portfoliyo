@@ -31,10 +31,10 @@ body>header>img#myPhoto{
     position: relative;
     display: inline-block;
     height: 30%;
-    width: 85%;
+    width: 90%;
     top: 2%;
-    left: 7%;
-    border-radius: 50%;
+    left: 4%;
+    border-radius: 100%;
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
     transition: 1s;

@@ -185,7 +185,7 @@ $('#btnSubmitOrder').click(function (){
     let amount=(orderAmount-((orderAmount/100)*discount));
     let balance=(cash-amount);
     $('#total').text(amount);
-    $('#subtotal').text(balance);
+    $('#subtotal').text(((orderAmount/100)*discount));
     $('#txtBalance').val(balance);
 
     // alert(discount);

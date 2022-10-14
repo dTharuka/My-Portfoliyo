@@ -21,7 +21,7 @@
 | NAME | LINK |
 | ------ | ------ |
 | Wire-frame URL | https://wireframe.cc/doMarD |
-| Mock-up URL (Adobe XD) | https://xd.adobe.com/view/eb96c735-4a68-4cca-84fe-3a71d6c65347-bec5/ |
+| Mock-up URL (Adobe XD) | https://xd.adobe.com/view/daed15cc-ddfe-42a2-9105-5e290e45cc9d-8fbe/ |
 | GitHub Page URL | https://dtharuka.github.io/My-Portfoliyo/assignments/JS/index.html |
 
 </div>

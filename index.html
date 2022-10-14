@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Dakshina Rajapakshas Portfolio</title>
+    <link rel="icon" href="assets/favicon (2).png">
     <link href="style.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link href="assets/font/fonts/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-    <title>Title</title>
+
 
     <meta content="width=device-width initial-scale=1" name="viewport">
 
@@ -278,7 +280,9 @@
 
 <!--    2nd button content-->
             <div>
-                <div></div>
+                <div>
+                    <img src="assets/SF1.png">
+                </div>
             </div>
 
     <!--    3rd button content-->
@@ -316,7 +320,7 @@
                 <img src="assets/P12.png" id="P12" style="display: none">
                 <img src="assets/P13.png" id="P13" style="display: none">
                 <img src="assets/P14.png" id="P14" style="display: none">
-                <img src="assets/P15.png" id="P15" style="display: none">
+                <img src="assets/claProSe.png" id="P15" style="display: none">
             </div>
             <a id="pathSetATag" href="" target="_blank">
                 <button id="VMButton">View More</button>
@@ -582,7 +586,7 @@ following account number</pre>
                 <!-- VIEW BLOGS -->
                 <section>
                     <aside>
-                    <img src="assets/lenovo-ideapad-3-15iil05-15.6-ips-core-i5-mx330-10th-gen-laptop-sri-lanka-f_4_1.png" alt="" >
+                    <img id="blog1" src="assets/lenovo-ideapad-3-15iil05-15.6-ips-core-i5-mx330-10th-gen-laptop-sri-lanka-f_4_1.png" alt="" >
 
                         <div><h5>The Services for</h5>
                             <h5>Windows LapTop</h5></div>
@@ -593,7 +597,7 @@ following account number</pre>
 
 
                     <aside>
-                        <img src="assets/WhatsApp-Image-2021-04-08-at-11.01.49-AM.png" alt="" width="50" height="50">
+                        <img id="blog2"  src="assets/WhatsApp-Image-2021-04-08-at-11.01.49-AM.png" alt="" width="50" height="50">
 
                         <div>
                             <h5>The Services for</h5>
@@ -610,7 +614,7 @@ following account number</pre>
 
 
                     <aside>
-                        <img src="assets/photo-1607252650355-f7fd0460ccdb.png" alt="" width="50" height="50">
+                        <img  id="blog3" src="assets/photo-1607252650355-f7fd0460ccdb.png" alt="" width="50" height="50">
 
                         <div>
                             <h5>The Services for</h5>
@@ -691,7 +695,22 @@ following account number</pre>
        <script src="assets/js/jquery-3.6.1.min.js"></script>
 
         <script>
-        // ==========================================3rd main js=======================================================
+
+            // ==========================================1st main js=======================================================
+
+            $('#linkedinPhoto').on('click',function () {
+                window.open('https://www.linkedin.com/in/dakshina-rajapaksha-037980245/');
+                return false;
+            });
+
+            $('#whatsAppPhoto').on('click',function () {
+                alert("+9471-3953595 this is my whatsApp number");
+            });
+
+            $('#telegramPhoto').on('click',function () {
+                alert("+9471-3953595 this is my telegram number");
+            });
+            // ==========================================3rd main js=======================================================
 
         // -----------------------------2nd button js------------------------------------------------------------------
 
@@ -1086,7 +1105,7 @@ following account number</pre>
             $('#P15').hide()
             $('#VMButton').unbind();
             $('#VMButton').click(function (){
-                window.open('./assignments/JS/index.html');
+                window.open('./assignments/JS/SPA/index.html');
                 return false;
             })
 
@@ -1254,6 +1273,25 @@ following account number</pre>
             // $('#animation_b3').show();
             // $('#animation_b4').show();
         })
+
+
+        // =====================================================6th main JS================================
+
+
+        $('#blog1').on('click',function () {
+            window.open('https://www.theverge.com/2022/10/13/23402199/microsoft-windows-11-floating-taskbar');
+            return false;
+        });
+
+        $('#blog2').on('click',function () {
+            window.open('https://www.zdnet.com/article/how-to-transfer-photos-from-your-android-device-to-your-windows-pc/');
+            return false;
+        });
+
+        $('#blog3').on('click',function () {
+            window.open('https://www.makeuseof.com/find-lost-android-phone/');
+            return false;
+        });
 
 
 

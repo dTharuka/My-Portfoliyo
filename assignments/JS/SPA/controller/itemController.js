@@ -1,5 +1,5 @@
 // var item1=new Array();
-var itemObj;
+// var itemObj;
 let itemIdGenerater=1;
 $('#itemId').val("I00-"+itemIdGenerater);
 $('#btnAddItem').click(function (){

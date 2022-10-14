@@ -1,6 +1,6 @@
 
 // var s1=new Array();
-var customerObj
+// var customerObj;
 let upCheck;
 let idGenerater=1;
 

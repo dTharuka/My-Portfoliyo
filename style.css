@@ -30,10 +30,10 @@ body>header{
 body>header>img#myPhoto{
     position: relative;
     display: inline-block;
-    height: 30%;
-    width: 90%;
-    top: 2%;
-    left: 4%;
+    height: 32%;
+    width: 94%;
+    top: 1%;
+    left: 3%;
     border-radius: 100%;
     box-shadow: 0px -1px 8px 2px #bdbaba;
     border-color: white;
@@ -1377,6 +1377,12 @@ body>main:nth-child(4)>div:nth-child(7)>div:nth-child(1){
     }
 }
 
+body>main:nth-child(4)>div:nth-child(7)>div:nth-child(1)>img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
 
 
 /*-------------------------------------------3rd button------------------------------------------------------------*/
@@ -2092,7 +2098,7 @@ body>main:nth-child(5)>div:nth-child(5)>div:nth-child(1)>img{
 
 body>main:nth-child(5)>div:nth-child(5)>div:nth-child(1)>ul{
     position: revert;
-    font-size: 145%;
+    font-size: 140%;
     font-style: italic;
 }
 
@@ -2141,7 +2147,7 @@ body>main:nth-child(5)>div:nth-child(5)>div:nth-child(2)>img{
 
 body>main:nth-child(5)>div:nth-child(5)>div:nth-child(2)>ul{
     position: revert;
-    font-size: 145%;
+    font-size: 140%;
     font-style: italic;
 }
 
@@ -2218,7 +2224,7 @@ body>main:nth-child(5)>div:nth-child(6)>div:nth-child(1)>img{
 
 body>main:nth-child(5)>div:nth-child(6)>div:nth-child(1)>ul{
     position: revert;
-    font-size: 145%;
+    font-size: 140%;
     font-style: italic;
 }
 
@@ -2266,7 +2272,7 @@ body>main:nth-child(5)>div:nth-child(6)>div:nth-child(2)>img{
 
 body>main:nth-child(5)>div:nth-child(6)>div:nth-child(2)>ul{
     position: revert;
-    font-size: 145%;
+    font-size: 140%;
     font-style: italic;
 }
 
@@ -2343,7 +2349,7 @@ body>main:nth-child(5)>div:nth-child(7)>div:nth-child(1)>img{
 
 body>main:nth-child(5)>div:nth-child(7)>div:nth-child(1)>ul{
     position: revert;
-    font-size: 145%;
+    font-size: 140%;
     font-style: italic;
 }
 
@@ -2391,7 +2397,7 @@ body>main:nth-child(5)>div:nth-child(7)>div:nth-child(2)>img{
 
 body>main:nth-child(5)>div:nth-child(7)>div:nth-child(2)>ul{
     position: revert;
-    font-size: 145%;
+    font-size: 140%;
     font-style: italic;
 }
 
@@ -3250,7 +3256,7 @@ body>main:nth-child(7){
     margin-top: 0;
 }
 
-/*---------------------------------------------------2nd main small hedline-----------------------------------------*/
+/*---------------------------------------------------6th main small hedline-----------------------------------------*/
 
 body>main:nth-child(7)>h6{
     position: absolute;
@@ -3267,7 +3273,7 @@ body>main:nth-child(7)>h6{
 }
 
 
-/*---------------------------------------------------2nd main big hedline-----------------------------------------*/
+/*---------------------------------------------------6th main big hedline-----------------------------------------*/
 body>main:nth-child(7)>h1{
     position: absolute;
     display: inline-block;

@@ -1,3 +1,4 @@
+// let orderTblObj;
 let qtyOnHand;
 let getOrderItemId;
 let newItemId;
@@ -66,7 +67,7 @@ $('#btnAddToTable').click(function (){
 
 
 
-    let orderTblObj={
+     orderTblObj={
         iCode:tblItemCode,
         iName:tblItemName,
         iPrice:tblPrice,
@@ -188,12 +189,7 @@ $('#btnSubmitOrder').click(function (){
     $('#subtotal').text(((orderAmount/100)*discount));
     $('#txtBalance').val(balance);
 
-    // alert(discount);
-    // alert(amount);
-    // alert(balance);
-
-
-    // let tblTotal=$('#total').text();
+    $('#itemDetailsTblBody').empty();
 
     let orderDeatilsTblObj={
         oId : $('#txtOrderID').val(),

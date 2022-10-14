@@ -22,7 +22,7 @@
 | ------ | ------ |
 | Wire-frame URL | https://wireframe.cc/doMarD |
 | Mock-up URL (Adobe XD) | https://xd.adobe.com/view/eb96c735-4a68-4cca-84fe-3a71d6c65347-bec5/ |
-| GitHub Page URL | https://dtharuka.github.io/My-Portfoliyo/assignments/JS/index.html |
+| GitHub Page URL | https://dtharuka.github.io/My-Portfoliyo/assignments/JS/SPA/index.html |
 
 </div>
 

@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/jquery-ui.min.css">
+    <style>
+
+        #img1{
+        position: absolute;
+            height: 100vh;
+            width: 100vw;
+            left: 0;
+            top: 0;
+
+        }
+
+        body>main>input{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 500%;
+        }
+
+        #txt0{
+            left: 20%;
+            top: 20%;
+        }
+        #txt1{
+            left: 28%;
+            top: 20%;
+        }
+        #txt2{
+            left: 36%;
+            top: 20%;
+        }
+        #txt3{
+            left: 20%;
+            top: 35%;
+        }
+        #txt4{
+            left: 28%;
+            top: 35%;
+        }
+        #txt5{
+            left: 36%;
+            top: 35%;
+        }
+        #txt6{
+            left: 20%;
+            top: 50%;
+        }
+        #txt7{
+            left: 28%;
+            top: 50%;
+        }
+        #txt8{
+            left: 36%;
+            top: 50%;
+        }
+        #done{
+            position: absolute;
+            height: 80px;
+            width: 150px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 53%;
+            border: 0;
+            background-color: #0d8ede;
+            color: white;
+        }
+
+        #next{
+            position: absolute;
+            height: 80px;
+            width: 150px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 33%;
+            background-color: #06f606;
+            display: none;
+            border: 0;
+        }
+
+        #cong{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: #06f606;
+            display: none;
+        }
+
+        #loss{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: red;
+            display: none;
+        }
+
+        #duplicate{
+            position: absolute;
+            height: 80px;
+            width: 650px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: #b7b737;
+            display: none;
+        }
+
+        #missBox{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: red;
+            display: none;
+        }
+
+        #missBox>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 80%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+
+        #duplicate>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 65%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+
+        #loss>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 65%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+        #cong>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 100%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+        #rules{
+            display: inline-block;
+            position: absolute;
+            font-size: 65%;
+            margin: 0;
+            top: 20%;
+            left: 50%;
+            background-color: #0d8ede;
+            height: 200px;
+            width: 600px;
+            border-radius: 20px;
+            color: white;
+        }
+
+        #rules>pre{
+            display: inline-block;
+            position: absolute;
+            font-size: 210%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+        #main1Back{
+            position: absolute;
+            display: inline-block;
+            height: 50px;
+            width: 200px;
+            top: 10%;
+            left: 5%;
+            background-color: red;
+            font-size: 100%;
+            border: 0;
+            border-radius: 10px;
+            color: white;
+        }
+/*===========================================2nd main===========================================================*/
+       #img2{
+           position: absolute;
+           height: 100vh;
+           width: 100vw;
+           left: 0;
+           top: 0;
+       }
+
+        #box1{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 30%;
+            left: 30%;
+        }
+
+        #box2{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 30%;
+            left: 38%;
+        }
+
+        #box3{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 45%;
+            left: 30%;
+        }
+
+        #box3>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 25%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #box4{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 45%;
+            left: 38%;
+        }
+
+        #box5{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 60%;
+            left: 30%;
+        }
+
+        #box6{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 60%;
+            left: 38%;
+        }
+
+        #box7{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 45%;
+            left: 22%;
+        }
+
+        #box8{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+            top: 45%;
+            left: 46%;
+        }
+
+        #ball1{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 22%;
+        }
+
+        #ball1>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #ball2{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 30%;
+        }
+
+        #ball2>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #ball3{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 38%;
+        }
+        #ball3>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #ball4{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 46%;
+        }
+        #ball4>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #ball5{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 54%;
+        }
+        #ball5>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #ball6{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 62%;
+        }
+        #ball6>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #ball8{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 100%;
+            height: 90px;
+            width: 90px;
+            top: 75%;
+            left: 70%;
+        }
+        #ball8>h1{
+            position: absolute;
+            font-size: 300%;
+            top: 23%;
+            left: 36%;
+            margin: 0;
+        }
+
+        #complete{
+            position: absolute;
+            height: 50px;
+            width: 100px;
+            font-size: 150%;
+            border-radius: 10px;
+            border: 0;
+            background-color: #0d8ede;
+            top: 60%;
+            left: 46%;
+            color: white;
+        }
+
+        #toPz{
+            position: absolute;
+            height: 50px;
+            width: 100px;
+            font-size: 150%;
+            border-radius: 10px;
+            border: 0;
+            background-color: #0d8ede;
+            top: 60%;
+            left: 54%;
+            color: white;
+            display: none;
+        }
+
+        #completeOk{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 46%;
+            top: 30%;
+            background-color: #06f606;
+            display: none;
+        }
+        #completeOk>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 100%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+            /*display: none;*/
+        }
+
+        #completeNotOk{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 46%;
+            top: 30%;
+            background-color: red;
+            display: none;
+        }
+        #completeNotOk>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 100%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+            /*display: none;*/
+        }
+
+        #secondRules{
+            display: inline-block;
+            position: absolute;
+            font-size: 65%;
+            margin: 0;
+            top: 10%;
+            left: 50%;
+            background-color: #0d8ede;
+            height: 200px;
+            width: 600px;
+            border-radius: 20px;
+            color: white;
+        }
+
+        #secondRules>pre{
+            display: inline-block;
+            position: absolute;
+            font-size: 210%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+
+        /*===================================================main 3=============================================*/
+
+        #pz1{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 22%;
+        }
+
+        #pz2{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 29%;
+        }
+
+        #pz3{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 36%;
+        }
+
+        #pz4{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 33.5%;
+            left: 22%;
+        }
+
+        #pz5{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 33.5%;
+            left: 29%;
+        }
+
+        #pz6{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 33.5%;
+            left: 36%;
+        }
+
+        #pz7{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 47%;
+            left: 22%;
+        }
+
+        #pz8{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 47%;
+            left: 29%;
+        }
+
+        #pz9{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 47%;
+            left: 36%;
+        }
+
+        #mat1{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 10%;
+        }
+        #mat1>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat2{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 17%;
+        }
+        #mat2>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat3{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 24%;
+        }
+        #mat3>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat4{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 31%;
+        }
+        #mat4>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat5{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 38%;
+        }
+        #mat5>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat6{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 45%;
+        }
+        #mat6>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat7{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 52%;
+        }
+        #mat7>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat8{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 59%;
+        }
+        #mat8>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #mat9{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 66%;
+        }
+        #mat9>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #pzOk{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: #06f606;
+            display: none;
+        }
+
+        #pzOk>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 100%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+        #pzNotOk{
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: red;
+            display: none;
+        }
+
+        #pzNotOk>h1{
+            display: inline-block;
+            position: absolute;
+            font-size: 100%;
+            margin: 0;
+            top: 20%;
+            left: 2%;
+        }
+
+        #pzDone{
+            position: absolute;
+            height: 50px;
+            width: 100px;
+            font-size: 150%;
+            border-radius: 10px;
+            left: 44%;
+            top: 54%;
+            border: 0;
+            background-color: #0d8ede;
+            color: white;
+        }
+
+        #toKgfPz{
+            position: absolute;
+            height: 50px;
+            width: 100px;
+            font-size: 150%;
+            border-radius: 10px;
+            border: 0;
+            background-color: #0d8ede;
+            top: 54%;
+            left: 52%;
+            color: white;
+            display: none;
+        }
+
+        #main3BackPic{
+            position: absolute;
+            display: inline-block;
+            height: 500px;
+            width: 500px;
+            right: 0;
+            top: 0;
+        }
+
+        /*=========================================main 4==========================================================*/
+
+        #boss1{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 22%;
+        }
+
+        #boss2{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 29%;
+        }
+
+        #boss3{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 36%;
+        }
+
+        #boss4{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 33.5%;
+            left: 22%;
+        }
+
+        #boss5{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 33.5%;
+            left: 29%;
+        }
+
+        #boss6{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 33.5%;
+            left: 36%;
+        }
+
+        #boss7{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 47%;
+            left: 22%;
+        }
+
+        #boss8{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 47%;
+            left: 29%;
+        }
+
+        #boss9{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 47%;
+            left: 36%;
+        }
+
+
+        #bossPz1{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 10%;
+        }
+        #bossPz1>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz2{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 17%;
+        }
+        #bossPz2>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz3{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 24%;
+        }
+        #bossPz3>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz4{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 31%;
+        }
+        #bossPz4>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz5{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 38%;
+        }
+        #bossPz5>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz6{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 45%;
+        }
+        #bossPz5>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz7{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 52%;
+        }
+        #bossPz7>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz8{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 59%;
+        }
+        #bossPz8>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPz9{
+            position: absolute;
+            background-color: white;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 70%;
+            left: 66%;
+        }
+        #bossPz9>img{
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #bossPzDone{
+            position: absolute;
+            height: 50px;
+            width: 100px;
+            font-size: 150%;
+            border-radius: 10px;
+            border: 0;
+            background-color: #0d8ede;
+            top: 55%;
+            left: 45%;
+            color: white;
+            /*display: none;*/
+        }
+
+        #main4Cong{
+            display: inline-block;
+            position: absolute;
+            height: 80px;
+            width: 350px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: #06f606;
+            display: none;
+        }
+
+        #main4NotOk{
+            display: inline-block;
+            position: absolute;
+            height: 80px;
+            width: 200px;
+            font-size: 300%;
+            border-radius: 10px;
+            left: 44%;
+            top: 20%;
+            background-color: red;
+            display: none;
+        }
+
+        #main4BackPic{
+            position: absolute;
+            display: inline-block;
+            height: 500px;
+            width: 500px;
+            right: 0;
+            top: 0;
+        }
+
+        #main4{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            background-color: #1f1e1e;
+        }
+/*======================================================Home===============================================================*/
+
+        #home>img{
+            position: absolute;
+            display: inline-block;
+            height: 100vh;
+            width: 100vw;
+            left: 0;
+            top: 0;
+        }
+
+        #btnPlay{
+            display: inline-block;
+            position: absolute;
+            height: 50px;
+            width: 200px;
+            font-size: 150%;
+            border-radius: 10px;
+            left: 75%;
+            top: 20%;
+            background-color: gold;
+        }
+
+
+        #gameName{
+            display: inline-block;
+            font-size: 300%;
+            position: absolute;
+            top: 10%;
+            right: 20%;
+            color: white;
+            margin: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<main id="home">
+    <img src="assets/img/home.png">
+
+    <button id="btnPlay">Start</button>
+    <h1 id="gameName">BISMARCK</h1>
+</main>
+
+<main id="main1" style="display: none">
+    <img id="img1" src="assets/img/network-mesh-wire-digital-technology-background_1017-27428.png">
+    <input id="txt0">
+    <input id="txt1">
+    <input id="txt2">
+    <input id="txt3">
+    <input id="txt4">
+    <input id="txt5">
+    <input id="txt6">
+    <input id="txt7">
+    <input id="txt8">
+    <button id="done">DONE</button>
+    <button id="next">NEXT</button>
+    <div id="cong">
+        <h1>Congratulations</h1>
+    </div>
+    <div id="loss">
+        <h1>So sad you lost try again</h1>
+    </div>
+    <div id="duplicate">
+        <h1>You have used a number over and over again</h1>
+    </div>
+    <div id="missBox">
+        <h1>Filling is incomplete</h1>
+    </div>
+
+    <div id="rules">
+        <pre>Fill these boxes using transitions 1-9.
+
+so that the total  for vertical and horizontal directions
+
+and X-shaped directions should be 15.</pre>
+    </div>
+
+<!--    <button id="main1Back">Back To Menu</button>-->
+
+</main>
+
+<main id="main2" style="display: none">
+
+    <img id="img2" src="assets/img/white-background-with-blue-tech-hexagon_1017-19366.png">
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3">
+        <h1>7</h1>
+    </div>
+    <div id="box4"></div>
+    <div id="box5"></div>
+    <div id="box6"></div>
+    <div id="box7"></div>
+    <div id="box8"></div>
+
+    <div id="ball1">
+        <h1>1</h1>
+    </div>
+    <div id="ball2">
+        <h1>2</h1>
+    </div>
+    <div id="ball3">
+        <h1>3</h1>
+    </div>
+    <div id="ball4">
+        <h1>4</h1>
+    </div>
+    <div id="ball5">
+        <h1>5</h1>
+    </div>
+    <div id="ball6">
+        <h1>6</h1>
+    </div>
+    <div id="ball8">
+        <h1>8</h1>
+    </div>
+
+    <button id="complete">DONE</button>
+    <button id="toPz">NEXT</button>
+    <div id="completeOk"><h1>Congratulations</h1></div>
+    <div id="completeNotOk"><h1>Try again</h1></div>
+    <div id="secondRules">
+        <pre>
+Fill in the corresponding boxes below
+
+so that adjacent transitions do not fall
+
+into adjacent boxes in vertical or horizontal directions.
+        </pre>
+    </div>
+</main>
+
+<main id="main3" style="display: none">
+    
+    <img src="assets/img/animated-puzzle-image-0004.gif" id="main3BackPic">
+
+    <div id="pz1"></div>
+    <div id="pz2"></div>
+    <div id="pz3"></div>
+    <div id="pz4"></div>
+    <div id="pz5"></div>
+    <div id="pz6"></div>
+    <div id="pz7"></div>
+    <div id="pz8"></div>
+    <div id="pz9"></div>
+
+    <div id="mat1">
+        <img src="assets/img/p_1_img/1.jpg">
+    </div>
+    <div id="mat2">
+        <img src="assets/img/p_1_img/2.jpg">
+    </div>
+    <div id="mat3">
+        <img src="assets/img/p_1_img/3.jpg">
+    </div>
+    <div id="mat4">
+        <img src="assets/img/p_1_img/4.jpg">
+    </div>
+    <div id="mat5">
+        <img src="assets/img/p_1_img/5.jpg">
+    </div>
+    <div id="mat6">
+        <img src="assets/img/p_1_img/6.jpg">
+    </div>
+    <div id="mat7">
+        <img src="assets/img/p_1_img/7.jpg">
+    </div>
+    <div id="mat8">
+        <img src="assets/img/p_1_img/8.jpg">
+    </div>
+    <div id="mat9">
+        <img src="assets/img/p_1_img/9.jpg">
+    </div>
+
+    <div id="pzOk">
+        <h1>Congratulations</h1>
+    </div>
+
+    <div id="pzNotOk">
+        <h1>Try Again</h1>
+    </div>
+
+    <button id="pzDone">DONE</button>
+    <button id="toKgfPz">NEXT</button>
+
+</main>
+
+<main id="main4" style="display: none">
+
+    <img src="assets/img/bf549a0cd4c7f2a062167dfa1209b081.gif" id="main4BackPic">
+    
+    <div id="boss1"></div>
+    <div id="boss2"></div>
+    <div id="boss3"></div>
+    <div id="boss4"></div>
+    <div id="boss5"></div>
+    <div id="boss6"></div>
+    <div id="boss7"></div>
+    <div id="boss8"></div>
+    <div id="boss9"></div>
+
+
+    <div id="bossPz1">
+        <img src="assets/img/p_2_img/1.png">
+    </div>
+    <div id="bossPz2" style="display: none">
+        <img src="assets/img/p_2_img/2.png">
+    </div>
+    <div id="bossPz3" style="display: none">
+        <img src="assets/img/p_2_img/3.png">
+    </div>
+    <div id="bossPz4" style="display: none">
+        <img src="assets/img/p_2_img/4.png">
+    </div>
+    <div id="bossPz5" style="display: none">
+        <img src="assets/img/p_2_img/5.png">
+    </div>
+    <div id="bossPz6" style="display: none">
+        <img src="assets/img/p_2_img/6.png">
+    </div>
+    <div id="bossPz7" style="display: none">
+        <img src="assets/img/p_2_img/7.png">
+    </div>
+    <div id="bossPz8" style="display: none">
+        <img src="assets/img/p_2_img/8.png">
+    </div>
+    <div id="bossPz9" style="display: none">
+        <img src="assets/img/p_2_img/9.png">
+    </div>
+
+    <button id="bossPzDone">DONE</button>
+
+    <h1 id="main4Cong">Congratulations</h1>
+
+    <h1 id="main4NotOk">You Lost</h1>
+</main>
+
+<button id="main1Back" style="display: none">Back To Menu</button>
+
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/jquery-ui.min.js"></script>
+<script>
+
+    // ----------------------------------Back Button------------------------------------------------
+
+    $('#main1Back').click(function (){
+        window.location.reload();
+    });
+
+    let num1=0;
+    let num2=0;
+    let num3=0;
+    let num4=0;
+    let num5=0;
+    let num6=0;
+    let num7=0;
+    let num8=0;
+    let num9=0;
+    let row1Total=0;
+    let row2Total=0;
+    let row3Total=0;
+    let colomn1Total=0;
+    let colomn2Total=0;
+    let colomn3Total=0;
+    let firstXTotal=0;
+    let secondXTotal=0;
+    $('#done').click(function (){
+
+        $('#rules').hide();
+        num1=parseInt($('#txt0').val());
+        num2=parseInt($('#txt1').val());
+        num3=parseInt($('#txt2').val());
+        num4=parseInt($('#txt3').val());
+        num5=parseInt($('#txt4').val());
+        num6=parseInt($('#txt5').val());
+        num7=parseInt($('#txt6').val());
+        num8=parseInt($('#txt7').val());
+        num9=parseInt($('#txt8').val());
+        let number1=[num1,num2,num3,num4,num5,num6,num7,num8,num9];
+        let number2=[num1,num2,num3,num4,num5,num6,num7,num8,num9];
+        let count=0;
+
+        for (x=0;x<number1.length;x++){
+            let temp=number1[x];
+            for (y=0;y<number2.length;y++){
+                if(temp===number2[y]){
+                 count++;
+                }
+            }
+        }
+
+        row1Total=num1+num2+num3;
+        row2Total=num4+num5+num6;
+        row3Total=num7+num8+num9;
+        colomn1Total=num1+num4+num7;
+        colomn2Total=num2+num5+num8;
+        colomn3Total=num3+num6+num9;
+        firstXTotal=num1+num5+num9;
+        secondXTotal=num3+num5+num7;
+
+
+        // if (num1===2 && num2===9 && num3===4 && num4===7 && num5===5 && num6===3 && num7===6 && num8===1 && num9===8){
+        //
+        //     alert("Done man...!");
+        // }else if  (num1===4 && num2===9 && num3===2 && num4===3 && num5===5 && num6===7 && num7===8 && num8===1 && num9===6){
+        //
+        //     alert("Done man 2...!");
+        // }else {
+        //     alert("You loss this game....!");
+        // }
+
+        if (count===9){
+            if (row1Total===15 && row2Total===15 && row3Total===15 && colomn1Total===15 && colomn2Total===15 && colomn3Total===15 && firstXTotal===15 && secondXTotal===15){
+
+                $('#cong').show();
+                $('#next').show();
+                $('#loss').hide();
+                $('#duplicate').hide();
+                $('#missBox').hide();
+            }else {
+                $('#loss').show();
+                $('#cong').hide();
+                $('#next').hide();
+                $('#duplicate').hide();
+                $('#missBox').hide();
+            }
+        }
+        if (count>9){
+            $('#duplicate').show();
+            $('#cong').hide();
+            $('#next').hide();
+            $('#loss').hide();
+            $('#missBox').hide();
+        }
+        if (count<9){
+            $('#missBox').show();
+            $('#cong').hide();
+            $('#next').hide();
+            $('#loss').hide();
+            $('#duplicate').hide();
+        }
+
+
+    });
+
+    $('#next').click(function (){
+        $('#main1').hide();
+        $('#main2').show();
+        $('#main3').hide();
+        $('#main4').hide();
+    });
+
+
+    // ===============================================2nd page JS=====================================================
+
+    $('#ball1').draggable();
+    $('#ball2').draggable();
+    $('#ball3').draggable();
+    $('#ball4').draggable();
+    $('#ball5').draggable();
+    $('#ball6').draggable();
+    $('#ball8').draggable();
+
+    var currentID1;
+    var currentID2;
+    var currentID4;
+    var currentID5;
+    var currentID6;
+    var currentID7;
+    var currentID8;
+
+    $( "#box1" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID1 = ui.draggable.attr('id');
+
+
+           if (currentID1==="ball3"){
+               $( "#box1" ).css('background-color','green');
+           }else {
+               $( "#box1" ).css('background-color','red');
+           }
+        }
+    });
+
+    $( "#box2" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID2 = ui.draggable.attr('id');
+
+
+            if (currentID2==="ball5"){
+                $( "#box2" ).css('background-color','green');
+            }else {
+                $( "#box2" ).css('background-color','red');
+            }
+        }
+    });
+
+    $( "#box4" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID4 = ui.draggable.attr('id');
+
+
+            if (currentID4==="ball2"){
+                $( "#box4" ).css('background-color','green');
+            }else {
+                $( "#box4" ).css('background-color','red');
+            }
+        }
+    });
+
+
+
+
+    $( "#box5" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID5 = ui.draggable.attr('id');
+
+
+            if (currentID5==="ball4"){
+                $( "#box5" ).css('background-color','green');
+            }else {
+                $( "#box5" ).css('background-color','red');
+            }
+        }
+    });
+
+    $( "#box6" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID6 = ui.draggable.attr('id');
+
+
+            if (currentID6==="ball6"){
+                $( "#box6" ).css('background-color','green');
+            }else {
+                $( "#box6" ).css('background-color','red');
+            }
+        }
+    });
+
+    $( "#box7" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID7 = ui.draggable.attr('id');
+
+
+            if (currentID7==="ball1"){
+                $( "#box7" ).css('background-color','green');
+            }else {
+                $( "#box7" ).css('background-color','red');
+            }
+        }
+    });
+
+    $( "#box8" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+             currentID8 = ui.draggable.attr('id');
+
+
+            if (currentID8==="ball8"){
+                $( "#box8" ).css('background-color','green');
+            }else {
+                $( "#box8" ).css('background-color','red');
+            }
+        }
+    });
+
+    $('#complete').click(function (){
+
+        $('#secondRules').hide();
+
+        if(currentID1==="ball3" && currentID2==="ball5" && currentID4==="ball2" && currentID5==="ball4" && currentID6==="ball6" && currentID7==="ball1" && currentID8==="ball8"){
+            $('#completeOk').show();
+            $('#completeNotOk').hide();
+            $('#toPz').show();
+        }
+
+        if(currentID1!=="ball3" || currentID2!=="ball5" || currentID4!=="ball2" || currentID5!=="ball4" || currentID6!=="ball6" || currentID7!=="ball1" || currentID8!=="ball8"){
+            $('#completeNotOk').show();
+            $('#completeOk').hide();
+        }
+
+    })
+
+    $('#toPz').click(function (){
+        $('#main1').hide();
+        $('#main2').hide();
+        $('#main3').show();
+        $('#main4').hide();
+    });
+
+
+
+    // ===============================================3rd page JS=====================================================
+
+
+    var pzId1;
+    var pzId2;
+    var pzId3;
+    var pzId4;
+    var pzId5;
+    var pzId6;
+    var pzId7;
+    var pzId8;
+    var pzId9;
+
+    $('#mat1').draggable();
+    $('#mat2').draggable();
+    $('#mat3').draggable();
+    $('#mat4').draggable();
+    $('#mat5').draggable();
+    $('#mat6').draggable();
+    $('#mat7').draggable();
+    $('#mat8').draggable();
+    $('#mat9').draggable();
+
+    $( "#pz1" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId1 = ui.draggable.attr('id');
+        }
+    });
+
+    $( "#pz2" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId2 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz3" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId3 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz4" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId4 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz5" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId5 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz6" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId6 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz7" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId7 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz8" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId8 = ui.draggable.attr('id');
+
+        }
+    });
+
+    $( "#pz9" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzId9 = ui.draggable.attr('id');
+
+        }
+    });
+
+
+    $('#pzDone').click(function (){
+
+
+        if (pzId1==="mat1" && pzId2==="mat2" && pzId3==="mat3" && pzId4==="mat4" && pzId5==="mat5" && pzId6==="mat6" && pzId7==="mat7" && pzId8==="mat8" && pzId9==="mat9"){
+            $('#pzOk').show();
+            $('#pzNotOk').hide();
+            $('#toKgfPz').show();
+        }
+
+        if (pzId1!=="mat1" || pzId2!=="mat2" || pzId3!=="mat3" || pzId4!=="mat4" || pzId5!=="mat5" || pzId6!=="mat6" || pzId7!=="mat7" || pzId8!=="mat8" || pzId9!=="mat9"){
+            $('#pzOk').hide();
+            $('#pzNotOk').show();
+        }
+    });
+
+    $('#toKgfPz').click(function (){
+        $('#main1').hide();
+        $('#main2').hide();
+        $('#main3').hide();
+        $('#main4').show();
+    });
+
+
+    // ===============================================4th page JS=====================================================
+
+    $('#bossPz1').draggable();
+    $('#bossPz2').draggable();
+    $('#bossPz3').draggable();
+    $('#bossPz4').draggable();
+    $('#bossPz5').draggable();
+    $('#bossPz6').draggable();
+    $('#bossPz7').draggable();
+    $('#bossPz8').draggable();
+    $('#bossPz9').draggable();
+
+    var pzBossId1;
+    var pzBossId2;
+    var pzBossId3;
+    var pzBossId4;
+    var pzBossId5;
+    var pzBossId6;
+    var pzBossId7;
+    var pzBossId8;
+    var pzBossId9;
+
+
+    $( "#boss1" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId1 = ui.draggable.attr('id');
+
+            if (pzBossId1 === "bossPz9"){
+                $('#bossPz2').show();
+            }
+
+        }
+    });
+
+    $( "#boss2" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId2 = ui.draggable.attr('id');
+
+            if (pzBossId2 === "bossPz8"){
+                $('#bossPz5').show();
+            }
+        }
+    });
+
+    $( "#boss3" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId3 = ui.draggable.attr('id');
+
+            if (pzBossId3 === "bossPz7"){
+                $('#bossPz3').show();
+            }
+        }
+    });
+
+    $( "#boss4" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId4 = ui.draggable.attr('id');
+        }
+    });
+
+    $( "#boss5" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId5 = ui.draggable.attr('id');
+
+            if (pzBossId5 === "bossPz5"){
+                $('#bossPz7').show();
+            }
+        }
+    });
+
+    $( "#boss6" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId6 = ui.draggable.attr('id');
+
+            if (pzBossId6 === "bossPz4"){
+                $('#bossPz6').show();
+            }
+        }
+    });
+
+    $( "#boss7" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId7 = ui.draggable.attr('id');
+
+            if (pzBossId7 === "bossPz3"){
+                $('#bossPz9').show();
+            }
+        }
+    });
+
+    $( "#boss8" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId8 = ui.draggable.attr('id');
+
+            if (pzBossId8 === "bossPz2"){
+                $('#bossPz4').show();
+            }
+        }
+    });
+
+    $( "#boss9" ).droppable({
+        drop: function (event, ui) {
+            var draggable = ui.draggable;
+            var dragged = draggable.clone();
+            pzBossId9 = ui.draggable.attr('id');
+
+            if (pzBossId9 === "bossPz1"){
+                $('#bossPz8').show();
+            }
+        }
+    });
+
+
+    $('#bossPzDone').click(function (){
+
+        if (pzBossId1 === "bossPz9" && pzBossId2 === "bossPz8" && pzBossId3 === "bossPz7" && pzBossId4 === "bossPz6" && pzBossId5 === "bossPz5" && pzBossId6 === "bossPz4" && pzBossId7 === "bossPz3" && pzBossId8 === "bossPz2" && pzBossId9 === "bossPz1"){
+
+            $('#main4Cong').show();
+            $('#main4NotOk').hide();
+
+        }
+
+        if (pzBossId1 !== "bossPz9" || pzBossId2 !== "bossPz8" || pzBossId3 !== "bossPz7" || pzBossId4 !== "bossPz6" || pzBossId5 !== "bossPz5" || pzBossId6 !== "bossPz4" || pzBossId7 !== "bossPz3" || pzBossId8 !== "bossPz2" || pzBossId9 !== "bossPz1"){
+
+            $('#main4Cong').hide();
+            $('#main4NotOk').show();
+
+
+        }
+    });
+
+    // ===================================================Home JS================================================================
+
+    $('#btnPlay').click(function (){
+        $('#home').hide();
+        $('#main1').show();
+        $('#main1Back').show();
+    });
+
+    $('#main1Back').click(function (){
+        $('#main1').hide();
+        $('#main2').hide();
+        $('#main3').hide();
+        $('#main4').hide();
+        $('#main1Back').hide();
+        $('#home').show();
+    });
+
+
+//--------------todo----------1)Create Home Page for game-------
+//--------------todo----------2)Edit main-3 and main-4 background-------
+//--------------todo----------3)Insert the background music-------
+//--------------todo----------4)Insert the try again system for all main pages-------
+</script>
+</body>
+</html>
